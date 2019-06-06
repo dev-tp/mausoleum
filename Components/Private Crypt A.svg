@@ -15,12 +15,12 @@
       <rect x="140" y="25" width="10" height="122.5"/>
       <rect x="140" y="147.5" width="10" height="122.5"/>
     </g>
-    <g class="selectable" fill="#fff">
-      <rect x="10" y="221" width="130" height="49"/>
-      <rect x="10" y="172" width="130" height="49"/>
-      <rect x="10" y="123" width="130" height="49"/>
-      <rect x="10" y="74" width="130" height="49"/>
-      <rect x="10" y="25" width="130" height="49"/>
+    <g fill="#fff">
+      <rect class="slot" x="10" y="221" width="130" height="49"/>
+      <rect class="slot" x="10" y="172" width="130" height="49"/>
+      <rect class="slot" x="10" y="123" width="130" height="49"/>
+      <rect class="slot" x="10" y="74" width="130" height="49"/>
+      <rect class="slot" x="10" y="25" width="130" height="49"/>
     </g>
   </g>
 </svg>

@@ -38,17 +38,17 @@
       <rect transform="scale(-1,1)" x="-490" y="25" width="50" height="49"/>
       <rect transform="scale(-1,1)" x="-350" y="25" width="60" height="49"/>
     </g>
-    <g class="selectable" fill="#fff">
-      <rect x="50" y="221" width="90" height="49"/>
-      <rect x="50" y="172" width="90" height="49"/>
-      <rect x="50" y="123" width="90" height="49"/>
-      <rect x="50" y="74" width="90" height="49"/>
-      <rect x="50" y="25" width="90" height="49"/>
-      <rect x="350" y="221" width="90" height="49"/>
-      <rect x="350" y="172" width="90" height="49"/>
-      <rect x="350" y="123" width="90" height="49"/>
-      <rect x="350" y="74" width="90" height="49"/>
-      <rect x="350" y="25" width="90" height="49"/>
+    <g fill="#fff">
+      <rect class="slot" x="50" y="221" width="90" height="49"/>
+      <rect class="slot" x="50" y="172" width="90" height="49"/>
+      <rect class="slot" x="50" y="123" width="90" height="49"/>
+      <rect class="slot" x="50" y="74" width="90" height="49"/>
+      <rect class="slot" x="50" y="25" width="90" height="49"/>
+      <rect class="slot" x="350" y="221" width="90" height="49"/>
+      <rect class="slot" x="350" y="172" width="90" height="49"/>
+      <rect class="slot" x="350" y="123" width="90" height="49"/>
+      <rect class="slot" x="350" y="74" width="90" height="49"/>
+      <rect class="slot" x="350" y="25" width="90" height="49"/>
     </g>
   </g>
 </svg>

@@ -26,12 +26,12 @@
       <rect x="45" y="15" width="55" height="51"/>
       <rect x="180" y="15" width="55" height="51"/>
     </g>
-    <g class="selectable" fill="#fff">
-      <rect x="100" y="219" width="80" height="51"/>
-      <rect x="100" y="168" width="80" height="51"/>
-      <rect x="100" y="117" width="80" height="51"/>
-      <rect x="100" y="66" width="80" height="51"/>
-      <rect x="100" y="15" width="80" height="51"/>
+    <g fill="#fff">
+      <rect class="slot" x="100" y="219" width="80" height="51"/>
+      <rect class="slot" x="100" y="168" width="80" height="51"/>
+      <rect class="slot" x="100" y="117" width="80" height="51"/>
+      <rect class="slot" x="100" y="66" width="80" height="51"/>
+      <rect class="slot" x="100" y="15" width="80" height="51"/>
     </g>
   </g>
 </svg>
