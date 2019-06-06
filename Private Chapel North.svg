@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 1182 280" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="#000">
+    <g transform="translate(0,0)">
+      <g fill="#fff">
+        <rect x="0" y="15" width="150" height="265"/>
+        <rect x="30" y="0" width="90" height="15"/>
+      </g>
+      <g fill="none">
+        <rect x="0" y="270" width="75" height="10"/>
+        <rect x="75" y="270" width="75" height="10"/>
+        <rect x="0" y="15" width="75" height="10"/>
+        <rect x="75" y="15" width="75" height="10"/>
+        <rect x="0" y="25" width="10" height="122.5"/>
+        <rect x="0" y="147.5" width="10" height="122.5"/>
+        <rect x="140" y="25" width="10" height="122.5"/>
+        <rect x="140" y="147.5" width="10" height="122.5"/>
+      </g>
+      <g fill="#fff">
+        <rect class="slot" x="10" y="221" width="130" height="49"/>
+        <rect class="slot" x="10" y="172" width="130" height="49"/>
+        <rect class="slot" x="10" y="123" width="130" height="49"/>
+        <rect class="slot" x="10" y="74" width="130" height="49"/>
+        <rect class="slot" x="10" y="25" width="130" height="49"/>
+      </g>
+    </g>
+    <g transform="translate(231,0)">
+      <g fill="#fff">
+        <rect x="0" y="15" width="490" height="265"/>
+        <rect x="20" y="0" width="450" height="15"/>
+      </g>
+      <g fill="none">
+        <rect x="0" y="15" width="95" height="10"/>
+        <rect x="95" y="15" width="300" height="10"/>
+        <rect x="395" y="15" width="95" height="10"/>
+        <rect x="0" y="270" width="95" height="10"/>
+        <rect x="95" y="270" width="300" height="10"/>
+        <rect x="395" y="270" width="95" height="10"/>
+        <rect x="0" y="25" width="10" height="245"/>
+        <rect x="480" y="25" width="10" height="245"/>
+        <rect x="180" y="25" width="130" height="245"/>
+        <rect x="200" y="25" width="90" height="245"/>
+        <rect x="215" y="100" width="60" height="100"/>
+        <rect x="0" y="221" width="50" height="49"/>
+        <rect x="140" y="221" width="60" height="49"/>
+        <rect x="0" y="172" width="50" height="49"/>
+        <rect x="140" y="172" width="40" height="49"/>
+        <rect x="0" y="123" width="50" height="49"/>
+        <rect x="140" y="123" width="40" height="49"/>
+        <rect x="0" y="74" width="50" height="49"/>
+        <rect x="140" y="74" width="40" height="49"/>
+        <rect x="0" y="25" width="50" height="49"/>
+        <rect x="140" y="25" width="60" height="49"/>
+        <rect transform="scale(-1,1)" x="-490" y="221" width="50" height="49"/>
+        <rect transform="scale(-1,1)" x="-350" y="221" width="60" height="49"/>
+        <rect transform="scale(-1,1)" x="-490" y="172" width="50" height="49"/>
+        <rect transform="scale(-1,1)" x="-350" y="172" width="40" height="49"/>
+        <rect transform="scale(-1,1)" x="-490" y="123" width="50" height="49"/>
+        <rect transform="scale(-1,1)" x="-350" y="123" width="40" height="49"/>
+        <rect transform="scale(-1,1)" x="-490" y="74" width="50" height="49"/>
+        <rect transform="scale(-1,1)" x="-350" y="74" width="40" height="49"/>
+        <rect transform="scale(-1,1)" x="-490" y="25" width="50" height="49"/>
+        <rect transform="scale(-1,1)" x="-350" y="25" width="60" height="49"/>
+      </g>
+      <g fill="#fff">
+        <rect class="slot" x="50" y="221" width="90" height="49"/>
+        <rect class="slot" x="50" y="172" width="90" height="49"/>
+        <rect class="slot" x="50" y="123" width="90" height="49"/>
+        <rect class="slot" x="50" y="74" width="90" height="49"/>
+        <rect class="slot" x="50" y="25" width="90" height="49"/>
+        <rect class="slot" x="350" y="221" width="90" height="49"/>
+        <rect class="slot" x="350" y="172" width="90" height="49"/>
+        <rect class="slot" x="350" y="123" width="90" height="49"/>
+        <rect class="slot" x="350" y="74" width="90" height="49"/>
+        <rect class="slot" x="350" y="25" width="90" height="49"/>
+      </g>
+    </g>
+    <g transform="translate(801,0)">
+      <g fill="#fff">
+        <rect x="0" y="15" width="150" height="265"/>
+        <rect x="30" y="0" width="90" height="15"/>
+      </g>
+      <g fill="none">
+        <rect x="0" y="270" width="75" height="10"/>
+        <rect x="75" y="270" width="75" height="10"/>
+        <rect x="0" y="15" width="75" height="10"/>
+        <rect x="75" y="15" width="75" height="10"/>
+        <rect x="0" y="25" width="10" height="122.5"/>
+        <rect x="0" y="147.5" width="10" height="122.5"/>
+        <rect x="140" y="25" width="10" height="122.5"/>
+        <rect x="140" y="147.5" width="10" height="122.5"/>
+      </g>
+      <g fill="#fff">
+        <rect class="slot" x="10" y="221" width="130" height="49"/>
+        <rect class="slot" x="10" y="172" width="130" height="49"/>
+        <rect class="slot" x="10" y="123" width="130" height="49"/>
+        <rect class="slot" x="10" y="74" width="130" height="49"/>
+        <rect class="slot" x="10" y="25" width="130" height="49"/>
+      </g>
+    </g>
+    <g transform="translate(1031,0)">
+      <g fill="#fff">
+        <rect x="0" y="15" width="150" height="265"/>
+        <rect x="30" y="0" width="90" height="15"/>
+      </g>
+      <g fill="none">
+        <rect x="0" y="270" width="75" height="10"/>
+        <rect x="75" y="270" width="75" height="10"/>
+        <rect x="0" y="15" width="75" height="10"/>
+        <rect x="75" y="15" width="75" height="10"/>
+        <rect x="0" y="25" width="10" height="122.5"/>
+        <rect x="0" y="147.5" width="10" height="122.5"/>
+        <rect x="140" y="25" width="10" height="122.5"/>
+        <rect x="140" y="147.5" width="10" height="122.5"/>
+      </g>
+      <g fill="#fff">
+        <rect class="slot" x="10" y="221" width="130" height="49"/>
+        <rect class="slot" x="10" y="172" width="130" height="49"/>
+        <rect class="slot" x="10" y="123" width="130" height="49"/>
+        <rect class="slot" x="10" y="74" width="130" height="49"/>
+        <rect class="slot" x="10" y="25" width="130" height="49"/>
+      </g>
+    </g>
+  </g>
+</svg>
