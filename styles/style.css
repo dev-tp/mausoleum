@@ -10,8 +10,7 @@ html {
   height: 100%;
 }
 object, svg {
-  max-height: 600px;
-  width: 85%;
+  max-height: 960px;
 }
 text {
   cursor: pointer;
