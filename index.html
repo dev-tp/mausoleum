@@ -142,7 +142,7 @@
       function setLink(elem) {
         if (elem.dataset.link) {
           elem.onclick = function () {
-            window.location.href = elem.dataset.link;
+            window.open(elem.dataset.link, '_self');
           };
         }
       }
