@@ -6,6 +6,7 @@ body {
   margin: 0;
 }
 html {
+  font-family: sans-serif;
   font-size: 12px;
   height: 100%;
 }
@@ -14,7 +15,6 @@ object, svg {
 }
 text {
   cursor: pointer;
-  font-family: sans-serif;
   font-size: 0.8rem;
   text-align: center;
   text-anchor: middle;

@@ -9,6 +9,23 @@
     .section {
       cursor: pointer;
     }
+    #menu {
+      background: #fff;
+      border: 1px solid;
+      display: none;
+      left: 0;
+      min-width: 100px;
+      position: absolute;
+      top: 0;
+    }
+    #menu a {
+      color: #000;
+      cursor: pointer;
+      display: block;
+      padding: 1rem;
+      text-align: center;
+      text-decoration: none;
+    }
   </style>
   <title>Mausoleum</title>
 </head>
@@ -26,7 +43,7 @@
       <path class="section" d="m947.64 279.49h32.291v-14.362h11.069v-11.206h5.0769v-109.5l-67.143 17.609v91.807h5.9459v10.217h12.92z" style="fill: rgb(250, 167, 0);"></path>
       <path class="section" d="m1114.1 134.05h39.132l0.6403 3.6559 13.127 0.22869 4.9397-40.135 9.3762 0.43451 3.2888-29.676-43.492 4.1998 0.9148 14.499-26.436 3.4761-1.4904 12.398z" style="fill: rgb(64, 204, 109);"></path>
       <path class="section" d="m1159.4 223.15v-16.882h-17.4v-18.891l10.124-1.0062-2.6695-24.232 1.4554-3.2988-7.2445-0.45278v-9.0071l-5.6759-1.2613v-14.026h-23.576v14.064l-6.3347 1.052v10.876l-5.3089 1.1643v126.26l5.0453 0.16171 0.9702 7.5032 4.6249 0.67917 0.097 15.168h38.26v-14.218l4.5649-0.61746v-8.7359l4.4366-0.45737v-48.998h-14.952v-15.006z" style="fill: rgb(238, 55, 77);"></path>
-      <path class="section" d="m1159.8 232.95h140.16v-30.937h-140.32z" style="fill: rgb(239, 98, 78);"></path>
+      <path class="section" data-link="views/alcove-of-the-saints/abcd.html" d="m1159.8 232.95h140.16v-30.937h-140.32z" style="fill: rgb(239, 98, 78);"></path>
       <path class="section" data-link="views/grand-foyer.html" d="m125.75 417.66h-41.28v-33.6l-51.828-1.284v-88.96h51.966v-51.229h39.586v49.935h56.403v90.297h-55.627z" style="fill: rgb(196, 196, 196);"></path>
       <path class="section" d="m180.53 362.76h8.9909l-0.0647 7.2768 48.219 0.26739 0.0315-8.1877 72.67 0.0882 0.0114 6.258 96.584-0.0149 2e-3 -6.345 75.819 0.0412 0.16182 6.1173 97.765-0.0107-4e-3 -6.1117 75.757 0.25093 0.18352 5.7743 98.099-0.0829 0.0931-5.8189 13.26-0.0845 0.12939-52.507h-13.454l-0.19405-5.1423-97.966-0.0666-0.0118 5.2089h-75.824v-5.207l-98.26-0.57122 0.34677 5.7782h-75.889l0.27426-3.842-96.866 7e-3 -0.0121 3.8349h-72.567l0.0686-4.5052-48.417-0.0449-8e-3 4.5501h-9.2496z" style="fill: rgb(116, 112, 106);"></path>
       <path class="section" d="m768.05 309.72 60.861-0.0489-0.12623-6.0831 47.767-0.0686 0.0306 6.1517h16.365l-0.12223-11.988-8.1526-0.0969 0.17071-21.718 46.696-0.15206-0.0266 3.8627 65.149 0.16361 0.0766-4.2565 45.246-0.13882 0.2414 21.591-7.2456 0.17736 0.1697 14.408 15.478-0.21865-0.051-7.1593 48.414 0.0684 0.1666 6.7912 66.65 0.0468-0.049-6.7075 47.494 0.17761-0.1798 12.759 3.012 0.0284 0.5291 37.18-3.4458-0.0481 0.011 12.096-47.587 0.0323-0.194-6.2203h-66.091l-0.2287 5.8087-48.366 0.38213-0.063-6.7978-16.656 0.0358 0.3197 14.777 8.0493 0.1803 0.1806 22.731-46.444 0.22332-0.27058-5.9314-63.975-0.41631 0.0412 4.1809-45.369 0.44047-0.12156-21.685 6.3936-0.27055-0.1529-12.057-16.217 0.207 0.23121 4.9868-47.791 0.16124-0.1908-5.3143-60.567 0.18675z" style="fill: rgb(116, 112, 106);"></path>
@@ -64,10 +81,10 @@
       <path class="section" d="m1160.7 652.48h39.517v22.823h-21.634v15.642h22.914v22.686h-40.203z" style="fill: rgb(238, 55, 77);"></path>
       <path class="section" d="m1161.3 730.65h39.23v21.507h-38.907z" style="fill: rgb(229, 55, 44);"></path>
       <path class="section" d="m1161.6 768.56h39.024v34.046h-38.745z" style="fill: rgb(244, 212, 0);"></path>
-      <path class="section" d="m1245 233.02v16.831h-15.962v61.426h72.55v-61.189h-13.325l0.1294-17.27z" style="fill: rgb(67, 81, 176);"></path>
-      <path class="section" d="m1245 311.37v13.996h-16.008v69.796h72.631v-69.62h-13.185v-14.23z" style="fill: rgb(75, 111, 251);"></path>
-      <path class="section" d="m1245 395.27v15.615h-15.252v70.957h72.574v-70.828h-14.036v-15.912z" style="fill: rgb(0, 198, 156);"></path>
-      <path class="section" d="m1244.9 481.92v13.355h-14.91v71.236h36.254v22.526h33.084v-8.8731h3.8877v-84.383h-14.851v-13.988z" style="fill: rgb(250, 167, 0);"></path>
+      <path class="section options" data-options="Alcove of the Saints E-F,Alcove of the Saints H-J" data-links="views/alcove-of-the-saints/efg.html,views/alcove-of-the-saints/hij.html" d="m1245 233.02v16.831h-15.962v61.426h72.55v-61.189h-13.325l0.1294-17.27z" style="fill: rgb(67, 81, 176);"></path>
+      <path class="section options" data-options="Alcove of the Saints K-M,Alcove of the Saints N-P" data-links="views/alcove-of-the-saints/klm.html,views/alcove-of-the-saints/nop.html" d="m1245 311.37v13.996h-16.008v69.796h72.631v-69.62h-13.185v-14.23z" style="fill: rgb(75, 111, 251);"></path>
+      <path class="section options" data-options="Alcove of the Saints Q-S,Alcove of the Saints T-V" data-links="views/alcove-of-the-saints/qrs.html,views/alcove-of-the-saints/tuv.html" d="m1245 395.27v15.615h-15.252v70.957h72.574v-70.828h-14.036v-15.912z" style="fill: rgb(0, 198, 156);"></path>
+      <path class="section options" data-options="Alcove of the Saints W and X,Alcove of the Saints Y-AA" data-links="views/alcove-of-the-saints/wx.html,views/alcove-of-the-saints/yzaa.html" d="m1244.9 481.92v13.355h-14.91v71.236h36.254v22.526h33.084v-8.8731h3.8877v-84.383h-14.851v-13.988z" style="fill: rgb(250, 167, 0);"></path>
       <path class="section" d="m1266.2 629.13v23.967h-44.617v56.555h38.122v-35.355h20.628v14.453h36.773v-46.721h-13.15v-3.1102h-4.5967v-9.6735z" style="fill: rgb(89, 164, 211);"></path>
     </g>
     <g>
@@ -119,6 +136,7 @@
       <text x="1270" y="668">Annex Alcove</text>
     </g>
   </svg>
+  <div id="menu"></div>
   <script>
     (function () {
       function setLink(elem) {
@@ -131,6 +149,37 @@
 
       document.querySelectorAll('.section').forEach(setLink);
       document.querySelectorAll('text').forEach(setLink);
+
+      document.querySelectorAll('.options').forEach(function (elem) {
+        elem.onclick = function (event) {
+          event.stopPropagation();
+
+          const menuElem = document.getElementById('menu');
+
+          if (!menuElem.elem || menuElem.elem != elem) {
+            const options = this.dataset.links.split(',');
+
+            menuElem.style.display = 'block';
+            menuElem.style.left = `${event.clientX}px`;
+            menuElem.style.top = `${event.clientY}px`;
+
+            menuElem.innerHTML = this.dataset.options.split(',').map(function (token, i) {
+              return `<a href="${options[i]}">${token}</a>`;
+            }).join('');
+
+            menuElem.elem = elem;
+          }
+        };
+      });
+
+      document.body.onclick = function () {
+        const menuElem = document.getElementById('menu');
+
+        if (menuElem.style.display == 'block') {
+          menuElem.elem = null;
+          menuElem.style.display = 'none';
+        }
+      };
     })();
   </script>
 </body>
