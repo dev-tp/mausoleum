@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Saint John Alcove -->
-<svg version="1.1" viewBox="0 0 610 280" xmlns="http://www.w3.org/2000/svg">
-  <g stroke="#000">
+<svg version="1.1" viewBox="0 0 610 283" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="#000" transform="translate(0,1)">
     <g transform="translate(0,0)">
       <g fill="#fff">
         <rect y="15" width="150" height="265"/>
