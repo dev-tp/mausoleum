@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../styles/svg.css" type="text/css"?>
 <svg version="1.1" viewBox="0 0 1234 592" xmlns="http://www.w3.org/2000/svg">
-  <g fill="#fff" stroke="#000" transform="translate(0,1)">
+  <g transform="translate(0,1)">
     <g>
       <rect x="0" y="525" width="65" height="65"/>
       <rect x="75" y="525" width="65" height="65"/>

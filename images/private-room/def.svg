@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../styles/svg.css" type="text/css"?>
 <svg version="1.1" viewBox="0 0 610 233" xmlns="http://www.w3.org/2000/svg">
-  <g stroke="#000" transform="translate(0,1)">
+  <g transform="translate(0,1)">
     <g transform="translate(0,0)">
-      <g fill="#fff">
+      <g>
         <rect x="0" y="15" width="150" height="216"/>
         <rect x="30" y="0" width="90" height="15"/>
       </g>
@@ -16,7 +17,7 @@
         <rect x="140" y="25" width="10" height="98"/>
         <rect x="140" y="123" width="10" height="98"/>
       </g>
-      <g fill="#fff">
+      <g>
         <rect class="slot" x="10" y="172" width="130" height="49"/>
         <rect class="slot" x="10" y="123" width="130" height="49"/>
         <rect class="slot" x="10" y="74" width="130" height="49"/>
@@ -24,7 +25,7 @@
       </g>
     </g>
     <g transform="translate(229,0)">
-      <g fill="#fff">
+      <g>
         <rect x="0" y="15" width="150" height="216"/>
         <rect x="30" y="0" width="90" height="15"/>
       </g>
@@ -38,7 +39,7 @@
         <rect x="140" y="25" width="10" height="98"/>
         <rect x="140" y="123" width="10" height="98"/>
       </g>
-      <g fill="#fff">
+      <g>
         <rect class="slot" x="10" y="172" width="130" height="49"/>
         <rect class="slot" x="10" y="123" width="130" height="49"/>
         <rect class="slot" x="10" y="74" width="130" height="49"/>
@@ -46,7 +47,7 @@
       </g>
     </g>
     <g transform="translate(459,0)">
-      <g fill="#fff">
+      <g>
         <rect x="0" y="15" width="150" height="216"/>
         <rect x="30" y="0" width="90" height="15"/>
       </g>
@@ -60,7 +61,7 @@
         <rect x="140" y="25" width="10" height="98"/>
         <rect x="140" y="123" width="10" height="98"/>
       </g>
-      <g fill="#fff">
+      <g>
         <rect class="slot" x="10" y="172" width="130" height="49"/>
         <rect class="slot" x="10" y="123" width="130" height="49"/>
         <rect class="slot" x="10" y="74" width="130" height="49"/>
