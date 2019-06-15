@@ -2,7 +2,7 @@
   function setLink(elem) {
     if (elem.dataset.link) {
       elem.onclick = function () {
-        window.open(elem.dataset.link, '_self');
+        window.open(`views/${elem.dataset.link}`, '_self');
       };
     }
   }
@@ -23,8 +23,8 @@
         menuElem.style.left = `${event.clientX}px`;
         menuElem.style.top = `${event.clientY}px`;
 
-        menuElem.innerHTML = this.dataset.options.split(',').map(function (token, i) {
-          return `<a href="${options[i]}">${token}</a>`;
+        menuElem.innerHTML = this.dataset.options.split('|').map(function (token, i) {
+          return `<a href="views/${options[i]}">${token}</a>`;
         }).join('');
 
         menuElem.elem = elem;
