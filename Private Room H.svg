@@ -1,171 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
-   width="1920"
-   height="1080"
-   viewBox="0 0 1920 1080"
-   version="1.1"
-   id="svg5"
-   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
-   sodipodi:docname="Private Room H.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:document-units="px"
-     showgrid="true"
-     scale-x="1"
-     showguides="false"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="1016.8196"
-     inkscape:cy="714.17786"
-     inkscape:window-width="1854"
-     inkscape:window-height="1016"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer2">
-    <inkscape:grid
-       type="xygrid"
-       id="grid824"
-       empspacing="1" />
-  </sodipodi:namedview>
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Structures"
-     inkscape:groupmode="layer"
-     id="layer1"
-     style="display:inline">
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 890,680 h 140 V 410.05873 L 1010,410 V 400 H 910 v 10 h -20 z"
-       id="path892-4"
-       sodipodi:nodetypes="ccccccccc" />
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 890,410 h 70 v 10 h -70 z"
-       id="path2489-7"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 960,410 h 70 v 10 h -70 z"
-       id="path2855-4" />
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 890,420 h 10 v 125 h -10 z"
-       id="path2857-4" />
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 890,545 v 125 h 10 V 545 Z"
-       id="path2859-3" />
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 1020,420 h 10 v 125 h -10 z"
-       id="path2861-0"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 1020,545 h 10 v 125 h -10 z"
-       id="path2863-7"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 890,670 h 70 v 10 h -70 z"
-       id="path3182-8" />
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 960,670 h 70 v 10 h -70 z"
-       id="path3184-6" />
+  height="1080"
+  version="1.1"
+  viewBox="0 0 1920 1080"
+  width="1920"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <style>
+    path {
+      fill: none;
+      stroke-width: 1px;
+      stroke: #000;
+    }
+    text {
+      font-family: Monaco;
+      font-size: 10px;
+      text-anchor: start;
+    }
+  </style>
+  <g>
+    <path d="m890 410h70v10h-70z" />
+    <path d="m890 420h10v125h-10z" />
+    <path d="m890 545v125h10v-125z" />
+    <path d="m890 670h70v10h-70z" />
+    <path d="m890 680h140v-269.94l-20-0.05873v-10h-100v10h-20z" />
+    <path d="m960 410h70v10h-70z" />
+    <path d="m960 670h70v10h-70z" />
+    <path d="m1020 420h10v125h-10z" />
+    <path d="m1020 545h10v125h-10z" />
   </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Spaces"
-     style="display:inline">
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 900,670 h 120 V 620 H 900 Z"
-       id="path894-8" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:0;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       x="909.15332"
-       y="660.27075"
-       id="text13939-84"><tspan
-         sodipodi:role="line"
-         id="tspan13937-31"
-         x="909.15332"
-         y="660.27075"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:monaco;-inkscape-font-specification:monaco">140A</tspan></text>
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 900,620 h 120 V 570 H 900 Z"
-       id="path894-9-49" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:0;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       x="909.15332"
-       y="610.27081"
-       id="text13939-7-2"><tspan
-         sodipodi:role="line"
-         id="tspan13937-3-0"
-         x="909.15332"
-         y="610.27081"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:monaco;-inkscape-font-specification:monaco">140B</tspan></text>
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 900,570 h 120 V 520 H 900 Z"
-       id="path894-6-6" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:0;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       x="909.15332"
-       y="560.27075"
-       id="text13939-1-8"><tspan
-         sodipodi:role="line"
-         id="tspan13937-2-92"
-         x="909.15332"
-         y="560.27075"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:monaco;-inkscape-font-specification:monaco">140C</tspan></text>
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 900,520 h 120 V 470 H 900 Z"
-       id="path894-93-6" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:0;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       x="909.15332"
-       y="510.27075"
-       id="text13939-19-6"><tspan
-         sodipodi:role="line"
-         id="tspan13937-4-49"
-         x="909.15332"
-         y="510.27075"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:monaco;-inkscape-font-specification:monaco">140D</tspan></text>
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 900,470 h 120 V 420 H 900 Z"
-       id="path894-7-50" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:0;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       x="909.15332"
-       y="460.27075"
-       id="text13939-8-4"><tspan
-         sodipodi:role="line"
-         id="tspan13937-45-8"
-         x="909.15332"
-         y="460.27075"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:monaco;-inkscape-font-specification:monaco">140E</tspan></text>
+  <g>
+    <path d="m900 670h120v-50h-120z" />
+    <text x="909" y="660">140A</text>
+    <path d="m900 620h120v-50h-120z" />
+    <text x="909" y="610">140B</text>
+    <path d="m900 570h120v-50h-120z" />
+    <text x="909" y="560">140C</text>
+    <path d="m900 520h120v-50h-120z" />
+    <text x="909" y="510">140D</text>
+    <path d="m900 470h120v-50h-120z" />
+    <text x="909" y="460">140E</text>
   </g>
 </svg>
