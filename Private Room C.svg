@@ -1,0 +1,40 @@
+<svg
+  height="1080"
+  version="1.1"
+  viewBox="0 0 1920 1080"
+  width="1920"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <style>
+    path {
+      fill: none;
+      stroke-width: 1px;
+      stroke: #000;
+    }
+    text {
+      font-family: Monaco;
+      font-size: 10px;
+    }
+  </style>
+  <g>
+    <path d="m890 435h70v10h-70z" />
+    <path d="m890 445h10v75h-10z" />
+    <path d="m890 520v125h10v-125z" />
+    <path d="m890 645h70v10h-70z" />
+    <path d="m890 655h140v-219.94l-20-0.05873v-10h-100v10h-20z" />
+    <path d="m960 435h70v10h-70z" />
+    <path d="m960 645h70v10h-70z" />
+    <path d="m1020 445h10v75h-10z" />
+    <path d="m1020 520h10v125h-10z" />
+  </g>
+  <g>
+    <path d="m900 645h120v-50h-120z" />
+    <text x="909" y="635">24A</text>
+    <path d="m900 595h120v-50h-120z" />
+    <text x="909" y="585">24B</text>
+    <path d="m900 545h120v-50h-120z" />
+    <text x="909" y="535">24C</text>
+    <path d="m900 495h120v-50h-120z" />
+    <text x="909" y="485">24D</text>
+  </g>
+</svg>

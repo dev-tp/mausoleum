@@ -1,0 +1,80 @@
+<svg
+  height="1080"
+  version="1.1"
+  viewBox="0 0 1920 1080"
+  width="1920"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <style>
+    path {
+      fill: none;
+      stroke-width: 1px;
+      stroke: #000;
+    }
+    text {
+      font-family: Monaco;
+      font-size: 10px;
+    }
+  </style>
+  <g>
+    <path d="m710 410h70v10h-70z" />
+    <path d="m710 420h10v125h-10z" />
+    <path d="m710 545v125h10v-125z" />
+    <path d="m710 670h70v10h-70z" />
+    <path d="m710 680h140v-269.94l-20-0.05873v-10h-100v10h-20z" />
+    <path d="m780 410h70v10h-70z" />
+    <path d="m780 670h70v10h-70z" />
+    <path d="m840 420h10v125h-10z" />
+    <path d="m840 545h10v125h-10z" />
+    <path d="m890 410h70v10h-70z" />
+    <path d="m890 420h10v125h-10z" />
+    <path d="m890 545v125h10v-125z" />
+    <path d="m890 670h70v10h-70z" />
+    <path d="m890 680h140v-269.94l-20-0.05873v-10h-100v10h-20z" />
+    <path d="m960 410h70v10h-70z" />
+    <path d="m960 670h70v10h-70z" />
+    <path d="m1020 420h10v125h-10z" />
+    <path d="m1020 545h10v125h-10z" />
+    <path d="m1070 410h70v10h-70z" />
+    <path d="m1070 420h10v125h-10z" />
+    <path d="m1070 545v125h10v-125z" />
+    <path d="m1070 670h70v10h-70z" />
+    <path d="m1070 680h140v-269.94l-20-0.05873v-10h-100v10h-20z" />
+    <path d="m1140 410h70v10h-70z" />
+    <path d="m1140 670h70v10h-70z" />
+    <path d="m1200 420h10v125h-10z" />
+    <path d="m1200 545h10v125h-10z" />
+  </g>
+  <g>
+    <path d="m720 670h120v-50h-120z" />
+    <text x="729" y="660">19A</text>
+    <path d="m720 620h120v-50h-120z" />
+    <text x="729" y="610">19B</text>
+    <path d="m720 570h120v-50h-120z" />
+    <text x="729" y="560">19C</text>
+    <path d="m720 520h120v-50h-120z" />
+    <text x="729" y="510">19D</text>
+    <path d="m720 470h120v-50h-120z" />
+    <text x="729" y="460">19E</text>
+    <path d="m900 670h120v-50h-120z" />
+    <text x="909" y="660">18A</text>
+    <path d="m900 620h120v-50h-120z" />
+    <text x="909" y="610">18B</text>
+    <path d="m900 570h120v-50h-120z" />
+    <text x="909" y="560">18C</text>
+    <path d="m900 520h120v-50h-120z" />
+    <text x="909" y="510">18D</text>
+    <path d="m900 470h120v-50h-120z" />
+    <text x="909" y="460">18E</text>
+    <path d="m1080 670h120v-50h-120z" />
+    <text x="1089" y="660">20A</text>
+    <path d="m1080 620h120v-50h-120z" />
+    <text x="1089" y="610">20B</text>
+    <path d="m1080 570h120v-50h-120z" />
+    <text x="1089" y="560">20C</text>
+    <path d="m1080 520h120v-50h-120z" />
+    <text x="1089" y="510">20D</text>
+    <path d="m1080 470h120v-50h-120z" />
+    <text x="1089" y="460">20E</text>
+  </g>
+</svg>
