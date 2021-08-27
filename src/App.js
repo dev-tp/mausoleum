@@ -17,7 +17,7 @@ export default function App() {
   // React.useEffect(() => {
   //   const script = document.createElement('script');
 
-  //   script.src = 'js/script.js';
+  //   script.src = '/js/script.js';
   //   script.async = true;
 
   //   document.body.appendChild(script);
