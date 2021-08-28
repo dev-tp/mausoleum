@@ -1,0 +1,132 @@
+export default function GrandFoyer() {
+  return (
+    <svg
+      height="1080"
+      version="1.1"
+      viewBox="0 0 1920 1080"
+      width="1920"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g>
+        <path d="m620 410h70v10h-70z" />
+        <path d="m620 420h10v125h-10z" />
+        <path d="m620 545v125h10v-125z" />
+        <path d="m620 670h70v10h-70z" />
+        <path d="m620 680h140v-269.94l-20-0.05873v-10h-100v10h-20z" />
+        <path d="m690 410h70v10h-70z" />
+        <path d="m690 670h70v10h-70z" />
+        <path d="m750 420h10v125h-10z" />
+        <path d="m750 545h10v125h-10z" />
+        <path d="m800 410h70v10h-70z" />
+        <path d="m800 420h10v125h-10z" />
+        <path d="m800 545v125h10v-125z" />
+        <path d="m800 670h70v10h-70z" />
+        <path d="m800 680h140v-269.94l-20-0.05873v-10h-100v10h-20z" />
+        <path d="m870 410h70v10h-70z" />
+        <path d="m870 670h70v10h-70z" />
+        <path d="m930 420h10v125h-10z" />
+        <path d="m930 545h10v125h-10z" />
+        <path d="m980 410h70v10h-70z" />
+        <path d="m980 420h10v125h-10z" />
+        <path d="m980 545v125h10v-125z" />
+        <path d="m980 670h70v10h-70z" />
+        <path d="m980 680h140v-269.94l-20-0.05873v-10h-100v10h-20z" />
+        <path d="m1050 410h70v10h-70z" />
+        <path d="m1050 670h70v10h-70z" />
+        <path d="m1110 420h10v125h-10z" />
+        <path d="m1110 545h10v125h-10z" />
+        <path d="m1160 410h70v10h-70z" />
+        <path d="m1160 420h10v125h-10z" />
+        <path d="m1160 545v125h10v-125z" />
+        <path d="m1160 670h70v10h-70z" />
+        <path d="m1160 680h140v-269.94l-20-0.05873v-10h-100v10h-20z" />
+        <path d="m1230 410h70v10h-70z" />
+        <path d="m1230 670h70v10h-70z" />
+        <path d="m1290 420h10v125h-10z" />
+        <path d="m1290 545h10v125h-10z" />
+      </g>
+      <g>
+        <path d="m630 670h120v-50h-120z" />
+        <text x="639" y="660">
+          3-4A
+        </text>
+        <path d="m630 620h120v-50h-120z" />
+        <text x="639" y="610">
+          3-4B
+        </text>
+        <path d="m630 570h120v-50h-120z" />
+        <text x="639" y="560">
+          3-4C
+        </text>
+        <path d="m630 520h120v-50h-120z" />
+        <text x="639" y="510">
+          3-4D
+        </text>
+        <path d="m630 470h120v-50h-120z" />
+        <text x="639" y="460">
+          3-4E
+        </text>
+        <path d="m810 670h120v-50h-120z" />
+        <text x="819" y="660">
+          8-9A
+        </text>
+        <path d="m810 620h120v-50h-120z" />
+        <text x="819" y="610">
+          8-9B
+        </text>
+        <path d="m810 570h120v-50h-120z" />
+        <text x="819" y="560">
+          8-9C
+        </text>
+        <path d="m810 520h120v-50h-120z" />
+        <text x="819" y="510">
+          8-9D
+        </text>
+        <path d="m810 470h120v-50h-120z" />
+        <text x="819" y="460">
+          8-9E
+        </text>
+        <path d="m990 670h120v-50h-120z" />
+        <text x="999" y="660">
+          10-11A
+        </text>
+        <path d="m990 620h120v-50h-120z" />
+        <text x="999" y="610">
+          10-11B
+        </text>
+        <path d="m990 570h120v-50h-120z" />
+        <text x="999" y="560">
+          10-11C
+        </text>
+        <path d="m990 520h120v-50h-120z" />
+        <text x="999" y="510">
+          10-11D
+        </text>
+        <path d="m990 470h120v-50h-120z" />
+        <text x="999" y="460">
+          10-11E
+        </text>
+        <path d="m1170 670h120v-50h-120z" />
+        <text x="1179" y="660">
+          14-15A
+        </text>
+        <path d="m1170 620h120v-50h-120z" />
+        <text x="1179" y="610">
+          14-15B
+        </text>
+        <path d="m1170 570h120v-50h-120z" />
+        <text x="1179" y="560">
+          14-15C
+        </text>
+        <path d="m1170 520h120v-50h-120z" />
+        <text x="1179" y="510">
+          14-15D
+        </text>
+        <path d="m1170 470h120v-50h-120z" />
+        <text x="1179" y="460">
+          14-15E
+        </text>
+      </g>
+    </svg>
+  );
+}

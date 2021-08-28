@@ -1,0 +1,1129 @@
+export default function PresentationAlcoveMR() {
+  return (
+    <svg
+      height="1080"
+      version="1.1"
+      viewBox="0 0 1920 1080"
+      width="1920"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g>
+        <path d="m90 720v-40h40v40z" />
+        <path d="m150 720v-40h40v40z" />
+        <path d="m190 720v-40h40v40z" />
+        <path d="m230 720v-40h40v40z" />
+        <path d="m270 720v-40h40v40z" />
+        <path d="m310 720v-40h40v40z" />
+        <path d="m70 360h20v360h-20z" />
+        <path d="m70 360v-10h340v10z" />
+        <path d="m410 360v360h-20v-360z" />
+        <path d="m70 720v10h340v-10z" />
+        <path d="m350 720v-40h40v40z" />
+        <path d="m470 720v-40h40v40z" />
+        <path d="m510 720v-40h40v40z" />
+        <path d="m550 720v-40h40v40z" />
+        <path d="m590 720v-40h40v40z" />
+        <path d="m450 360h20v360h-20z" />
+        <path d="m450 360v-10l200-7e-5v10z" />
+        <path d="m650 360v360h-20v-360z" />
+        <path d="m450 720v10h200v-10z" />
+        <path d="m1350 720v-40h40v40z" />
+        <path d="m1390 720v-40h40v40z" />
+        <path d="m1430 720v-40h40v40z" />
+        <path d="m1470 720v-40h40v40z" />
+        <path d="m1330 360h20v360h-20z" />
+        <path d="m1330 360v-10l200-7e-5v10z" />
+        <path d="m1530 360v360h-20v-360z" />
+        <path d="m1330 720v10l200-1e-4v-10z" />
+        <path d="m710 720v-40h40v40z" />
+        <path d="m750 720v-40h40v40z" />
+        <path d="m790 720v-40h40v40z" />
+        <path d="m830 720v-40h40v40z" />
+        <path d="m870 720v-40h40v40z" />
+        <path d="m910 720v-40h40v40z" />
+        <path d="m690 360h20v360h-20z" />
+        <path d="m690 360v-10l280-3e-5v10z" />
+        <path d="m970 360v360h-20v-360z" />
+        <path d="m690 720v10h280v-10z" />
+        <path d="m1030 720v-40h40v40z" />
+        <path d="m1070 720v-40h40v40z" />
+        <path d="m1110 720v-40h40v40z" />
+        <path d="m1150 720v-40h40v40z" />
+        <path d="m1190 720v-40h40v40z" />
+        <path d="m1230 720v-40h40v40z" />
+        <path d="m1010 360h20v360h-20z" />
+        <path d="m1010 360v-10l280-4e-5v10z" />
+        <path d="m1290 360v360h-20v-360z" />
+        <path d="m1010 720v10l280-1e-4v-10z" />
+        <path d="m1590 720v-40h40v40z" />
+        <path d="m1630 720v-40h40v40z" />
+        <path d="m1670 720v-40h40v40z" />
+        <path d="m1710 720v-40h40v40z" />
+        <path d="m1750 720v-40h40v40z" />
+        <path d="m1790 720v-40h40v40z" />
+        <path d="m1570 360h20v360h-20z" />
+        <path d="m1570 360v-10l280-4e-5v10z" />
+        <path d="m1850 360v360h-20v-360z" />
+        <path d="m1570 720v10l280-1e-4v-10z" />
+      </g>
+      <g>
+        <path d="m90 680v-40h40v40z" />
+        <text x="110" y="663">
+          0000
+        </text>
+        <path d="m150 680v-40h40v40z" />
+        <text x="170" y="663">
+          0000
+        </text>
+        <path d="m190 680v-40h40v40z" />
+        <text x="210" y="663">
+          0000
+        </text>
+        <path d="m230 680v-40h40v40z" />
+        <text x="250" y="663">
+          0000
+        </text>
+        <path d="m270 680v-40h40v40z" />
+        <text x="290" y="663">
+          0000
+        </text>
+        <path d="m310 680v-40h40v40z" />
+        <text x="330" y="663">
+          0000
+        </text>
+        <path d="m350 680v-40h40v40z" />
+        <text x="370" y="663">
+          0000
+        </text>
+        <path d="m90 640v-40h40v40z" />
+        <text x="110" y="623">
+          0000
+        </text>
+        <path d="m150 640v-40h40v40z" />
+        <text x="170" y="623">
+          0000
+        </text>
+        <path d="m190 640v-40h40v40z" />
+        <text x="210" y="623">
+          0000
+        </text>
+        <path d="m230 640v-40h40v40z" />
+        <text x="250" y="623">
+          0000
+        </text>
+        <path d="m270 640v-40h40v40z" />
+        <text x="290" y="623">
+          0000
+        </text>
+        <path d="m310 640v-40h40v40z" />
+        <text x="330" y="623">
+          0000
+        </text>
+        <path d="m350 640v-40h40v40z" />
+        <text x="370" y="623">
+          0000
+        </text>
+        <path d="m90 600v-40h40v40z" />
+        <text x="110" y="583">
+          0000
+        </text>
+        <path d="m150 600v-40h40v40z" />
+        <text x="170" y="583">
+          0000
+        </text>
+        <path d="m190 600v-40h40v40z" />
+        <text x="210" y="583">
+          0000
+        </text>
+        <path d="m230 600v-40h40v40z" />
+        <text x="250" y="583">
+          0000
+        </text>
+        <path d="m270 600v-40h40v40z" />
+        <text x="290" y="583">
+          0000
+        </text>
+        <path d="m310 600v-40h40v40z" />
+        <text x="330" y="583">
+          0000
+        </text>
+        <path d="m350 600v-40h40v40z" />
+        <text x="370" y="583">
+          0000
+        </text>
+        <path d="m90 560v-40h40v40z" />
+        <text x="110" y="543">
+          0000
+        </text>
+        <path d="m150 560v-40h40v40z" />
+        <text x="170" y="543">
+          0000
+        </text>
+        <path d="m190 560v-40h40v40z" />
+        <text x="210" y="543">
+          0000
+        </text>
+        <path d="m230 560v-40h40v40z" />
+        <text x="250" y="543">
+          0000
+        </text>
+        <path d="m270 560v-40h40v40z" />
+        <text x="290" y="543">
+          0000
+        </text>
+        <path d="m310 560v-40h40v40z" />
+        <text x="330" y="543">
+          0000
+        </text>
+        <path d="m350 560v-40h40v40z" />
+        <text x="370" y="543">
+          0000
+        </text>
+        <path d="m90 520v-40h40v40z" />
+        <text x="110" y="503">
+          0000
+        </text>
+        <path d="m150 520v-40h40v40z" />
+        <text x="170" y="503">
+          0000
+        </text>
+        <path d="m190 520v-40h40v40z" />
+        <text x="210" y="503">
+          0000
+        </text>
+        <path d="m230 520v-40h40v40z" />
+        <text x="250" y="503">
+          0000
+        </text>
+        <path d="m270 520v-40h40v40z" />
+        <text x="290" y="503">
+          0000
+        </text>
+        <path d="m310 520v-40h40v40z" />
+        <text x="330" y="503">
+          0000
+        </text>
+        <path d="m350 520v-40h40v40z" />
+        <text x="370" y="503">
+          0000
+        </text>
+        <path d="m90 480v-40h40v40z" />
+        <text x="110" y="463">
+          0000
+        </text>
+        <path d="m150 480v-40h40v40z" />
+        <text x="170" y="463">
+          0000
+        </text>
+        <path d="m190 480v-40h40v40z" />
+        <text x="210" y="463">
+          0000
+        </text>
+        <path d="m230 480v-40h40v40z" />
+        <text x="250" y="463">
+          0000
+        </text>
+        <path d="m270 480v-40h40v40z" />
+        <text x="290" y="463">
+          0000
+        </text>
+        <path d="m310 480v-40h40v40z" />
+        <text x="330" y="463">
+          0000
+        </text>
+        <path d="m350 480v-40h40v40z" />
+        <text x="370" y="463">
+          0000
+        </text>
+        <path d="m90 440v-40h40v40z" />
+        <text x="110" y="423">
+          0000
+        </text>
+        <path d="m150 440v-40h40v40z" />
+        <text x="170" y="423">
+          0000
+        </text>
+        <path d="m190 440v-40h40v40z" />
+        <text x="210" y="423">
+          0000
+        </text>
+        <path d="m230 440v-40h40v40z" />
+        <text x="250" y="423">
+          0000
+        </text>
+        <path d="m270 440v-40h40v40z" />
+        <text x="290" y="423">
+          0000
+        </text>
+        <path d="m310 440v-40h40v40z" />
+        <text x="330" y="423">
+          0000
+        </text>
+        <path d="m350 440v-40h40v40z" />
+        <text x="370" y="423">
+          0000
+        </text>
+        <path d="m90 400v-40h40v40z" />
+        <text x="110" y="383">
+          0000
+        </text>
+        <path d="m150 400v-40h40v40z" />
+        <text x="170" y="383">
+          0000
+        </text>
+        <path d="m190 400v-40h40v40z" />
+        <text x="210" y="383">
+          0000
+        </text>
+        <path d="m230 400v-40h40v40z" />
+        <text x="250" y="383">
+          0000
+        </text>
+        <path d="m270 400v-40h40v40z" />
+        <text x="290" y="383">
+          0000
+        </text>
+        <path d="m310 400v-40h40v40z" />
+        <text x="330" y="383">
+          0000
+        </text>
+        <path d="m350 400v-40h40v40z" />
+        <text x="370" y="383">
+          0000
+        </text>
+        <path d="m470 680v-40h40v40z" />
+        <text x="490" y="663">
+          0000
+        </text>
+        <path d="m510 680v-40h40v40z" />
+        <text x="530" y="663">
+          0000
+        </text>
+        <path d="m550 680v-40h40v40z" />
+        <text x="570" y="663">
+          0000
+        </text>
+        <path d="m590 680v-40h40v40z" />
+        <text x="610" y="663">
+          0000
+        </text>
+        <path d="m470 640v-40h40v40z" />
+        <text x="490" y="623">
+          0000
+        </text>
+        <path d="m510 640v-40h40v40z" />
+        <text x="530" y="623">
+          0000
+        </text>
+        <path d="m550 640v-40h40v40z" />
+        <text x="570" y="623">
+          0000
+        </text>
+        <path d="m590 640v-40h40v40z" />
+        <text x="610" y="623">
+          0000
+        </text>
+        <path d="m470 600v-40h40v40z" />
+        <text x="490" y="583">
+          0000
+        </text>
+        <path d="m510 600v-40h40v40z" />
+        <text x="530" y="583">
+          0000
+        </text>
+        <path d="m550 600v-40h40v40z" />
+        <text x="570" y="583">
+          0000
+        </text>
+        <path d="m590 600v-40h40v40z" />
+        <text x="610" y="583">
+          0000
+        </text>
+        <path d="m470 560v-40h40v40z" />
+        <text x="490" y="543">
+          0000
+        </text>
+        <path d="m510 560v-40h40v40z" />
+        <text x="530" y="543">
+          0000
+        </text>
+        <path d="m550 560v-40h40v40z" />
+        <text x="570" y="543">
+          0000
+        </text>
+        <path d="m590 560v-40h40v40z" />
+        <text x="610" y="543">
+          0000
+        </text>
+        <path d="m470 520v-40h40v40z" />
+        <text x="490" y="503">
+          0000
+        </text>
+        <path d="m510 520v-40h40v40z" />
+        <text x="530" y="503">
+          0000
+        </text>
+        <path d="m550 520v-40h40v40z" />
+        <text x="570" y="503">
+          0000
+        </text>
+        <path d="m590 520v-40h40v40z" />
+        <text x="610" y="503">
+          0000
+        </text>
+        <path d="m470 480v-40h40v40z" />
+        <text x="490" y="463">
+          0000
+        </text>
+        <path d="m510 480v-40h40v40z" />
+        <text x="530" y="463">
+          0000
+        </text>
+        <path d="m550 480v-40h40v40z" />
+        <text x="570" y="463">
+          0000
+        </text>
+        <path d="m590 480v-40h40v40z" />
+        <text x="610" y="463">
+          0000
+        </text>
+        <path d="m470 440v-40h40v40z" />
+        <text x="490" y="423">
+          0000
+        </text>
+        <path d="m510 440v-40h40v40z" />
+        <text x="530" y="423">
+          0000
+        </text>
+        <path d="m550 440v-40h40v40z" />
+        <text x="570" y="423">
+          0000
+        </text>
+        <path d="m590 440v-40h40v40z" />
+        <text x="610" y="423">
+          0000
+        </text>
+        <path d="m470 400v-40h40v40z" />
+        <text x="490" y="383">
+          0000
+        </text>
+        <path d="m510 400v-40h40v40z" />
+        <text x="530" y="383">
+          0000
+        </text>
+        <path d="m550 400v-40h40v40z" />
+        <text x="570" y="383">
+          0000
+        </text>
+        <path d="m590 400v-40h40v40z" />
+        <text x="610" y="383">
+          0000
+        </text>
+        <path d="m710 680v-40h40v40z" />
+        <text x="730" y="663">
+          0000
+        </text>
+        <path d="m750 680v-40h40v40z" />
+        <text x="770" y="663">
+          0000
+        </text>
+        <path d="m790 680v-40h40v40z" />
+        <text x="810" y="663">
+          0000
+        </text>
+        <path d="m830 680v-40h40v40z" />
+        <text x="850" y="663">
+          0000
+        </text>
+        <path d="m870 680v-40h40v40z" />
+        <text x="890" y="663">
+          0000
+        </text>
+        <path d="m910 680v-40h40v40z" />
+        <text x="930" y="663">
+          0000
+        </text>
+        <path d="m710 640v-40h40v40z" />
+        <text x="730" y="623">
+          0000
+        </text>
+        <path d="m750 640v-40h40v40z" />
+        <text x="770" y="623">
+          0000
+        </text>
+        <path d="m790 640v-40h40v40z" />
+        <text x="810" y="623">
+          0000
+        </text>
+        <path d="m830 640v-40h40v40z" />
+        <text x="850" y="623">
+          0000
+        </text>
+        <path d="m870 640v-40h40v40z" />
+        <text x="890" y="623">
+          0000
+        </text>
+        <path d="m910 640v-40h40v40z" />
+        <text x="930" y="623">
+          0000
+        </text>
+        <path d="m710 600v-40h40v40z" />
+        <text x="730" y="583">
+          0000
+        </text>
+        <path d="m750 600v-40h40v40z" />
+        <text x="770" y="583">
+          0000
+        </text>
+        <path d="m790 600v-40h40v40z" />
+        <text x="810" y="583">
+          0000
+        </text>
+        <path d="m830 600v-40h40v40z" />
+        <text x="850" y="583">
+          0000
+        </text>
+        <path d="m870 600v-40h40v40z" />
+        <text x="890" y="583">
+          0000
+        </text>
+        <path d="m910 600v-40h40v40z" />
+        <text x="930" y="583">
+          0000
+        </text>
+        <path d="m710 560v-40h40v40z" />
+        <text x="730" y="543">
+          0000
+        </text>
+        <path d="m750 560v-40h40v40z" />
+        <text x="770" y="543">
+          0000
+        </text>
+        <path d="m790 560v-40h40v40z" />
+        <text x="810" y="543">
+          0000
+        </text>
+        <path d="m830 560v-40h40v40z" />
+        <text x="850" y="543">
+          0000
+        </text>
+        <path d="m870 560v-40h40v40z" />
+        <text x="890" y="543">
+          0000
+        </text>
+        <path d="m910 560v-40h40v40z" />
+        <text x="930" y="543">
+          0000
+        </text>
+        <path d="m710 520v-40h40v40z" />
+        <text x="730" y="503">
+          0000
+        </text>
+        <path d="m750 520v-40h40v40z" />
+        <text x="770" y="503">
+          0000
+        </text>
+        <path d="m790 520v-40h40v40z" />
+        <text x="810" y="503">
+          0000
+        </text>
+        <path d="m830 520v-40h40v40z" />
+        <text x="850" y="503">
+          0000
+        </text>
+        <path d="m870 520v-40h40v40z" />
+        <text x="890" y="503">
+          0000
+        </text>
+        <path d="m910 520v-40h40v40z" />
+        <text x="930" y="503">
+          0000
+        </text>
+        <path d="m710 480v-40h40v40z" />
+        <text x="730" y="463">
+          0000
+        </text>
+        <path d="m750 480v-40h40v40z" />
+        <text x="770" y="463">
+          0000
+        </text>
+        <path d="m790 480v-40h40v40z" />
+        <text x="810" y="463">
+          0000
+        </text>
+        <path d="m830 480v-40h40v40z" />
+        <text x="850" y="463">
+          0000
+        </text>
+        <path d="m870 480v-40h40v40z" />
+        <text x="890" y="463">
+          0000
+        </text>
+        <path d="m910 480v-40h40v40z" />
+        <text x="930" y="463">
+          0000
+        </text>
+        <path d="m710 440v-40h40v40z" />
+        <text x="730" y="423">
+          0000
+        </text>
+        <path d="m750 440v-40h40v40z" />
+        <text x="770" y="423">
+          0000
+        </text>
+        <path d="m790 440v-40h40v40z" />
+        <text x="810" y="423">
+          0000
+        </text>
+        <path d="m830 440v-40h40v40z" />
+        <text x="850" y="423">
+          0000
+        </text>
+        <path d="m870 440v-40h40v40z" />
+        <text x="890" y="423">
+          0000
+        </text>
+        <path d="m910 440v-40h40v40z" />
+        <text x="930" y="423">
+          0000
+        </text>
+        <path d="m710 400v-40h40v40z" />
+        <text x="730" y="383">
+          0000
+        </text>
+        <path d="m750 400v-40h40v40z" />
+        <text x="770" y="383">
+          0000
+        </text>
+        <path d="m790 400v-40h40v40z" />
+        <text x="810" y="383">
+          0000
+        </text>
+        <path d="m830 400v-40h40v40z" />
+        <text x="850" y="383">
+          0000
+        </text>
+        <path d="m870 400v-40h40v40z" />
+        <text x="890" y="383">
+          0000
+        </text>
+        <path d="m910 400v-40h40v40z" />
+        <text x="930" y="383">
+          0000
+        </text>
+        <path d="m1030 680v-40h40v40z" />
+        <text x="1050" y="663">
+          0000
+        </text>
+        <path d="m1070 680v-40h40v40z" />
+        <text x="1090" y="663">
+          0000
+        </text>
+        <path d="m1110 680v-40h40v40z" />
+        <text x="1130" y="663">
+          0000
+        </text>
+        <path d="m1150 680v-40h40v40z" />
+        <text x="1170" y="663">
+          0000
+        </text>
+        <path d="m1190 680v-40h40v40z" />
+        <text x="1210" y="663">
+          0000
+        </text>
+        <path d="m1230 680v-40h40v40z" />
+        <text x="1250" y="663">
+          0000
+        </text>
+        <path d="m1030 640v-40h40v40z" />
+        <text x="1050" y="623">
+          0000
+        </text>
+        <path d="m1070 640v-40h40v40z" />
+        <text x="1090" y="623">
+          0000
+        </text>
+        <path d="m1110 640v-40h40v40z" />
+        <text x="1130" y="623">
+          0000
+        </text>
+        <path d="m1150 640v-40h40v40z" />
+        <text x="1170" y="623">
+          0000
+        </text>
+        <path d="m1190 640v-40h40v40z" />
+        <text x="1210" y="623">
+          0000
+        </text>
+        <path d="m1230 640v-40h40v40z" />
+        <text x="1250" y="623">
+          0000
+        </text>
+        <path d="m1030 600v-40h40v40z" />
+        <text x="1050" y="583">
+          0000
+        </text>
+        <path d="m1070 600v-40h40v40z" />
+        <text x="1090" y="583">
+          0000
+        </text>
+        <path d="m1110 600v-40h40v40z" />
+        <text x="1130" y="583">
+          0000
+        </text>
+        <path d="m1150 600v-40h40v40z" />
+        <text x="1170" y="583">
+          0000
+        </text>
+        <path d="m1190 600v-40h40v40z" />
+        <text x="1210" y="583">
+          0000
+        </text>
+        <path d="m1230 600v-40h40v40z" />
+        <text x="1250" y="583">
+          0000
+        </text>
+        <path d="m1030 560v-40h40v40z" />
+        <text x="1050" y="543">
+          0000
+        </text>
+        <path d="m1070 560v-40h40v40z" />
+        <text x="1090" y="543">
+          0000
+        </text>
+        <path d="m1110 560v-40h40v40z" />
+        <text x="1130" y="543">
+          0000
+        </text>
+        <path d="m1150 560v-40h40v40z" />
+        <text x="1170" y="543">
+          0000
+        </text>
+        <path d="m1190 560v-40h40v40z" />
+        <text x="1210" y="543">
+          0000
+        </text>
+        <path d="m1230 560v-40h40v40z" />
+        <text x="1250" y="543">
+          0000
+        </text>
+        <path d="m1030 520v-40h40v40z" />
+        <text x="1050" y="503">
+          0000
+        </text>
+        <path d="m1070 520v-40h40v40z" />
+        <text x="1090" y="503">
+          0000
+        </text>
+        <path d="m1110 520v-40h40v40z" />
+        <text x="1130" y="503">
+          0000
+        </text>
+        <path d="m1150 520v-40h40v40z" />
+        <text x="1170" y="503">
+          0000
+        </text>
+        <path d="m1190 520v-40h40v40z" />
+        <text x="1210" y="503">
+          0000
+        </text>
+        <path d="m1230 520v-40h40v40z" />
+        <text x="1250" y="503">
+          0000
+        </text>
+        <path d="m1030 480v-40h40v40z" />
+        <text x="1050" y="463">
+          0000
+        </text>
+        <path d="m1070 480v-40h40v40z" />
+        <text x="1090" y="463">
+          0000
+        </text>
+        <path d="m1110 480v-40h40v40z" />
+        <text x="1130" y="463">
+          0000
+        </text>
+        <path d="m1150 480v-40h40v40z" />
+        <text x="1170" y="463">
+          0000
+        </text>
+        <path d="m1190 480v-40h40v40z" />
+        <text x="1210" y="463">
+          0000
+        </text>
+        <path d="m1230 480v-40h40v40z" />
+        <text x="1250" y="463">
+          0000
+        </text>
+        <path d="m1030 440v-40h40v40z" />
+        <text x="1050" y="423">
+          0000
+        </text>
+        <path d="m1070 440v-40h40v40z" />
+        <text x="1090" y="423">
+          0000
+        </text>
+        <path d="m1110 440v-40h40v40z" />
+        <text x="1130" y="423">
+          0000
+        </text>
+        <path d="m1150 440v-40h40v40z" />
+        <text x="1170" y="423">
+          0000
+        </text>
+        <path d="m1190 440v-40h40v40z" />
+        <text x="1210" y="423">
+          0000
+        </text>
+        <path d="m1230 440v-40h40v40z" />
+        <text x="1250" y="423">
+          0000
+        </text>
+        <path d="m1030 400v-40h40v40z" />
+        <text x="1050" y="383">
+          0000
+        </text>
+        <path d="m1070 400v-40h40v40z" />
+        <text x="1090" y="383">
+          0000
+        </text>
+        <path d="m1110 400v-40h40v40z" />
+        <text x="1130" y="383">
+          0000
+        </text>
+        <path d="m1150 400v-40h40v40z" />
+        <text x="1170" y="383">
+          0000
+        </text>
+        <path d="m1190 400v-40h40v40z" />
+        <text x="1210" y="383">
+          0000
+        </text>
+        <path d="m1230 400v-40h40v40z" />
+        <text x="1250" y="383">
+          0000
+        </text>
+        <path d="m1350 680v-40h40v40z" />
+        <text x="1370" y="663">
+          0000
+        </text>
+        <path d="m1390 680v-40h40v40z" />
+        <text x="1410" y="663">
+          0000
+        </text>
+        <path d="m1430 680v-40h40v40z" />
+        <text x="1450" y="663">
+          0000
+        </text>
+        <path d="m1470 680v-40h40v40z" />
+        <text x="1490" y="663">
+          0000
+        </text>
+        <path d="m1350 640v-40h40v40z" />
+        <text x="1370" y="623">
+          0000
+        </text>
+        <path d="m1390 640v-40h40v40z" />
+        <text x="1410" y="623">
+          0000
+        </text>
+        <path d="m1430 640v-40h40v40z" />
+        <text x="1450" y="623">
+          0000
+        </text>
+        <path d="m1470 640v-40h40v40z" />
+        <text x="1490" y="623">
+          0000
+        </text>
+        <path d="m1350 600v-40h40v40z" />
+        <text x="1370" y="583">
+          0000
+        </text>
+        <path d="m1390 600v-40h40v40z" />
+        <text x="1410" y="583">
+          0000
+        </text>
+        <path d="m1430 600v-40h40v40z" />
+        <text x="1450" y="583">
+          0000
+        </text>
+        <path d="m1470 600v-40h40v40z" />
+        <text x="1490" y="583">
+          0000
+        </text>
+        <path d="m1350 560v-40h40v40z" />
+        <text x="1370" y="543">
+          0000
+        </text>
+        <path d="m1390 560v-40h40v40z" />
+        <text x="1410" y="543">
+          0000
+        </text>
+        <path d="m1430 560v-40h40v40z" />
+        <text x="1450" y="543">
+          0000
+        </text>
+        <path d="m1470 560v-40h40v40z" />
+        <text x="1490" y="543">
+          0000
+        </text>
+        <path d="m1350 520v-40h40v40z" />
+        <text x="1370" y="503">
+          0000
+        </text>
+        <path d="m1390 520v-40h40v40z" />
+        <text x="1410" y="503">
+          0000
+        </text>
+        <path d="m1430 520v-40h40v40z" />
+        <text x="1450" y="503">
+          0000
+        </text>
+        <path d="m1470 520v-40h40v40z" />
+        <text x="1490" y="503">
+          0000
+        </text>
+        <path d="m1350 480v-40h40v40z" />
+        <text x="1370" y="463">
+          0000
+        </text>
+        <path d="m1390 480v-40h40v40z" />
+        <text x="1410" y="463">
+          0000
+        </text>
+        <path d="m1430 480v-40h40v40z" />
+        <text x="1450" y="463">
+          0000
+        </text>
+        <path d="m1470 480v-40h40v40z" />
+        <text x="1490" y="463">
+          0000
+        </text>
+        <path d="m1350 440v-40h40v40z" />
+        <text x="1370" y="423">
+          0000
+        </text>
+        <path d="m1390 440v-40h40v40z" />
+        <text x="1410" y="423">
+          0000
+        </text>
+        <path d="m1430 440v-40h40v40z" />
+        <text x="1450" y="423">
+          0000
+        </text>
+        <path d="m1470 440v-40h40v40z" />
+        <text x="1490" y="423">
+          0000
+        </text>
+        <path d="m1350 400v-40h40v40z" />
+        <text x="1370" y="383">
+          0000
+        </text>
+        <path d="m1390 400v-40h40v40z" />
+        <text x="1410" y="383">
+          0000
+        </text>
+        <path d="m1430 400v-40h40v40z" />
+        <text x="1450" y="383">
+          0000
+        </text>
+        <path d="m1470 400v-40h40v40z" />
+        <text x="1490" y="383">
+          0000
+        </text>
+        <path d="m1590 680v-40h40v40z" />
+        <text x="1610" y="663">
+          0000
+        </text>
+        <path d="m1630 680v-40h40v40z" />
+        <text x="1650" y="663">
+          0000
+        </text>
+        <path d="m1670 680v-40h40v40z" />
+        <text x="1690" y="663">
+          0000
+        </text>
+        <path d="m1710 680v-40h40v40z" />
+        <text x="1730" y="663">
+          0000
+        </text>
+        <path d="m1750 680v-40h40v40z" />
+        <text x="1770" y="663">
+          0000
+        </text>
+        <path d="m1790 680v-40h40v40z" />
+        <text x="1810" y="663">
+          0000
+        </text>
+        <path d="m1590 640v-40h40v40z" />
+        <text x="1610" y="623">
+          0000
+        </text>
+        <path d="m1630 640v-40h40v40z" />
+        <text x="1650" y="623">
+          0000
+        </text>
+        <path d="m1670 640v-40h40v40z" />
+        <text x="1690" y="623">
+          0000
+        </text>
+        <path d="m1710 640v-40h40v40z" />
+        <text x="1730" y="623">
+          0000
+        </text>
+        <path d="m1750 640v-40h40v40z" />
+        <text x="1770" y="623">
+          0000
+        </text>
+        <path d="m1790 640v-40h40v40z" />
+        <text x="1810" y="623">
+          0000
+        </text>
+        <path d="m1590 600v-40h40v40z" />
+        <text x="1610" y="583">
+          0000
+        </text>
+        <path d="m1630 600v-40h40v40z" />
+        <text x="1650" y="583">
+          0000
+        </text>
+        <path d="m1670 600v-40h40v40z" />
+        <text x="1690" y="583">
+          0000
+        </text>
+        <path d="m1710 600v-40h40v40z" />
+        <text x="1730" y="583">
+          0000
+        </text>
+        <path d="m1750 600v-40h40v40z" />
+        <text x="1770" y="583">
+          0000
+        </text>
+        <path d="m1790 600v-40h40v40z" />
+        <text x="1810" y="583">
+          0000
+        </text>
+        <path d="m1590 560v-40h40v40z" />
+        <text x="1610" y="543">
+          0000
+        </text>
+        <path d="m1630 560v-40h40v40z" />
+        <text x="1650" y="543">
+          0000
+        </text>
+        <path d="m1670 560v-40h40v40z" />
+        <text x="1690" y="543">
+          0000
+        </text>
+        <path d="m1710 560v-40h40v40z" />
+        <text x="1730" y="543">
+          0000
+        </text>
+        <path d="m1750 560v-40h40v40z" />
+        <text x="1770" y="543">
+          0000
+        </text>
+        <path d="m1790 560v-40h40v40z" />
+        <text x="1810" y="543">
+          0000
+        </text>
+        <path d="m1590 520v-40h40v40z" />
+        <text x="1610" y="503">
+          0000
+        </text>
+        <path d="m1630 520v-40h40v40z" />
+        <text x="1650" y="503">
+          0000
+        </text>
+        <path d="m1670 520v-40h40v40z" />
+        <text x="1690" y="503">
+          0000
+        </text>
+        <path d="m1710 520v-40h40v40z" />
+        <text x="1730" y="503">
+          0000
+        </text>
+        <path d="m1750 520v-40h40v40z" />
+        <text x="1770" y="503">
+          0000
+        </text>
+        <path d="m1790 520v-40h40v40z" />
+        <text x="1810" y="503">
+          0000
+        </text>
+        <path d="m1590 480v-40h40v40z" />
+        <text x="1610" y="463">
+          0000
+        </text>
+        <path d="m1630 480v-40h40v40z" />
+        <text x="1650" y="463">
+          0000
+        </text>
+        <path d="m1670 480v-40h40v40z" />
+        <text x="1690" y="463">
+          0000
+        </text>
+        <path d="m1710 480v-40h40v40z" />
+        <text x="1730" y="463">
+          0000
+        </text>
+        <path d="m1750 480v-40h40v40z" />
+        <text x="1770" y="463">
+          0000
+        </text>
+        <path d="m1790 480v-40h40v40z" />
+        <text x="1810" y="463">
+          0000
+        </text>
+        <path d="m1590 440v-40h40v40z" />
+        <text x="1610" y="423">
+          0000
+        </text>
+        <path d="m1630 440v-40h40v40z" />
+        <text x="1650" y="423">
+          0000
+        </text>
+        <path d="m1670 440v-40h40v40z" />
+        <text x="1690" y="423">
+          0000
+        </text>
+        <path d="m1710 440v-40h40v40z" />
+        <text x="1730" y="423">
+          0000
+        </text>
+        <path d="m1750 440v-40h40v40z" />
+        <text x="1770" y="423">
+          0000
+        </text>
+        <path d="m1790 440v-40h40v40z" />
+        <text x="1810" y="423">
+          0000
+        </text>
+        <path d="m1590 400v-40h40v40z" />
+        <text x="1610" y="383">
+          0000
+        </text>
+        <path d="m1630 400v-40h40v40z" />
+        <text x="1650" y="383">
+          0000
+        </text>
+        <path d="m1670 400v-40h40v40z" />
+        <text x="1690" y="383">
+          0000
+        </text>
+        <path d="m1710 400v-40h40v40z" />
+        <text x="1730" y="383">
+          0000
+        </text>
+        <path d="m1750 400v-40h40v40z" />
+        <text x="1770" y="383">
+          0000
+        </text>
+        <path d="m1790 400v-40h40v40z" />
+        <text x="1810" y="383">
+          0000
+        </text>
+      </g>
+    </svg>
+  );
+}

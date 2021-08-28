@@ -4,6 +4,10 @@ body {
   overflow: hidden;
 }
 
+circle {
+  fill: none;
+}
+
 html {
   height: 100%;
 }
@@ -20,6 +24,21 @@ text {
   font-size: 10px;
   text-align: center;
   text-anchor: middle;
+}
+
+.text-align-center {
+  text-align: center;
+  text-anchor: middle;
+}
+
+.text-align-end {
+  text-align: end;
+  text-anchor: end;
+}
+
+.text-align-start {
+  text-align: start;
+  text-anchor: start;
 }
 
 #root {
