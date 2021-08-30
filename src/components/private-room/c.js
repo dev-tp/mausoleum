@@ -20,19 +20,19 @@ export default function PrivateRoomC() {
       </g>
       <g>
         <path d="m900 645h120v-50h-120z" />
-        <text x="909" y="635">
+        <text className="text-align-start" x="909" y="635">
           24A
         </text>
         <path d="m900 595h120v-50h-120z" />
-        <text x="909" y="585">
+        <text className="text-align-start" x="909" y="585">
           24B
         </text>
         <path d="m900 545h120v-50h-120z" />
-        <text x="909" y="535">
+        <text className="text-align-start" x="909" y="535">
           24C
         </text>
         <path d="m900 495h120v-50h-120z" />
-        <text x="909" y="485">
+        <text className="text-align-start" x="909" y="485">
           24D
         </text>
       </g>

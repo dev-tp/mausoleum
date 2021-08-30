@@ -47,83 +47,83 @@ export default function GrandFoyer() {
       </g>
       <g>
         <path d="m630 670h120v-50h-120z" />
-        <text x="639" y="660">
+        <text className="text-align-start" x="639" y="660">
           3-4A
         </text>
         <path d="m630 620h120v-50h-120z" />
-        <text x="639" y="610">
+        <text className="text-align-start" x="639" y="610">
           3-4B
         </text>
         <path d="m630 570h120v-50h-120z" />
-        <text x="639" y="560">
+        <text className="text-align-start" x="639" y="560">
           3-4C
         </text>
         <path d="m630 520h120v-50h-120z" />
-        <text x="639" y="510">
+        <text className="text-align-start" x="639" y="510">
           3-4D
         </text>
         <path d="m630 470h120v-50h-120z" />
-        <text x="639" y="460">
+        <text className="text-align-start" x="639" y="460">
           3-4E
         </text>
         <path d="m810 670h120v-50h-120z" />
-        <text x="819" y="660">
+        <text className="text-align-start" x="819" y="660">
           8-9A
         </text>
         <path d="m810 620h120v-50h-120z" />
-        <text x="819" y="610">
+        <text className="text-align-start" x="819" y="610">
           8-9B
         </text>
         <path d="m810 570h120v-50h-120z" />
-        <text x="819" y="560">
+        <text className="text-align-start" x="819" y="560">
           8-9C
         </text>
         <path d="m810 520h120v-50h-120z" />
-        <text x="819" y="510">
+        <text className="text-align-start" x="819" y="510">
           8-9D
         </text>
         <path d="m810 470h120v-50h-120z" />
-        <text x="819" y="460">
+        <text className="text-align-start" x="819" y="460">
           8-9E
         </text>
         <path d="m990 670h120v-50h-120z" />
-        <text x="999" y="660">
+        <text className="text-align-start" x="999" y="660">
           10-11A
         </text>
         <path d="m990 620h120v-50h-120z" />
-        <text x="999" y="610">
+        <text className="text-align-start" x="999" y="610">
           10-11B
         </text>
         <path d="m990 570h120v-50h-120z" />
-        <text x="999" y="560">
+        <text className="text-align-start" x="999" y="560">
           10-11C
         </text>
         <path d="m990 520h120v-50h-120z" />
-        <text x="999" y="510">
+        <text className="text-align-start" x="999" y="510">
           10-11D
         </text>
         <path d="m990 470h120v-50h-120z" />
-        <text x="999" y="460">
+        <text className="text-align-start" x="999" y="460">
           10-11E
         </text>
         <path d="m1170 670h120v-50h-120z" />
-        <text x="1179" y="660">
+        <text className="text-align-start" x="1179" y="660">
           14-15A
         </text>
         <path d="m1170 620h120v-50h-120z" />
-        <text x="1179" y="610">
+        <text className="text-align-start" x="1179" y="610">
           14-15B
         </text>
         <path d="m1170 570h120v-50h-120z" />
-        <text x="1179" y="560">
+        <text className="text-align-start" x="1179" y="560">
           14-15C
         </text>
         <path d="m1170 520h120v-50h-120z" />
-        <text x="1179" y="510">
+        <text className="text-align-start" x="1179" y="510">
           14-15D
         </text>
         <path d="m1170 470h120v-50h-120z" />
-        <text x="1179" y="460">
+        <text className="text-align-start" x="1179" y="460">
           14-15E
         </text>
       </g>

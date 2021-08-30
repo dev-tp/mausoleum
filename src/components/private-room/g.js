@@ -39,59 +39,59 @@ export default function PrivateRoomG() {
       </g>
       <g>
         <path d="m720 670h120v-50h-120z" />
-        <text x="729" y="660">
+        <text className="text-align-start" x="729" y="660">
           137-138A
         </text>
         <path d="m720 620h120v-50h-120z" />
-        <text x="729" y="610">
+        <text className="text-align-start" x="729" y="610">
           137-138B
         </text>
         <path d="m720 570h120v-50h-120z" />
-        <text x="729" y="560">
+        <text className="text-align-start" x="729" y="560">
           137-138C
         </text>
         <path d="m720 520h120v-50h-120z" />
-        <text x="729" y="510">
+        <text className="text-align-start" x="729" y="510">
           137-138D
         </text>
         <path d="m720 470h120v-50h-120z" />
-        <text x="729" y="460">
+        <text className="text-align-start" x="729" y="460">
           137-138E
         </text>
         <path d="m900 670h120v-50h-120z" />
-        <text x="909" y="660">
+        <text className="text-align-start" x="909" y="660">
           136A
         </text>
         <path d="m900 620h120v-50h-120z" />
-        <text x="909" y="610">
+        <text className="text-align-start" x="909" y="610">
           136B
         </text>
         <path d="m900 570h120v-50h-120z" />
-        <text x="909" y="560">
+        <text className="text-align-start" x="909" y="560">
           136C
         </text>
         <path d="m900 520h120v-50h-120z" />
-        <text x="909" y="510">
+        <text className="text-align-start" x="909" y="510">
           136D
         </text>
         <path d="m1080 670h120v-50h-120z" />
-        <text x="1089" y="660">
+        <text className="text-align-start" x="1089" y="660">
           139A
         </text>
         <path d="m1080 620h120v-50h-120z" />
-        <text x="1089" y="610">
+        <text className="text-align-start" x="1089" y="610">
           139B
         </text>
         <path d="m1080 570h120v-50h-120z" />
-        <text x="1089" y="560">
+        <text className="text-align-start" x="1089" y="560">
           139C
         </text>
         <path d="m1080 520h120v-50h-120z" />
-        <text x="1089" y="510">
+        <text className="text-align-start" x="1089" y="510">
           139D
         </text>
         <path d="m1080 470h120v-50h-120z" />
-        <text x="1089" y="460">
+        <text className="text-align-start" x="1089" y="460">
           139E
         </text>
       </g>

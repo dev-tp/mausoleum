@@ -38,51 +38,51 @@ export default function PrivateRoomF() {
       </g>
       <g>
         <path d="m1080 645h120v-50h-120z" />
-        <text x="1089" y="635">
+        <text className="text-align-start" x="1089" y="635">
           91A
         </text>
         <path d="m1080 595h120v-50h-120z" />
-        <text x="1089" y="585">
+        <text className="text-align-start" x="1089" y="585">
           91B
         </text>
         <path d="m1080 545h120v-50h-120z" />
-        <text x="1089" y="535">
+        <text className="text-align-start" x="1089" y="535">
           91C
         </text>
         <path d="m1080 495h120v-50h-120z" />
-        <text x="1089" y="485">
+        <text className="text-align-start" x="1089" y="485">
           91D
         </text>
         <path d="m900 645h120v-50h-120z" />
-        <text x="909" y="635">
+        <text className="text-align-start" x="909" y="635">
           92A
         </text>
         <path d="m900 595h120v-50h-120z" />
-        <text x="909" y="585">
+        <text className="text-align-start" x="909" y="585">
           92B
         </text>
         <path d="m900 545h120v-50h-120z" />
-        <text x="909" y="535">
+        <text className="text-align-start" x="909" y="535">
           92C
         </text>
         <path d="m900 495h120v-50h-120z" />
-        <text x="909" y="485">
+        <text className="text-align-start" x="909" y="485">
           92D
         </text>
         <path d="m720 645h120v-50h-120z" />
-        <text x="729" y="635">
+        <text className="text-align-start" x="729" y="635">
           93A
         </text>
         <path d="m720 595h120v-50h-120z" />
-        <text x="729" y="585">
+        <text className="text-align-start" x="729" y="585">
           93B
         </text>
         <path d="m720 545h120v-50h-120z" />
-        <text x="729" y="535">
+        <text className="text-align-start" x="729" y="535">
           93C
         </text>
         <path d="m720 495h120v-50h-120z" />
-        <text x="729" y="485">
+        <text className="text-align-start" x="729" y="485">
           93D
         </text>
       </g>

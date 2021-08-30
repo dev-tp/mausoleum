@@ -38,51 +38,51 @@ export default function PrivateRoomE() {
       </g>
       <g>
         <path d="m1080 645h120v-50h-120z" />
-        <text x="1089" y="635">
+        <text className="text-align-start" x="1089" y="635">
           88A
         </text>
         <path d="m1080 595h120v-50h-120z" />
-        <text x="1089" y="585">
+        <text className="text-align-start" x="1089" y="585">
           88B
         </text>
         <path d="m1080 545h120v-50h-120z" />
-        <text x="1089" y="535">
+        <text className="text-align-start" x="1089" y="535">
           88C
         </text>
         <path d="m1080 495h120v-50h-120z" />
-        <text x="1089" y="485">
+        <text className="text-align-start" x="1089" y="485">
           88D
         </text>
         <path d="m900 645h120v-50h-120z" />
-        <text x="909" y="635">
+        <text className="text-align-start" x="909" y="635">
           89A
         </text>
         <path d="m900 595h120v-50h-120z" />
-        <text x="909" y="585">
+        <text className="text-align-start" x="909" y="585">
           89B
         </text>
         <path d="m900 545h120v-50h-120z" />
-        <text x="909" y="535">
+        <text className="text-align-start" x="909" y="535">
           89C
         </text>
         <path d="m900 495h120v-50h-120z" />
-        <text x="909" y="485">
+        <text className="text-align-start" x="909" y="485">
           89D
         </text>
         <path d="m720 645h120v-50h-120z" />
-        <text x="729" y="635">
+        <text className="text-align-start" x="729" y="635">
           90A
         </text>
         <path d="m720 595h120v-50h-120z" />
-        <text x="729" y="585">
+        <text className="text-align-start" x="729" y="585">
           90B
         </text>
         <path d="m720 545h120v-50h-120z" />
-        <text x="729" y="535">
+        <text className="text-align-start" x="729" y="535">
           90C
         </text>
         <path d="m720 495h120v-50h-120z" />
-        <text x="729" y="485">
+        <text className="text-align-start" x="729" y="485">
           90D
         </text>
       </g>

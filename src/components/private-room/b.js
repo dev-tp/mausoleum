@@ -29,43 +29,43 @@ export default function PrivateRoomB() {
       </g>
       <g>
         <path d="m810 670h120v-50h-120z" />
-        <text x="819" y="660">
+        <text className="text-align-start" x="819" y="660">
           21-22A
         </text>
         <path d="m810 620h120v-50h-120z" />
-        <text x="819" y="610">
+        <text className="text-align-start" x="819" y="610">
           21-22B
         </text>
         <path d="m810 570h120v-50h-120z" />
-        <text x="819" y="560">
+        <text className="text-align-start" x="819" y="560">
           21-22C
         </text>
         <path d="m810 520h120v-50h-120z" />
-        <text x="819" y="510">
+        <text className="text-align-start" x="819" y="510">
           21-22D
         </text>
         <path d="m810 470h120v-50h-120z" />
-        <text x="819" y="460">
+        <text className="text-align-start" x="819" y="460">
           21-22E
         </text>
         <path d="m990 670h120v-50h-120z" />
-        <text x="999" y="660">
+        <text className="text-align-start" x="999" y="660">
           23A
         </text>
         <path d="m990 620h120v-50h-120z" />
-        <text x="999" y="610">
+        <text className="text-align-start" x="999" y="610">
           23B
         </text>
         <path d="m990 570h120v-50h-120z" />
-        <text x="999" y="560">
+        <text className="text-align-start" x="999" y="560">
           23C
         </text>
         <path d="m990 520h120v-50h-120z" />
-        <text x="999" y="510">
+        <text className="text-align-start" x="999" y="510">
           23D
         </text>
         <path d="m990 470h120v-50h-120z" />
-        <text x="999" y="460">
+        <text className="text-align-start" x="999" y="460">
           23E
         </text>
       </g>

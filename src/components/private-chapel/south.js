@@ -75,83 +75,83 @@ export default function PrivateChapelSouth() {
       </g>
       <g>
         <path d="m540 670h120v-50h-120z" />
-        <text x="549" y="660">
+        <text className="text-align-start" x="549" y="660">
           16A
         </text>
         <path d="m540 620h120v-50h-120z" />
-        <text x="549" y="610">
+        <text className="text-align-start" x="549" y="610">
           16B
         </text>
         <path d="m540 570h120v-50h-120z" />
-        <text x="549" y="560">
+        <text className="text-align-start" x="549" y="560">
           16C
         </text>
         <path d="m540 520h120v-50h-120z" />
-        <text x="549" y="510">
+        <text className="text-align-start" x="549" y="510">
           16D
         </text>
         <path d="m540 470h120v-50h-120z" />
-        <text x="549" y="460">
+        <text className="text-align-start" x="549" y="460">
           16E
         </text>
         <path d="m770 620h80v50h-80z" />
-        <text x="778" y="660">
+        <text className="text-align-start" x="778" y="660">
           17A
         </text>
         <path d="m770 570h80v50h-80z" />
-        <text x="778" y="610">
+        <text className="text-align-start" x="778" y="610">
           17B
         </text>
         <path d="m770 520h80v50h-80z" />
-        <text x="778" y="560">
+        <text className="text-align-start" x="778" y="560">
           17C
         </text>
         <path d="m770 470h80v50h-80z" />
-        <text x="778" y="510">
+        <text className="text-align-start" x="778" y="510">
           17D
         </text>
         <path d="m770 420h80v50h-80z" />
-        <text x="778" y="460">
+        <text className="text-align-start" x="778" y="460">
           17E
         </text>
         <path d="m1070 620h80v50h-80z" />
-        <text class="text-align-end" x="1140" y="660">
+        <text className="text-align-end" x="1140" y="660">
           13A
         </text>
         <path d="m1070 570h80v50h-80z" />
-        <text class="text-align-end" x="1140" y="610">
+        <text className="text-align-end" x="1140" y="610">
           13B
         </text>
         <path d="m1070 520h80v50h-80z" />
-        <text class="text-align-end" x="1140" y="560">
+        <text className="text-align-end" x="1140" y="560">
           13C
         </text>
         <path d="m1070 470h80v50h-80z" />
-        <text class="text-align-end" x="1140" y="510">
+        <text className="text-align-end" x="1140" y="510">
           13D
         </text>
         <path d="m1070 420h80v50h-80z" />
-        <text class="text-align-end" x="1140" y="460">
+        <text className="text-align-end" x="1140" y="460">
           13E
         </text>
         <path d="m1260 670h120v-50h-120z" />
-        <text x="1269" y="660">
+        <text className="text-align-start" x="1269" y="660">
           12A
         </text>
         <path d="m1260 620h120v-50h-120z" />
-        <text x="1269" y="610">
+        <text className="text-align-start" x="1269" y="610">
           12B
         </text>
         <path d="m1260 570h120v-50h-120z" />
-        <text x="1269" y="560">
+        <text className="text-align-start" x="1269" y="560">
           12C
         </text>
         <path d="m1260 520h120v-50h-120z" />
-        <text x="1269" y="510">
+        <text className="text-align-start" x="1269" y="510">
           12D
         </text>
         <path d="m1260 470h120v-50h-120z" />
-        <text x="1269" y="460">
+        <text className="text-align-start" x="1269" y="460">
           12E
         </text>
       </g>

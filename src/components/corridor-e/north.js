@@ -111,179 +111,179 @@ export default function CorridorENorth() {
       </g>
       <g>
         <path d="m1065.5 880v-50h75v50z" />
-        <text x="1074" y="870">
+        <text className="text-align-start" x="1074" y="870">
           227A
         </text>
         <path d="m1140.5 880v-50h75v50z" />
-        <text x="1149" y="870">
+        <text className="text-align-start" x="1149" y="870">
           228A
         </text>
         <path d="m1215.5 880v-50h75v50z" />
-        <text x="1224" y="870">
+        <text className="text-align-start" x="1224" y="870">
           229A
         </text>
         <path d="m1290.5 880v-50h75v50z" />
-        <text x="1299" y="870">
+        <text className="text-align-start" x="1299" y="870">
           230A
         </text>
         <path d="m1365.5 880v-50h75v50z" />
-        <text x="1374" y="870">
+        <text className="text-align-start" x="1374" y="870">
           231A
         </text>
         <path d="m1065.5 830v-50h75v50z" />
-        <text x="1074" y="820">
+        <text className="text-align-start" x="1074" y="820">
           227B
         </text>
         <path d="m1140.5 830v-50h75v50z" />
-        <text x="1149" y="820">
+        <text className="text-align-start" x="1149" y="820">
           228B
         </text>
         <path d="m1215.5 830v-50h75v50z" />
-        <text x="1224" y="820">
+        <text className="text-align-start" x="1224" y="820">
           229B
         </text>
         <path d="m1290.5 830v-50h75v50z" />
-        <text x="1299" y="820">
+        <text className="text-align-start" x="1299" y="820">
           230B
         </text>
         <path d="m1365.5 830v-50h75v50z" />
-        <text x="1374" y="820">
+        <text className="text-align-start" x="1374" y="820">
           231B
         </text>
         <path d="m1065.5 780v-50h75v50z" />
-        <text x="1074" y="770">
+        <text className="text-align-start" x="1074" y="770">
           227C
         </text>
         <path d="m1140.5 780v-50h75v50z" />
-        <text x="1149" y="770">
+        <text className="text-align-start" x="1149" y="770">
           228C
         </text>
         <path d="m1215.5 780v-50h75v50z" />
-        <text x="1224" y="770">
+        <text className="text-align-start" x="1224" y="770">
           229C
         </text>
         <path d="m1290.5 780v-50h75v50z" />
-        <text x="1299" y="770">
+        <text className="text-align-start" x="1299" y="770">
           230C
         </text>
         <path d="m1365.5 780v-50h75v50z" />
-        <text x="1374" y="770">
+        <text className="text-align-start" x="1374" y="770">
           231C
         </text>
         <path d="m1065.5 730v-50h75v50z" />
-        <text x="1074" y="720">
+        <text className="text-align-start" x="1074" y="720">
           227D
         </text>
         <path d="m1140.5 730v-50h75v50z" />
-        <text x="1149" y="720">
+        <text className="text-align-start" x="1149" y="720">
           228D
         </text>
         <path d="m1215.5 730v-50h75v50z" />
-        <text x="1224" y="720">
+        <text className="text-align-start" x="1224" y="720">
           229D
         </text>
         <path d="m1290.5 730v-50h75v50z" />
-        <text x="1299" y="720">
+        <text className="text-align-start" x="1299" y="720">
           230D
         </text>
         <path d="m1365.5 730v-50h75v50z" />
-        <text x="1374" y="720">
+        <text className="text-align-start" x="1374" y="720">
           231D
         </text>
         <path d="m817.5 480v-50h75v50z" />
-        <text x="826" y="470">
+        <text className="text-align-start" x="826" y="470">
           252A
         </text>
         <path d="m742.5 480v-50h75v50z" />
-        <text x="751" y="470">
+        <text className="text-align-start" x="751" y="470">
           253A
         </text>
         <path d="m667.5 480v-50h75v50z" />
-        <text x="676" y="470">
+        <text className="text-align-start" x="676" y="470">
           254A
         </text>
         <path d="m592.5 480v-50h75v50z" />
-        <text x="601" y="470">
+        <text className="text-align-start" x="601" y="470">
           255A
         </text>
         <path d="m517.5 480v-50h75v50z" />
-        <text x="526" y="470">
+        <text className="text-align-start" x="526" y="470">
           256A
         </text>
         <path d="m442.5 480v-50h75v50z" />
-        <text x="451" y="470">
+        <text className="text-align-start" x="451" y="470">
           257A
         </text>
         <path d="m817.5 430v-50h75v50z" />
-        <text x="826" y="420">
+        <text className="text-align-start" x="826" y="420">
           252B
         </text>
         <path d="m742.5 430v-50h75v50z" />
-        <text x="751" y="420">
+        <text className="text-align-start" x="751" y="420">
           253B
         </text>
         <path d="m667.5 430v-50h75v50z" />
-        <text x="676" y="420">
+        <text className="text-align-start" x="676" y="420">
           254B
         </text>
         <path d="m592.5 430v-50h75v50z" />
-        <text x="601" y="420">
+        <text className="text-align-start" x="601" y="420">
           255B
         </text>
         <path d="m517.5 430v-50h75v50z" />
-        <text x="526" y="420">
+        <text className="text-align-start" x="526" y="420">
           256B
         </text>
         <path d="m442.5 430v-50h75v50z" />
-        <text x="451" y="420">
+        <text className="text-align-start" x="451" y="420">
           257B
         </text>
         <path d="m817.5 380v-50h75v50z" />
-        <text x="826" y="370">
+        <text className="text-align-start" x="826" y="370">
           252C
         </text>
         <path d="m742.5 380v-50h75v50z" />
-        <text x="751" y="370">
+        <text className="text-align-start" x="751" y="370">
           253C
         </text>
         <path d="m667.5 380v-50h75v50z" />
-        <text x="676" y="370">
+        <text className="text-align-start" x="676" y="370">
           254C
         </text>
         <path d="m592.5 380v-50h75v50z" />
-        <text x="601" y="370">
+        <text className="text-align-start" x="601" y="370">
           255C
         </text>
         <path d="m517.5 380v-50h75v50z" />
-        <text x="526" y="370">
+        <text className="text-align-start" x="526" y="370">
           256C
         </text>
         <path d="m442.5 380v-50h75v50z" />
-        <text x="451" y="370">
+        <text className="text-align-start" x="451" y="370">
           257C
         </text>
         <path d="m817.5 330v-50h75v50z" />
-        <text x="826" y="320">
+        <text className="text-align-start" x="826" y="320">
           252D
         </text>
         <path d="m742.5 330v-50h75v50z" />
-        <text x="751" y="320">
+        <text className="text-align-start" x="751" y="320">
           253D
         </text>
         <path d="m667.5 330v-50h75v50z" />
-        <text x="676" y="320">
+        <text className="text-align-start" x="676" y="320">
           254D
         </text>
         <path d="m592.5 330v-50h75v50z" />
-        <text x="601" y="320">
+        <text className="text-align-start" x="601" y="320">
           255D
         </text>
         <path d="m517.5 330v-50h75v50z" />
-        <text x="526" y="320">
+        <text className="text-align-start" x="526" y="320">
           256D
         </text>
         <path d="m442.5 330v-50h75v50z" />
-        <text x="451" y="320">
+        <text className="text-align-start" x="451" y="320">
           257D
         </text>
       </g>

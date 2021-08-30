@@ -38,63 +38,63 @@ export default function PrivateRoomA() {
       </g>
       <g>
         <path d="m720 670h120v-50h-120z" />
-        <text x="729" y="660">
+        <text className="text-align-start" x="729" y="660">
           19A
         </text>
         <path d="m720 620h120v-50h-120z" />
-        <text x="729" y="610">
+        <text className="text-align-start" x="729" y="610">
           19B
         </text>
         <path d="m720 570h120v-50h-120z" />
-        <text x="729" y="560">
+        <text className="text-align-start" x="729" y="560">
           19C
         </text>
         <path d="m720 520h120v-50h-120z" />
-        <text x="729" y="510">
+        <text className="text-align-start" x="729" y="510">
           19D
         </text>
         <path d="m720 470h120v-50h-120z" />
-        <text x="729" y="460">
+        <text className="text-align-start" x="729" y="460">
           19E
         </text>
         <path d="m900 670h120v-50h-120z" />
-        <text x="909" y="660">
+        <text className="text-align-start" x="909" y="660">
           18A
         </text>
         <path d="m900 620h120v-50h-120z" />
-        <text x="909" y="610">
+        <text className="text-align-start" x="909" y="610">
           18B
         </text>
         <path d="m900 570h120v-50h-120z" />
-        <text x="909" y="560">
+        <text className="text-align-start" x="909" y="560">
           18C
         </text>
         <path d="m900 520h120v-50h-120z" />
-        <text x="909" y="510">
+        <text className="text-align-start" x="909" y="510">
           18D
         </text>
         <path d="m900 470h120v-50h-120z" />
-        <text x="909" y="460">
+        <text className="text-align-start" x="909" y="460">
           18E
         </text>
         <path d="m1080 670h120v-50h-120z" />
-        <text x="1089" y="660">
+        <text className="text-align-start" x="1089" y="660">
           20A
         </text>
         <path d="m1080 620h120v-50h-120z" />
-        <text x="1089" y="610">
+        <text className="text-align-start" x="1089" y="610">
           20B
         </text>
         <path d="m1080 570h120v-50h-120z" />
-        <text x="1089" y="560">
+        <text className="text-align-start" x="1089" y="560">
           20C
         </text>
         <path d="m1080 520h120v-50h-120z" />
-        <text x="1089" y="510">
+        <text className="text-align-start" x="1089" y="510">
           20D
         </text>
         <path d="m1080 470h120v-50h-120z" />
-        <text x="1089" y="460">
+        <text className="text-align-start" x="1089" y="460">
           20E
         </text>
       </g>

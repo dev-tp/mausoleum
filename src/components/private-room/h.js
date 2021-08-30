@@ -20,23 +20,23 @@ export default function PrivateRoomH() {
       </g>
       <g>
         <path d="m900 670h120v-50h-120z" />
-        <text x="909" y="660">
+        <text className="text-align-start" x="909" y="660">
           140A
         </text>
         <path d="m900 620h120v-50h-120z" />
-        <text x="909" y="610">
+        <text className="text-align-start" x="909" y="610">
           140B
         </text>
         <path d="m900 570h120v-50h-120z" />
-        <text x="909" y="560">
+        <text className="text-align-start" x="909" y="560">
           140C
         </text>
         <path d="m900 520h120v-50h-120z" />
-        <text x="909" y="510">
+        <text className="text-align-start" x="909" y="510">
           140D
         </text>
         <path d="m900 470h120v-50h-120z" />
-        <text x="909" y="460">
+        <text className="text-align-start" x="909" y="460">
           140E
         </text>
       </g>
