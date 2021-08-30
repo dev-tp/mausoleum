@@ -1,3 +1,21 @@
+const paths = [
+  [720, 670, '19A'],
+  [720, 620, '19B'],
+  [720, 570, '19C'],
+  [720, 520, '19D'],
+  [720, 470, '19E'],
+  [900, 670, '18A'],
+  [900, 620, '18B'],
+  [900, 570, '18C'],
+  [900, 520, '18D'],
+  [900, 470, '18E'],
+  [1080, 670, '20A'],
+  [1080, 620, '20B'],
+  [1080, 570, '20C'],
+  [1080, 520, '20D'],
+  [1080, 470, '20E'],
+];
+
 export default function PrivateRoomA() {
   return (
     <svg
@@ -37,66 +55,14 @@ export default function PrivateRoomA() {
         <path d="m1200 545h10v125h-10z" />
       </g>
       <g>
-        <path d="m720 670h120v-50h-120z" />
-        <text className="text-align-start" x="729" y="660">
-          19A
-        </text>
-        <path d="m720 620h120v-50h-120z" />
-        <text className="text-align-start" x="729" y="610">
-          19B
-        </text>
-        <path d="m720 570h120v-50h-120z" />
-        <text className="text-align-start" x="729" y="560">
-          19C
-        </text>
-        <path d="m720 520h120v-50h-120z" />
-        <text className="text-align-start" x="729" y="510">
-          19D
-        </text>
-        <path d="m720 470h120v-50h-120z" />
-        <text className="text-align-start" x="729" y="460">
-          19E
-        </text>
-        <path d="m900 670h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="660">
-          18A
-        </text>
-        <path d="m900 620h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="610">
-          18B
-        </text>
-        <path d="m900 570h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="560">
-          18C
-        </text>
-        <path d="m900 520h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="510">
-          18D
-        </text>
-        <path d="m900 470h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="460">
-          18E
-        </text>
-        <path d="m1080 670h120v-50h-120z" />
-        <text className="text-align-start" x="1089" y="660">
-          20A
-        </text>
-        <path d="m1080 620h120v-50h-120z" />
-        <text className="text-align-start" x="1089" y="610">
-          20B
-        </text>
-        <path d="m1080 570h120v-50h-120z" />
-        <text className="text-align-start" x="1089" y="560">
-          20C
-        </text>
-        <path d="m1080 520h120v-50h-120z" />
-        <text className="text-align-start" x="1089" y="510">
-          20D
-        </text>
-        <path d="m1080 470h120v-50h-120z" />
-        <text className="text-align-start" x="1089" y="460">
-          20E
-        </text>
+        {paths.map(([x, y, label]) => (
+          <g key={label} onClick={() => console.log(label)}>
+            <path d={`m${x} ${y}h120v-50h-120z`} />
+            <text x={x + 30} y={y - 10}>
+              {label}
+            </text>
+          </g>
+        ))}
       </g>
     </svg>
   );

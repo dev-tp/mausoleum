@@ -1,3 +1,82 @@
+const paths = [
+  [343, 880, '216A'],
+  [418, 880, '217A'],
+  [513, 880, '218A'],
+  [588, 880, '219A'],
+  [663, 880, '220A'],
+  [738, 880, '221A'],
+  [813, 880, '222A'],
+  [888, 880, '223A'],
+  [963, 880, '224A'],
+  [343, 830, '216B'],
+  [418, 830, '217B'],
+  [513, 830, '218B'],
+  [588, 830, '219B'],
+  [663, 830, '220B'],
+  [738, 830, '221B'],
+  [813, 830, '222B'],
+  [888, 830, '223B'],
+  [963, 830, '224B'],
+  [343, 780, '216C'],
+  [418, 780, '217C'],
+  [513, 780, '218C'],
+  [588, 780, '219C'],
+  [663, 780, '220C'],
+  [738, 780, '221C'],
+  [813, 780, '222C'],
+  [888, 780, '223C'],
+  [963, 780, '224C'],
+  [343, 730, '216D'],
+  [418, 730, '217D'],
+  [513, 730, '218D'],
+  [588, 730, '219D'],
+  [663, 730, '220D'],
+  [738, 730, '221D'],
+  [813, 730, '222D'],
+  [888, 730, '223D'],
+  [963, 730, '224D'],
+  [1570, 480, '240A'],
+  [1495, 480, '241A'],
+  [1420, 480, '242A'],
+  [1325, 480, '243A'],
+  [1250, 480, '244A'],
+  [1175, 480, '245A'],
+  [1100, 480, '246A'],
+  [1025, 480, '247A'],
+  [950, 480, '248A'],
+  [875, 480, '249A'],
+  [1570, 430, '240B'],
+  [1495, 430, '241B'],
+  [1420, 430, '242B'],
+  [1325, 430, '243B'],
+  [1250, 430, '244B'],
+  [1175, 430, '245B'],
+  [1100, 430, '246B'],
+  [1025, 430, '247B'],
+  [950, 430, '248B'],
+  [875, 430, '249B'],
+  [1570, 380, '240C'],
+  [1495, 380, '241C'],
+  [1420, 380, '242C'],
+  [1325, 380, '243C'],
+  [1250, 380, '244C'],
+  [1175, 380, '245C'],
+  [1100, 380, '246C'],
+  [1025, 380, '247C'],
+  [950, 380, '248C'],
+  [875, 380, '249C'],
+  [1570, 330, '240D'],
+  [1495, 330, '241D'],
+  [1420, 330, '242D'],
+  [1325, 330, '243D'],
+  [1250, 330, '244D'],
+  [1175, 330, '245D'],
+  [1100, 330, '246D'],
+  [1025, 330, '247D'],
+  [950, 330, '248D'],
+  [875, 330, '249D'],
+];
+
 export default function CorridorESouth() {
   return (
     <svg
@@ -129,310 +208,14 @@ export default function CorridorESouth() {
         <path d="m1688 890v-10h30v10z" />
       </g>
       <g>
-        <path d="m343 880v-50h75v50z" />
-        <text className="text-align-start" x="352" y="870">
-          216A
-        </text>
-        <path d="m418 880v-50h75v50z" />
-        <text className="text-align-start" x="427" y="870">
-          217A
-        </text>
-        <path d="m513 880v-50h75v50z" />
-        <text className="text-align-start" x="522" y="870">
-          218A
-        </text>
-        <path d="m588 880v-50h75v50z" />
-        <text className="text-align-start" x="597" y="870">
-          219A
-        </text>
-        <path d="m663 880v-50h75v50z" />
-        <text className="text-align-start" x="672" y="870">
-          220A
-        </text>
-        <path d="m738 880v-50h75v50z" />
-        <text className="text-align-start" x="747" y="870">
-          221A
-        </text>
-        <path d="m813 880v-50h75v50z" />
-        <text className="text-align-start" x="822" y="870">
-          222A
-        </text>
-        <path d="m888 880v-50h75v50z" />
-        <text className="text-align-start" x="897" y="870">
-          223A
-        </text>
-        <path d="m963 880v-50h75v50z" />
-        <text className="text-align-start" x="972" y="870">
-          224A
-        </text>
-        <path d="m343 830v-50h75v50z" />
-        <text className="text-align-start" x="352" y="820">
-          216A
-        </text>
-        <path d="m418 830v-50h75v50z" />
-        <text className="text-align-start" x="427" y="820">
-          217A
-        </text>
-        <path d="m513 830v-50h75v50z" />
-        <text className="text-align-start" x="522" y="820">
-          218B
-        </text>
-        <path d="m588 830v-50h75v50z" />
-        <text className="text-align-start" x="597" y="820">
-          219B
-        </text>
-        <path d="m663 830v-50h75v50z" />
-        <text className="text-align-start" x="672" y="820">
-          220B
-        </text>
-        <path d="m738 830v-50h75v50z" />
-        <text className="text-align-start" x="747" y="820">
-          221B
-        </text>
-        <path d="m813 830v-50h75v50z" />
-        <text className="text-align-start" x="822" y="820">
-          222B
-        </text>
-        <path d="m888 830v-50h75v50z" />
-        <text className="text-align-start" x="897" y="820">
-          223B
-        </text>
-        <path d="m963 830v-50h75v50z" />
-        <text className="text-align-start" x="972" y="820">
-          224B
-        </text>
-        <path d="m343 780v-50h75v50z" />
-        <text className="text-align-start" x="352" y="770">
-          216A
-        </text>
-        <path d="m418 780v-50h75v50z" />
-        <text className="text-align-start" x="427" y="770">
-          217A
-        </text>
-        <path d="m513 780v-50h75v50z" />
-        <text className="text-align-start" x="522" y="770">
-          218C
-        </text>
-        <path d="m588 780v-50h75v50z" />
-        <text className="text-align-start" x="597" y="770">
-          219C
-        </text>
-        <path d="m663 780v-50h75v50z" />
-        <text className="text-align-start" x="672" y="770">
-          220C
-        </text>
-        <path d="m738 780v-50h75v50z" />
-        <text className="text-align-start" x="747" y="770">
-          221C
-        </text>
-        <path d="m813 780v-50h75v50z" />
-        <text className="text-align-start" x="822" y="770">
-          222C
-        </text>
-        <path d="m888 780v-50h75v50z" />
-        <text className="text-align-start" x="897" y="770">
-          223C
-        </text>
-        <path d="m963 780v-50h75v50z" />
-        <text className="text-align-start" x="972" y="770">
-          224C
-        </text>
-        <path d="m343 730v-50h75v50z" />
-        <text className="text-align-start" x="352" y="720">
-          216A
-        </text>
-        <path d="m418 730v-50h75v50z" />
-        <text className="text-align-start" x="427" y="720">
-          217A
-        </text>
-        <path d="m513 730v-50h75v50z" />
-        <text className="text-align-start" x="522" y="720">
-          218D
-        </text>
-        <path d="m588 730v-50h75v50z" />
-        <text className="text-align-start" x="597" y="720">
-          219D
-        </text>
-        <path d="m663 730v-50h75v50z" />
-        <text className="text-align-start" x="672" y="720">
-          220D
-        </text>
-        <path d="m738 730v-50h75v50z" />
-        <text className="text-align-start" x="747" y="720">
-          221D
-        </text>
-        <path d="m813 730v-50h75v50z" />
-        <text className="text-align-start" x="822" y="720">
-          222D
-        </text>
-        <path d="m888 730v-50h75v50z" />
-        <text className="text-align-start" x="897" y="720">
-          223D
-        </text>
-        <path d="m963 730v-50h75v50z" />
-        <text className="text-align-start" x="972" y="720">
-          224D
-        </text>
-        <path d="m1570 480v-50h75v50z" />
-        <text className="text-align-start" x="1579" y="470">
-          240A
-        </text>
-        <path d="m1495 480v-50h75v50z" />
-        <text className="text-align-start" x="1504" y="470">
-          241A
-        </text>
-        <path d="m1420 480v-50h75v50z" />
-        <text className="text-align-start" x="1429" y="470">
-          242A
-        </text>
-        <path d="m1325 480v-50h75v50z" />
-        <text className="text-align-start" x="1334" y="470">
-          243A
-        </text>
-        <path d="m1250 480v-50h75v50z" />
-        <text className="text-align-start" x="1259" y="470">
-          244A
-        </text>
-        <path d="m1175 480v-50h75v50z" />
-        <text className="text-align-start" x="1184" y="470">
-          245A
-        </text>
-        <path d="m1100 480v-50h75v50z" />
-        <text className="text-align-start" x="1109" y="470">
-          246A
-        </text>
-        <path d="m1025 480v-50h75v50z" />
-        <text className="text-align-start" x="1034" y="470">
-          247A
-        </text>
-        <path d="m950 480v-50h75v50z" />
-        <text className="text-align-start" x="959" y="470">
-          248A
-        </text>
-        <path d="m875 480v-50h75v50z" />
-        <text className="text-align-start" x="884" y="470">
-          249A
-        </text>
-        <path d="m1570 430v-50h75v50z" />
-        <text className="text-align-start" x="1579" y="420">
-          240B
-        </text>
-        <path d="m1495 430v-50h75v50z" />
-        <text className="text-align-start" x="1504" y="420">
-          241B
-        </text>
-        <path d="m1420 430v-50h75v50z" />
-        <text className="text-align-start" x="1429" y="420">
-          242B
-        </text>
-        <path d="m1325 430v-50h75v50z" />
-        <text className="text-align-start" x="1334" y="420">
-          243B
-        </text>
-        <path d="m1250 430v-50h75v50z" />
-        <text className="text-align-start" x="1259" y="420">
-          244B
-        </text>
-        <path d="m1175 430v-50h75v50z" />
-        <text className="text-align-start" x="1184" y="420">
-          245B
-        </text>
-        <path d="m1100 430v-50h75v50z" />
-        <text className="text-align-start" x="1109" y="420">
-          246B
-        </text>
-        <path d="m1025 430v-50h75v50z" />
-        <text className="text-align-start" x="1034" y="420">
-          247B
-        </text>
-        <path d="m950 430v-50h75v50z" />
-        <text className="text-align-start" x="959" y="420">
-          248B
-        </text>
-        <path d="m875 430v-50h75v50z" />
-        <text className="text-align-start" x="884" y="420">
-          249B
-        </text>
-        <path d="m1570 380v-50h75v50z" />
-        <text className="text-align-start" x="1579" y="370">
-          240C
-        </text>
-        <path d="m1495 380v-50h75v50z" />
-        <text className="text-align-start" x="1504" y="370">
-          241C
-        </text>
-        <path d="m1420 380v-50h75v50z" />
-        <text className="text-align-start" x="1429" y="370">
-          242C
-        </text>
-        <path d="m1325 380v-50h75v50z" />
-        <text className="text-align-start" x="1334" y="370">
-          243C
-        </text>
-        <path d="m1250 380v-50h75v50z" />
-        <text className="text-align-start" x="1259" y="370">
-          244C
-        </text>
-        <path d="m1175 380v-50h75v50z" />
-        <text className="text-align-start" x="1184" y="370">
-          245C
-        </text>
-        <path d="m1100 380v-50h75v50z" />
-        <text className="text-align-start" x="1109" y="370">
-          246C
-        </text>
-        <path d="m1025 380v-50h75v50z" />
-        <text className="text-align-start" x="1034" y="370">
-          247C
-        </text>
-        <path d="m950 380v-50h75v50z" />
-        <text className="text-align-start" x="959" y="370">
-          248C
-        </text>
-        <path d="m875 380v-50h75v50z" />
-        <text className="text-align-start" x="884" y="370">
-          249C
-        </text>
-        <path d="m1570 330v-50h75v50z" />
-        <text className="text-align-start" x="1579" y="320">
-          240D
-        </text>
-        <path d="m1495 330v-50h75v50z" />
-        <text className="text-align-start" x="1504" y="320">
-          241D
-        </text>
-        <path d="m1420 330v-50h75v50z" />
-        <text className="text-align-start" x="1429" y="320">
-          242D
-        </text>
-        <path d="m1325 330v-50h75v50z" />
-        <text className="text-align-start" x="1334" y="320">
-          243D
-        </text>
-        <path d="m1250 330v-50h75v50z" />
-        <text className="text-align-start" x="1259" y="320">
-          244D
-        </text>
-        <path d="m1175 330v-50h75v50z" />
-        <text className="text-align-start" x="1184" y="320">
-          245D
-        </text>
-        <path d="m1100 330v-50h75v50z" />
-        <text className="text-align-start" x="1109" y="320">
-          246D
-        </text>
-        <path d="m1025 330v-50h75v50z" />
-        <text className="text-align-start" x="1034" y="320">
-          247D
-        </text>
-        <path d="m950 330v-50h75v50z" />
-        <text className="text-align-start" x="959" y="320">
-          248D
-        </text>
-        <path d="m875 330v-50h75v50z" />
-        <text className="text-align-start" x="884" y="320">
-          249d
-        </text>
+        {paths.map(([x, y, label]) => (
+          <g key={label} onClick={() => console.log(label)}>
+            <path d={`m${x} ${y}v-50h75v50z`} />
+            <text x={x + 20} y={y - 10}>
+              {label}
+            </text>
+          </g>
+        ))}
       </g>
     </svg>
   );

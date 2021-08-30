@@ -1,3 +1,46 @@
+const paths = [
+  [404, 450, '163A'],
+  [404, 400, '163B'],
+  [404, 350, '163C'],
+  [404, 300, '163D'],
+  [614, 450, '186A'],
+  [614, 400, '186B'],
+  [614, 350, '186C'],
+  [614, 300, '186D'],
+  [1084, 450, '213A'],
+  [1084, 400, '213B'],
+  [1084, 350, '213C'],
+  [1084, 300, '213D'],
+  [1294, 450, '233A'],
+  [1294, 400, '233B'],
+  [1294, 350, '233C'],
+  [1294, 300, '233D'],
+  [1764, 450, '259A'],
+  [1764, 400, '259B'],
+  [1764, 350, '259C'],
+  [1764, 300, '259D'],
+  [1974, 450, '285A'],
+  [1974, 400, '285B'],
+  [1974, 350, '285C'],
+  [1974, 300, '285D'],
+  [689, 770, '232A'],
+  [689, 720, '232B'],
+  [689, 670, '232C'],
+  [689, 620, '232D'],
+  [899, 770, '212A'],
+  [899, 720, '212B'],
+  [899, 670, '212C'],
+  [899, 620, '212D'],
+  [1219, 770, '185A'],
+  [1219, 720, '185B'],
+  [1219, 670, '185C'],
+  [1219, 620, '185D'],
+  [1429, 770, '162A'],
+  [1429, 720, '162B'],
+  [1429, 670, '162C'],
+  [1429, 620, '162D'],
+];
+
 export default function NorthCorridor2() {
   return (
     <svg
@@ -216,166 +259,14 @@ export default function NorthCorridor2() {
         <path d="m2044 450h-20v50h20z" />
       </g>
       <g>
-        <path d="m404 450v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="343" y="490">
-          163A
-        </text>
-        <path d="m404 400v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="343" y="440">
-          163B
-        </text>
-        <path d="m404 350v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="343" y="390">
-          163C
-        </text>
-        <path d="m404 300v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="343" y="340">
-          163D
-        </text>
-        <path d="m614 450v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="553" y="490">
-          186A
-        </text>
-        <path d="m614 400v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="553" y="440">
-          186B
-        </text>
-        <path d="m614 350v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="553" y="390">
-          186C
-        </text>
-        <path d="m614 300v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="553" y="340">
-          186D
-        </text>
-        <path d="m1084 450v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1023" y="490">
-          213A
-        </text>
-        <path d="m1084 400v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1023" y="440">
-          213B
-        </text>
-        <path d="m1084 350v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1023" y="390">
-          213C
-        </text>
-        <path d="m1084 300v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1023" y="340">
-          213D
-        </text>
-        <path d="m1294 450v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1233" y="490">
-          233A
-        </text>
-        <path d="m1294 400v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1233" y="440">
-          233B
-        </text>
-        <path d="m1294 350v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1233" y="390">
-          233C
-        </text>
-        <path d="m1294 300v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1233" y="340">
-          233D
-        </text>
-        <path d="m1764 450v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1703" y="490">
-          259A
-        </text>
-        <path d="m1764 400v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1703" y="440">
-          259B
-        </text>
-        <path d="m1764 350v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1703" y="390">
-          259C
-        </text>
-        <path d="m1764 300v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1703" y="340">
-          259D
-        </text>
-        <path d="m1974 450v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1913" y="490">
-          285A
-        </text>
-        <path d="m1974 400v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1913" y="440">
-          285B
-        </text>
-        <path d="m1974 350v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1913" y="390">
-          285C
-        </text>
-        <path d="m1974 300v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1913" y="340">
-          285D
-        </text>
-        <path d="m689 770v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="628" y="810">
-          232A
-        </text>
-        <path d="m689 720v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="628" y="760">
-          232B
-        </text>
-        <path d="m689 670v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="628" y="710">
-          232C
-        </text>
-        <path d="m689 620v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="628" y="660">
-          232D
-        </text>
-        <path d="m899 770v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="838" y="810">
-          212A
-        </text>
-        <path d="m899 720v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="838" y="760">
-          212B
-        </text>
-        <path d="m899 670v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="838" y="710">
-          212C
-        </text>
-        <path d="m899 620v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="838" y="660">
-          212D
-        </text>
-        <path d="m1219 770v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1158" y="810">
-          185A
-        </text>
-        <path d="m1219 720v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1158" y="760">
-          185B
-        </text>
-        <path d="m1219 670v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1158" y="710">
-          185C
-        </text>
-        <path d="m1219 620v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1158" y="660">
-          185D
-        </text>
-        <path d="m1429 770v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1368" y="810">
-          162A
-        </text>
-        <path d="m1429 720v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1368" y="760">
-          162B
-        </text>
-        <path d="m1429 670v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1368" y="710">
-          162C
-        </text>
-        <path d="m1429 620v50m-70-50v50m-50-50h170v50h-170z" />
-        <text className="text-align-start" x="1368" y="660">
-          162D
-        </text>
+        {paths.map(([x, y, label]) => (
+          <g key={label} onClick={() => console.log(label)}>
+            <path d={`m${x} ${y}v50m-70-50v50m-50-50h170v50h-170z`} />
+            <text className="text-align-start" x={x - 60} y={y + 40}>
+              {label}
+            </text>
+          </g>
+        ))}
       </g>
     </svg>
   );

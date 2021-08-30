@@ -1,3 +1,18 @@
+const paths = [
+  [1080, 645, '26-27A'],
+  [1080, 595, '26-27B'],
+  [1080, 545, '26-27C'],
+  [1080, 495, '26-27D'],
+  [900, 645, '28-29A'],
+  [900, 595, '28-29B'],
+  [900, 545, '28-29C'],
+  [900, 495, '28-29D'],
+  [720, 645, '25A'],
+  [720, 595, '25B'],
+  [720, 545, '25C'],
+  [720, 495, '25D'],
+];
+
 export default function PrivateRoomD() {
   return (
     <svg
@@ -37,54 +52,14 @@ export default function PrivateRoomD() {
         <path d="m1200 520h10v125h-10z" />
       </g>
       <g>
-        <path d="m1080 645h120v-50h-120z" />
-        <text className="text-align-start" x="1089" y="635">
-          26-27A
-        </text>
-        <path d="m1080 595h120v-50h-120z" />
-        <text className="text-align-start" x="1089" y="585">
-          26-27B
-        </text>
-        <path d="m1080 545h120v-50h-120z" />
-        <text className="text-align-start" x="1089" y="535">
-          26-27C
-        </text>
-        <path d="m1080 495h120v-50h-120z" />
-        <text className="text-align-start" x="1089" y="485">
-          26-27D
-        </text>
-        <path d="m900 645h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="635">
-          28-29A
-        </text>
-        <path d="m900 595h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="585">
-          28-29B
-        </text>
-        <path d="m900 545h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="535">
-          28-29C
-        </text>
-        <path d="m900 495h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="485">
-          28-29D
-        </text>
-        <path d="m720 645h120v-50h-120z" />
-        <text className="text-align-start" x="729" y="635">
-          25A
-        </text>
-        <path d="m720 595h120v-50h-120z" />
-        <text className="text-align-start" x="729" y="585">
-          25B
-        </text>
-        <path d="m720 545h120v-50h-120z" />
-        <text className="text-align-start" x="729" y="535">
-          25C
-        </text>
-        <path d="m720 495h120v-50h-120z" />
-        <text className="text-align-start" x="729" y="485">
-          25D
-        </text>
+        {paths.map(([x, y, label]) => (
+          <g key={label} onClick={() => console.log(label)}>
+            <path d={`m${x} ${y}h120v-50h-120z`} />
+            <text x={x + 30} y={y - 10}>
+              {label}
+            </text>
+          </g>
+        ))}
       </g>
     </svg>
   );

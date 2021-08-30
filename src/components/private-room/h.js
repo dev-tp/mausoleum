@@ -1,3 +1,11 @@
+const paths = [
+  [900, 670, '140A'],
+  [900, 620, '140B'],
+  [900, 570, '140C'],
+  [900, 520, '140D'],
+  [900, 470, '140E'],
+];
+
 export default function PrivateRoomH() {
   return (
     <svg
@@ -19,26 +27,14 @@ export default function PrivateRoomH() {
         <path d="m1020 545h10v125h-10z" />
       </g>
       <g>
-        <path d="m900 670h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="660">
-          140A
-        </text>
-        <path d="m900 620h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="610">
-          140B
-        </text>
-        <path d="m900 570h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="560">
-          140C
-        </text>
-        <path d="m900 520h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="510">
-          140D
-        </text>
-        <path d="m900 470h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="460">
-          140E
-        </text>
+        {paths.map(([x, y, label]) => (
+          <g key={label} onClick={() => console.log(label)}>
+            <path d={`m${x} ${y}h120v-50h-120z`} />
+            <text x={x + 30} y={y - 10}>
+              {label}
+            </text>
+          </g>
+        ))}
       </g>
     </svg>
   );

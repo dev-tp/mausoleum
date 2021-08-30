@@ -1,3 +1,16 @@
+const paths = [
+  [810, 670, '21-22A'],
+  [810, 620, '21-22B'],
+  [810, 570, '21-22C'],
+  [810, 520, '21-22D'],
+  [810, 470, '21-22E'],
+  [990, 670, '23A'],
+  [990, 620, '23B'],
+  [990, 570, '23C'],
+  [990, 520, '23D'],
+  [990, 470, '23E'],
+];
+
 export default function PrivateRoomB() {
   return (
     <svg
@@ -28,46 +41,14 @@ export default function PrivateRoomB() {
         <path d="m1110 545h10v125h-10z" />
       </g>
       <g>
-        <path d="m810 670h120v-50h-120z" />
-        <text className="text-align-start" x="819" y="660">
-          21-22A
-        </text>
-        <path d="m810 620h120v-50h-120z" />
-        <text className="text-align-start" x="819" y="610">
-          21-22B
-        </text>
-        <path d="m810 570h120v-50h-120z" />
-        <text className="text-align-start" x="819" y="560">
-          21-22C
-        </text>
-        <path d="m810 520h120v-50h-120z" />
-        <text className="text-align-start" x="819" y="510">
-          21-22D
-        </text>
-        <path d="m810 470h120v-50h-120z" />
-        <text className="text-align-start" x="819" y="460">
-          21-22E
-        </text>
-        <path d="m990 670h120v-50h-120z" />
-        <text className="text-align-start" x="999" y="660">
-          23A
-        </text>
-        <path d="m990 620h120v-50h-120z" />
-        <text className="text-align-start" x="999" y="610">
-          23B
-        </text>
-        <path d="m990 570h120v-50h-120z" />
-        <text className="text-align-start" x="999" y="560">
-          23C
-        </text>
-        <path d="m990 520h120v-50h-120z" />
-        <text className="text-align-start" x="999" y="510">
-          23D
-        </text>
-        <path d="m990 470h120v-50h-120z" />
-        <text className="text-align-start" x="999" y="460">
-          23E
-        </text>
+        {paths.map(([x, y, label]) => (
+          <g key={label} onClick={() => console.log(label)}>
+            <path d={`m${x} ${y}h120v-50h-120z`} />
+            <text x={x + 30} y={y - 10}>
+              {label}
+            </text>
+          </g>
+        ))}
       </g>
     </svg>
   );

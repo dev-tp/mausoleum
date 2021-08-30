@@ -1,3 +1,10 @@
+const paths = [
+  [900, 645, '24A'],
+  [900, 595, '24B'],
+  [900, 545, '24C'],
+  [900, 495, '24D'],
+];
+
 export default function PrivateRoomC() {
   return (
     <svg
@@ -19,22 +26,14 @@ export default function PrivateRoomC() {
         <path d="m1020 520h10v125h-10z" />
       </g>
       <g>
-        <path d="m900 645h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="635">
-          24A
-        </text>
-        <path d="m900 595h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="585">
-          24B
-        </text>
-        <path d="m900 545h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="535">
-          24C
-        </text>
-        <path d="m900 495h120v-50h-120z" />
-        <text className="text-align-start" x="909" y="485">
-          24D
-        </text>
+        {paths.map(([x, y, label]) => (
+          <g key={label} onClick={() => console.log(label)}>
+            <path d={`m${x} ${y}h120v-50h-120z`} />
+            <text x={x + 30} y={y - 10}>
+              {label}
+            </text>
+          </g>
+        ))}
       </g>
     </svg>
   );

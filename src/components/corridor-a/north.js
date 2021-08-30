@@ -1,3 +1,61 @@
+const paths = [
+  [355, 705, '42A'],
+  [280, 705, '43A'],
+  [185, 705, '44A'],
+  [110, 705, '45A'],
+  [355, 655, '46A'],
+  [280, 655, '47A'],
+  [185, 655, '48A'],
+  [110, 655, '42B'],
+  [355, 605, '43B'],
+  [280, 605, '44B'],
+  [185, 605, '45B'],
+  [110, 605, '46B'],
+  [355, 555, '47B'],
+  [280, 555, '48B'],
+  [185, 555, '42C'],
+  [110, 555, '43C'],
+  [355, 505, '44C'],
+  [280, 505, '45C'],
+  [185, 505, '46C'],
+  [110, 505, '47C'],
+  [1285, 705, '48C'],
+  [1360, 705, '42D'],
+  [1455, 705, '43D'],
+  [1530, 705, '44D'],
+  [1605, 705, '45D'],
+  [1680, 705, '46D'],
+  [1755, 705, '47D'],
+  [1285, 655, '48D'],
+  [1360, 655, '42E'],
+  [1455, 655, '43E'],
+  [1530, 655, '44E'],
+  [1605, 655, '45E'],
+  [1680, 655, '46E'],
+  [1755, 655, '47E'],
+  [1285, 605, '48E'],
+  [1360, 605, '62A'],
+  [1455, 605, '63A'],
+  [1530, 605, '64A'],
+  [1605, 605, '65A'],
+  [1680, 605, '62B'],
+  [1755, 605, '63B'],
+  [1285, 555, '64B'],
+  [1360, 555, '65B'],
+  [1455, 555, '62C'],
+  [1530, 555, '63C'],
+  [1605, 555, '64C'],
+  [1680, 555, '65C'],
+  [1755, 555, '62D'],
+  [1285, 505, '63D'],
+  [1360, 505, '64D'],
+  [1455, 505, '65D'],
+  [1530, 505, '62E'],
+  [1605, 505, '63E'],
+  [1680, 505, '64E'],
+  [1755, 505, '65E'],
+];
+
 export default function CorridorANorth() {
   return (
     <svg
@@ -64,226 +122,14 @@ export default function CorridorANorth() {
         <path d="m1435 535h20v90h-20z" />
       </g>
       <g>
-        <path d="m355 705v-50h75v50z" />
-        <text className="text-align-start" x="364" y="695">
-          42A
-        </text>
-        <path d="m280 705v-50h75v50z" />
-        <text className="text-align-start" x="289" y="695">
-          43A
-        </text>
-        <path d="m185 705v-50h75v50z" />
-        <text className="text-align-start" x="194" y="695">
-          44A
-        </text>
-        <path d="m110 705v-50h75v50z" />
-        <text className="text-align-start" x="119" y="695">
-          45A
-        </text>
-        <path d="m355 655v-50h75v50z" />
-        <text className="text-align-start" x="364" y="645">
-          46A
-        </text>
-        <path d="m280 655v-50h75v50z" />
-        <text className="text-align-start" x="289" y="645">
-          47A
-        </text>
-        <path d="m185 655v-50h75v50z" />
-        <text className="text-align-start" x="194" y="645">
-          48A
-        </text>
-        <path d="m110 655v-50h75v50z" />
-        <text className="text-align-start" x="119" y="645">
-          42B
-        </text>
-        <path d="m355 605v-50h75v50z" />
-        <text className="text-align-start" x="364" y="595">
-          43B
-        </text>
-        <path d="m280 605v-50h75v50z" />
-        <text className="text-align-start" x="289" y="595">
-          44B
-        </text>
-        <path d="m185 605v-50h75v50z" />
-        <text className="text-align-start" x="194" y="595">
-          45B
-        </text>
-        <path d="m110 605v-50h75v50z" />
-        <text className="text-align-start" x="119" y="595">
-          46B
-        </text>
-        <path d="m355 555v-50h75v50z" />
-        <text className="text-align-start" x="364" y="545">
-          47B
-        </text>
-        <path d="m280 555v-50h75v50z" />
-        <text className="text-align-start" x="289" y="545">
-          48B
-        </text>
-        <path d="m185 555v-50h75v50z" />
-        <text className="text-align-start" x="194" y="545">
-          42C
-        </text>
-        <path d="m110 555v-50h75v50z" />
-        <text className="text-align-start" x="119" y="545">
-          43C
-        </text>
-        <path d="m355 505v-50h75v50z" />
-        <text className="text-align-start" x="364" y="495">
-          44C
-        </text>
-        <path d="m280 505v-50h75v50z" />
-        <text className="text-align-start" x="289" y="495">
-          45C
-        </text>
-        <path d="m185 505v-50h75v50z" />
-        <text className="text-align-start" x="194" y="495">
-          46C
-        </text>
-        <path d="m110 505v-50h75v50z" />
-        <text className="text-align-start" x="119" y="495">
-          47C
-        </text>
-        <path d="m1285 705v-50h75v50z" />
-        <text className="text-align-start" x="1294" y="695">
-          48C
-        </text>
-        <path d="m1360 705v-50h75v50z" />
-        <text className="text-align-start" x="1369" y="695">
-          42D
-        </text>
-        <path d="m1455 705v-50h75v50z" />
-        <text className="text-align-start" x="1464" y="695">
-          43D
-        </text>
-        <path d="m1530 705v-50h75v50z" />
-        <text className="text-align-start" x="1539" y="695">
-          44D
-        </text>
-        <path d="m1605 705v-50h75v50z" />
-        <text className="text-align-start" x="1614" y="695">
-          45D
-        </text>
-        <path d="m1680 705v-50h75v50z" />
-        <text className="text-align-start" x="1689" y="695">
-          46D
-        </text>
-        <path d="m1755 705v-50h75v50z" />
-        <text className="text-align-start" x="1764" y="695">
-          47D
-        </text>
-        <path d="m1285 655v-50h75v50z" />
-        <text className="text-align-start" x="1294" y="645">
-          48D
-        </text>
-        <path d="m1360 655v-50h75v50z" />
-        <text className="text-align-start" x="1369" y="645">
-          42E
-        </text>
-        <path d="m1455 655v-50h75v50z" />
-        <text className="text-align-start" x="1464" y="645">
-          43E
-        </text>
-        <path d="m1530 655v-50h75v50z" />
-        <text className="text-align-start" x="1539" y="645">
-          44E
-        </text>
-        <path d="m1605 655v-50h75v50z" />
-        <text className="text-align-start" x="1614" y="645">
-          45E
-        </text>
-        <path d="m1680 655v-50h75v50z" />
-        <text className="text-align-start" x="1689" y="645">
-          46E
-        </text>
-        <path d="m1755 655v-50h75v50z" />
-        <text className="text-align-start" x="1764" y="645">
-          47E
-        </text>
-        <path d="m1285 605v-50h75v50z" />
-        <text className="text-align-start" x="1294" y="595">
-          48E
-        </text>
-        <path d="m1360 605v-50h75v50z" />
-        <text className="text-align-start" x="1369" y="595">
-          62A
-        </text>
-        <path d="m1455 605v-50h75v50z" />
-        <text className="text-align-start" x="1464" y="595">
-          63A
-        </text>
-        <path d="m1530 605v-50h75v50z" />
-        <text className="text-align-start" x="1539" y="595">
-          64A
-        </text>
-        <path d="m1605 605v-50h75v50z" />
-        <text className="text-align-start" x="1614" y="595">
-          65A
-        </text>
-        <path d="m1680 605v-50h75v50z" />
-        <text className="text-align-start" x="1689" y="595">
-          62B
-        </text>
-        <path d="m1755 605v-50h75v50z" />
-        <text className="text-align-start" x="1764" y="595">
-          63B
-        </text>
-        <path d="m1285 555v-50h75v50z" />
-        <text className="text-align-start" x="1294" y="545">
-          64B
-        </text>
-        <path d="m1360 555v-50h75v50z" />
-        <text className="text-align-start" x="1369" y="545">
-          65B
-        </text>
-        <path d="m1455 555v-50h75v50z" />
-        <text className="text-align-start" x="1464" y="545">
-          62C
-        </text>
-        <path d="m1530 555v-50h75v50z" />
-        <text className="text-align-start" x="1539" y="545">
-          63C
-        </text>
-        <path d="m1605 555v-50h75v50z" />
-        <text className="text-align-start" x="1614" y="545">
-          64C
-        </text>
-        <path d="m1680 555v-50h75v50z" />
-        <text className="text-align-start" x="1689" y="545">
-          65C
-        </text>
-        <path d="m1755 555v-50h75v50z" />
-        <text className="text-align-start" x="1764" y="545">
-          62D
-        </text>
-        <path d="m1285 505v-50h75v50z" />
-        <text className="text-align-start" x="1294" y="495">
-          63D
-        </text>
-        <path d="m1360 505v-50h75v50z" />
-        <text className="text-align-start" x="1369" y="495">
-          64D
-        </text>
-        <path d="m1455 505v-50h75v50z" />
-        <text className="text-align-start" x="1464" y="495">
-          65D
-        </text>
-        <path d="m1530 505v-50h75v50z" />
-        <text className="text-align-start" x="1539" y="495">
-          62E
-        </text>
-        <path d="m1605 505v-50h75v50z" />
-        <text className="text-align-start" x="1614" y="495">
-          63E
-        </text>
-        <path d="m1680 505v-50h75v50z" />
-        <text className="text-align-start" x="1689" y="495">
-          64E
-        </text>
-        <path d="m1755 505v-50h75v50z" />
-        <text className="text-align-start" x="1764" y="495">
-          65E
-        </text>
+        {paths.map(([x, y, label]) => (
+          <g key={label} onClick={() => console.log(label)}>
+            <path d={`m${x} ${y}v-50h75v50z`} />
+            <text x={x + 20} y={y - 10}>
+              {label}
+            </text>
+          </g>
+        ))}
       </g>
     </svg>
   );
