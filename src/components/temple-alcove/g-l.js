@@ -356,7 +356,7 @@ export default function TempleAlcoveGL() {
           <g key={i} onClick={() => console.log(i)}>
             <path d={`m${x} ${y}v-${d}h${d}v${d}z`} />
             <text x={x + d / 2} y={y - d / 2 + 3}>
-              {i}
+              {i + 1743}
             </text>
           </g>
         ))}

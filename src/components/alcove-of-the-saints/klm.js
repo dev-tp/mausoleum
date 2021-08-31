@@ -214,7 +214,7 @@ export default function KLM() {
           <g key={i} onClick={(event) => console.log(event)}>
             <path d={`m${x} ${y}v-${d}h${d}v${d}z`} />
             <text x={x + d / 2} y={y - d / 2 + 3}>
-              {i}
+              {i + 3567}
             </text>
           </g>
         ))}

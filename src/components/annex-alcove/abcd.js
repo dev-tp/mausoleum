@@ -217,7 +217,7 @@ export default function ABCD() {
           <g key={i} onClick={(event) => console.log(event)}>
             <path d={`m${x} ${y}v-${d}h${d}v${d}z`} />
             <text x={x + d / 2} y={y - d / 2 + 3}>
-              {i}
+              {i + 2583}
             </text>
           </g>
         ))}

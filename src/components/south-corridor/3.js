@@ -69,7 +69,7 @@ export default function SouthCorridor3() {
           <g key={i} onClick={() => console.log(i)}>
             <path d={`m${x} ${y}v-${d}h${d}v${d}z`} />
             <text x={x + d / 2} y={y - d / 2 + 3}>
-              {i}
+              {i + 4751}
             </text>
           </g>
         ))}
