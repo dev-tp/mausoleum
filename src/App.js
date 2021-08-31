@@ -27,11 +27,12 @@ import CorridorFNorth from './components/corridor-f/north';
 import CorridorFSouth from './components/corridor-f/south';
 import GrandFoyer from './components/grand-foyer';
 import LambOfGodAlcove from './components/lamb-of-god-alcove';
+import Mausoleum from './components/mausoleum';
 import NorthCorridor1 from './components/north-corridor/1';
 import NorthCorridor2 from './components/north-corridor/2';
 import NorthCorridor3 from './components/north-corridor/3';
-import PresentationAlcoveAF from './components/presentation-alcove/a-f';
 import PresentationAlcoveAAHH from './components/presentation-alcove/aa-hh';
+import PresentationAlcoveAF from './components/presentation-alcove/a-f';
 import PresentationAlcoveGL from './components/presentation-alcove/g-l';
 import PresentationAlcoveMR from './components/presentation-alcove/m-r';
 import PresentationAlcoveSX from './components/presentation-alcove/s-x';
@@ -50,8 +51,8 @@ import SouthCorridor2 from './components/south-corridor/2';
 import SouthCorridor3 from './components/south-corridor/3';
 import StCeciliaAlcove from './components/st-cecilia-alcove';
 import StJohnAlcove from './components/st-john-alcove';
-import TempleAlcoveAF from './components/temple-alcove/a-f';
 import TempleAlcoveAAHH from './components/temple-alcove/aa-hh';
+import TempleAlcoveAF from './components/temple-alcove/a-f';
 import TempleAlcoveGL from './components/temple-alcove/g-l';
 import TempleAlcoveMR from './components/temple-alcove/m-r';
 import TempleAlcoveSX from './components/temple-alcove/s-x';
@@ -354,7 +355,7 @@ export default function App() {
           </Route>
         ))}
         <Route path="/">
-          <p>Home</p>
+          <Mausoleum />
         </Route>
       </Switch>
     </div>
