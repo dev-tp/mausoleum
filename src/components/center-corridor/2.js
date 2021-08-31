@@ -1,3 +1,5 @@
+import SVG from '../SVG';
+
 const paths = [
   [155, 350, 80, 50, '204A'],
   [155, 300, 80, 50, '204B'],
@@ -45,13 +47,7 @@ const paths = [
 
 export default function CenterCorridor2() {
   return (
-    <svg
-      height="1080"
-      version="1.1"
-      viewBox="0 0 1920 1080"
-      width="1920"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <SVG>
       <g>
         <path d="m50 345h50v5h-50z" />
         <path d="m50 345v-120h50v120z" />
@@ -368,6 +364,6 @@ export default function CenterCorridor2() {
           </g>
         ))}
       </g>
-    </svg>
+    </SVG>
   );
 }

@@ -1,3 +1,5 @@
+import SVG from '../SVG';
+
 const paths = [
   [840, 700, 40],
   [880, 700, 40],
@@ -51,13 +53,7 @@ const paths = [
 
 export default function SouthCorridor3() {
   return (
-    <svg
-      height="1080"
-      version="1.1"
-      viewBox="0 0 1920 1080"
-      width="1920"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <SVG>
       <g>
         <path d="m820 380h20v320h-20z" />
         <path d="m820 380v-10h280v10z" />
@@ -74,6 +70,6 @@ export default function SouthCorridor3() {
           </g>
         ))}
       </g>
-    </svg>
+    </SVG>
   );
 }

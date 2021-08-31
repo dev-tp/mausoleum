@@ -1,3 +1,8 @@
+import { useLocation } from 'react-router-dom';
+import Hammer from 'hammerjs';
+import React from 'react';
+import svgPanZoom from 'svg-pan-zoom';
+
 const customEventsHandler = {
   haltEventListeners: [
     'touchcancel',
@@ -56,10 +61,33 @@ const customEventsHandler = {
   },
 };
 
-svgPanZoom('#svg', {
-  center: 1,
-  controlIconsEnabled: false,
-  customEventsHandler,
-  fit: 1,
-  zoomEnabled: true,
-});
+export default function SVG(props) {
+  const location = useLocation();
+  const ref = React.useRef(null);
+
+  React.useEffect(() => {
+    if (ref.current) {
+      svgPanZoom(ref.current, {
+        center: 1,
+        controlIconsEnabled: false,
+        customEventsHandler,
+        fit: 1,
+        zoomEnabled: true,
+      });
+    }
+  }, [location]);
+
+  return (
+    <svg
+      height="1080"
+      ref={ref}
+      version="1.1"
+      viewBox="0 0 1920 1080"
+      width="1920"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      {props.children}
+    </svg>
+  );
+}

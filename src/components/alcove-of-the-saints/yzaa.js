@@ -1,3 +1,5 @@
+import SVG from '../SVG';
+
 const paths = [
   [345.5, 780.5, 60],
   [405.5, 780.5, 60],
@@ -211,13 +213,7 @@ const paths = [
 
 export default function YZAA() {
   return (
-    <svg
-      height="1080"
-      version="1.1"
-      viewBox="0 0 1920 1080"
-      width="1920"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <SVG>
       <g>
         <path d="m305.5 290.5h350v10h-350z" />
         <path d="m305.5 300.5v480h40v-480z" />
@@ -242,6 +238,6 @@ export default function YZAA() {
           </g>
         ))}
       </g>
-    </svg>
+    </SVG>
   );
 }

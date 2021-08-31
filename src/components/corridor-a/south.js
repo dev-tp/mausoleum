@@ -1,3 +1,5 @@
+import SVG from '../SVG';
+
 const paths = [
   [1402.5, 902.5, '51A'],
   [1327.5, 902.5, '52A'],
@@ -98,13 +100,7 @@ const paths = [
 
 export default function CorridorASouth() {
   return (
-    <svg
-      height="1080"
-      version="1.1"
-      viewBox="0 0 1920 1080"
-      width="1920"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <SVG>
       <g>
         <path d="m402.5 652.5v-10h50v10z" />
         <path d="m402.5 702.5v-50h50v50z" />
@@ -171,6 +167,6 @@ export default function CorridorASouth() {
           </g>
         ))}
       </g>
-    </svg>
+    </SVG>
   );
 }

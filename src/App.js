@@ -1,5 +1,4 @@
 import { Link, Route, Switch } from 'react-router-dom';
-import React from 'react';
 
 import AlcoveOfTheSaintsABCD from './components/alcove-of-the-saints/abcd';
 import AlcoveOfTheSaintsEFG from './components/alcove-of-the-saints/efg';
@@ -334,17 +333,6 @@ const components = [
 ];
 
 export default function App() {
-  // React.useEffect(() => {
-  //   const script = document.createElement('script');
-
-  //   script.src = '/js/script.js';
-  //   script.async = true;
-
-  //   document.body.appendChild(script);
-
-  //   return () => document.body.removeChild(script);
-  // }, []);
-
   return (
     <div className="App">
       <nav>

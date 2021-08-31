@@ -1,3 +1,5 @@
+import SVG from '../SVG';
+
 const paths = [
   [184, 442.5, '164A'],
   [184, 392.5, '164B'],
@@ -51,7 +53,7 @@ const paths = [
 
 export default function SouthCorridor1() {
   return (
-    <svg
+    <SVG
       height="1080"
       version="1.1"
       viewBox="0 0 2048 1080"
@@ -262,6 +264,6 @@ export default function SouthCorridor1() {
           </g>
         ))}
       </g>
-    </svg>
+    </SVG>
   );
 }

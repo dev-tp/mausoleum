@@ -1,12 +1,8 @@
+import SVG from '../SVG';
+
 export default function PrivateChapelNorth() {
   return (
-    <svg
-      height="1080"
-      version="1.1"
-      viewBox="0 0 1920 1080"
-      width="1920"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <SVG>
       <g>
         <path d="m440 680h140v-269.94l-20-0.05873v-10h-100v10h-20z" />
         <path d="m440 410h70v10h-70z" />
@@ -184,6 +180,6 @@ export default function PrivateChapelNorth() {
           7E
         </text>
       </g>
-    </svg>
+    </SVG>
   );
 }

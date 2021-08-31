@@ -1,3 +1,5 @@
+import SVG from './SVG';
+
 const paths = [
   [955, 665, '187A'],
   [955, 615, '187B'],
@@ -71,13 +73,7 @@ const paths = [
 
 export default function LambOfGodAlcove() {
   return (
-    <svg
-      height="1080"
-      version="1.1"
-      viewBox="0 0 1920 1080"
-      width="1920"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <SVG>
       <g>
         <path d="m585 455h70v10h-70z" />
         <path d="m585 465h10v75h-10z" />
@@ -134,6 +130,6 @@ export default function LambOfGodAlcove() {
           </g>
         ))}
       </g>
-    </svg>
+    </SVG>
   );
 }

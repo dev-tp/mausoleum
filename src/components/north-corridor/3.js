@@ -1,3 +1,5 @@
+import SVG from '../SVG';
+
 const paths = [
   [820, 680, 40],
   [860, 680, 40],
@@ -59,13 +61,7 @@ const paths = [
 
 export default function NorthCorridor3() {
   return (
-    <svg
-      height="1080"
-      version="1.1"
-      viewBox="0 0 1920 1080"
-      width="1920"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <SVG>
       <g>
         <path d="m800 360h20v360h-20z" />
         <path d="m800 360v-10h320v10z" />
@@ -89,6 +85,6 @@ export default function NorthCorridor3() {
           </g>
         ))}
       </g>
-    </svg>
+    </SVG>
   );
 }

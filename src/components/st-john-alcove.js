@@ -1,3 +1,5 @@
+import SVG from './SVG';
+
 const paths = [
   [720, 680, 40],
   [760, 680, 40],
@@ -83,13 +85,7 @@ const paths = [
 
 export default function StJohnAlcove() {
   return (
-    <svg
-      height="1080"
-      version="1.1"
-      viewBox="0 0 1920 1080"
-      width="1920"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <SVG>
       <g>
         <path d="m720 720v-40h40v40z" />
         <path d="m760 720v-40h40v40z" />
@@ -120,6 +116,6 @@ export default function StJohnAlcove() {
           </g>
         ))}
       </g>
-    </svg>
+    </SVG>
   );
 }

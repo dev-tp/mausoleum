@@ -1,3 +1,5 @@
+import SVG from '../SVG';
+
 const paths = [
   [440.5, 780.5, 60],
   [500.5, 780.5, 60],
@@ -187,14 +189,7 @@ const paths = [
 
 export default function KLM() {
   return (
-    <svg
-      height="1080"
-      id="svg"
-      version="1.1"
-      viewBox="0 0 1920 1080"
-      width="1920"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <SVG>
       <g>
         <path d="m430.5 300.5v-10h140v10z" />
         <path d="m430.5 790.5v-10h140v10z" />
@@ -219,6 +214,6 @@ export default function KLM() {
           </g>
         ))}
       </g>
-    </svg>
+    </SVG>
   );
 }

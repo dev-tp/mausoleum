@@ -1,3 +1,5 @@
+import SVG from '../SVG';
+
 const paths = [
   [1080, 645, '88A'],
   [1080, 595, '88B'],
@@ -15,13 +17,7 @@ const paths = [
 
 export default function PrivateRoomE() {
   return (
-    <svg
-      height="1080"
-      version="1.1"
-      viewBox="0 0 1920 1080"
-      width="1920"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <SVG>
       <g>
         <path d="m1200 520h10v125h-10z" />
         <path d="m710 435h70v10h-70z" />
@@ -61,6 +57,6 @@ export default function PrivateRoomE() {
           </g>
         ))}
       </g>
-    </svg>
+    </SVG>
   );
 }

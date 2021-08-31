@@ -1,3 +1,5 @@
+import SVG from '../SVG';
+
 const paths = [
   [510, 480, 40],
   [550, 480, 40],
@@ -74,13 +76,7 @@ const paths = [
 ];
 export default function PresentationAlcoveAaHh() {
   return (
-    <svg
-      height="1080"
-      version="1.1"
-      viewBox="0 0 1920 1080"
-      width="1920"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <SVG>
       <g>
         <path d="m510 400h-20v80h20z" />
         <path d="m490 400v-10h120v10z" />
@@ -125,6 +121,6 @@ export default function PresentationAlcoveAaHh() {
           </g>
         ))}
       </g>
-    </svg>
+    </SVG>
   );
 }

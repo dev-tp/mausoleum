@@ -1,3 +1,5 @@
+import SVG from './SVG';
+
 const paths = [
   [220, 410, 40],
   [260, 410, 40],
@@ -381,13 +383,7 @@ const paths = [
 
 export default function StCeciliaAlcove() {
   return (
-    <svg
-      height="1080"
-      version="1.1"
-      viewBox="0 0 1920 1080"
-      width="1920"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <SVG>
       <g>
         <path d="m220 490v-40h40v40z" />
         <path d="m260 490v-40h40v40z" />
@@ -466,6 +462,6 @@ export default function StCeciliaAlcove() {
           </g>
         ))}
       </g>
-    </svg>
+    </SVG>
   );
 }
