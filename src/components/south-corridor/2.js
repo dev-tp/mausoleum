@@ -43,14 +43,6 @@ const paths = [
   [1440.5, 712.5, '306B'],
   [1440.5, 662.5, '306C'],
   [1440.5, 612.5, '306D'],
-  [1650.5, 817.5, '307A'],
-  [1650.5, 767.5, '307B'],
-  [1650.5, 717.5, '307C'],
-  [1650.5, 667.5, '307D'],
-  [1590.5, 817.5, '308A'],
-  [1590.5, 767.5, '308B'],
-  [1590.5, 717.5, '308C'],
-  [1590.5, 667.5, '308D'],
 ];
 
 export default function SouthCorridor2() {
@@ -252,6 +244,38 @@ export default function SouthCorridor2() {
             </text>
           </g>
         ))}
+        <path d="m1650.5 817.5v-50h60v50z" />
+        <text className="text-align-start" x="1658.5" y="806.5">
+          307A
+        </text>
+        <path d="m1650.5 767.5v-50h60v50z" />
+        <text className="text-align-start" x="1658.5" y="756.5">
+          307B
+        </text>
+        <path d="m1650.5 717.5v-50h60v50z" />
+        <text className="text-align-start" x="1658.5" y="706.5">
+          307C
+        </text>
+        <path d="m1650.5 667.5v-50h60v50z" />
+        <text className="text-align-start" x="1658.5" y="656.5">
+          307D
+        </text>
+        <path d="m1590.5 817.5v-50h60v50z" />
+        <text className="text-align-start" x="1598.5" y="806.5">
+          308A
+        </text>
+        <path d="m1590.5 767.5v-50h60v50z" />
+        <text className="text-align-start" x="1598.5" y="756.5">
+          308B
+        </text>
+        <path d="m1590.5 717.5v-50h60v50z" />
+        <text className="text-align-start" x="1598.5" y="706.5">
+          308C
+        </text>
+        <path d="m1590.5 667.5v-50h60v50z" />
+        <text className="text-align-start" x="1598.5" y="656.5">
+          308D
+        </text>
       </g>
     </svg>
   );
