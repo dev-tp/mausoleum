@@ -1,4 +1,14 @@
 import { Link, Route, Switch } from 'react-router-dom';
+import { makeStyles } from '@material-ui/core';
+import Add from '@material-ui/icons/Add';
+import ArrowBack from '@material-ui/icons/ArrowBack';
+import Fab from '@material-ui/core/Fab';
+import IconButton from '@material-ui/core/IconButton';
+import InputBase from '@material-ui/core/InputBase';
+import Paper from '@material-ui/core/Paper';
+import React from 'react';
+import Search from '@material-ui/icons/Search';
+import Typography from '@material-ui/core/Typography';
 
 import AlcoveOfTheSaintsABCD from './components/alcove-of-the-saints/abcd';
 import AlcoveOfTheSaintsEFG from './components/alcove-of-the-saints/efg';
@@ -56,8 +66,6 @@ import TempleAlcoveAF from './components/temple-alcove/a-f';
 import TempleAlcoveGL from './components/temple-alcove/g-l';
 import TempleAlcoveMR from './components/temple-alcove/m-r';
 import TempleAlcoveSX from './components/temple-alcove/s-x';
-
-import './App.css';
 
 const components = [
   {
@@ -333,25 +341,84 @@ const components = [
   },
 ];
 
+const styles = makeStyles((theme) => ({
+  addButton: {
+    background: theme.palette.primary.main,
+    bottom: theme.spacing(2),
+    color: theme.palette.primary.contrastText,
+    position: 'absolute',
+    right: theme.spacing(2),
+  },
+  searchBar: {
+    display: 'flex',
+    paddingLeft: theme.spacing(2),
+    width: '25%',
+  },
+  searchBarInput: {
+    flexGrow: 1,
+  },
+  searchBarWrapper: {
+    display: 'flex',
+    justifyContent: 'center',
+    position: 'absolute',
+    top: theme.spacing(2),
+    width: '100%',
+  },
+  returnButtonWrapper: {
+    left: theme.spacing(2),
+    position: 'absolute',
+    top: theme.spacing(2),
+  },
+  root: {
+    alignItems: 'center',
+    display: 'flex',
+    height: '100%',
+  },
+  titleWrapper: {
+    bottom: theme.spacing(2),
+    display: 'flex',
+    justifyContent: 'center',
+    position: 'absolute',
+    width: '100%',
+  },
+}));
+
 export default function App() {
+  const classes = styles();
+
   return (
-    <div className="App">
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          {components.map((component, i) => (
-            <li key={i}>
-              <Link to={component.path}>{component.label}</Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
+    <div className={classes.root}>
+      <div className={classes.searchBarWrapper}>
+        <Paper className={classes.searchBar} elevation={2}>
+          <InputBase
+            className={classes.searchBarInput}
+            margin="dense"
+            placeholder="Search"
+          />
+          <IconButton>
+            <Search />
+          </IconButton>
+        </Paper>
+      </div>
       <Switch>
         {components.map((component, i) => (
           <Route key={i} path={component.path}>
-            {component.render}
+            <div>
+              <Link className={classes.returnButtonWrapper} to="/">
+                <IconButton>
+                  <ArrowBack />
+                </IconButton>
+              </Link>
+              {component.render()}
+              <div className={classes.titleWrapper}>
+                <Typography component="span" style={{ background: '#fff' }}>
+                  {component.label}
+                </Typography>
+              </div>
+            </div>
+            <Fab className={classes.addButton}>
+              <Add />
+            </Fab>
           </Route>
         ))}
         <Route path="/">
