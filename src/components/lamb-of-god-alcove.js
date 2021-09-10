@@ -119,11 +119,11 @@ export default function LambOfGodAlcove() {
               }`}
             />
             {typeof label === 'string' ? (
-              <text x={x + 30} y={y - 10}>
+              <text textAnchor="start" x={x + 10} y={y - 10}>
                 {label}
               </text>
             ) : (
-              <text x={x + 30 / 2} y={y - 30 / 2 + 5}>
+              <text textAnchor="middle" x={x + 30 / 2} y={y - 30 / 2 + 5}>
                 {i - 12 + 463}
               </text>
             )}

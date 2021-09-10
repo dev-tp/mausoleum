@@ -68,7 +68,7 @@ export default function GrandFoyer() {
         {paths.map(([x, y, label]) => (
           <g key={label} onClick={() => console.log(label)}>
             <path d={`m${x} ${y}h120v-50h-120z`} />
-            <text x={x + 30} y={y - 10}>
+            <text textAnchor="start" x={x + 10} y={y - 10}>
               {label}
             </text>
           </g>

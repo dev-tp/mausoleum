@@ -258,7 +258,7 @@ export default function NorthCorridor2() {
         {paths.map(([x, y, label]) => (
           <g key={label} onClick={() => console.log(label)}>
             <path d={`m${x} ${y}v50m-70-50v50m-50-50h170v50h-170z`} />
-            <text className="text-align-start" x={x - 60} y={y + 40}>
+            <text textAnchor="start" x={x - 60} y={y + 40}>
               {label}
             </text>
           </g>

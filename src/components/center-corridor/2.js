@@ -358,7 +358,7 @@ export default function CenterCorridor2() {
         {paths.map(([x, y, w, h, label]) => (
           <g key={label} onClick={() => console.log(label)}>
             <path d={`m${x} ${y}h${w}v${h}h-${w}z`} />
-            <text x={x + h / 2} y={y + h / 2 + 10}>
+            <text textAnchor="middle" x={x + h / 2} y={y + h / 2 + 10}>
               {label}
             </text>
           </g>

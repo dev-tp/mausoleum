@@ -64,7 +64,7 @@ export default function SouthCorridor3() {
         {paths.map(([x, y, d], i) => (
           <g key={i} onClick={() => console.log(i)}>
             <path d={`m${x} ${y}v-${d}h${d}v${d}z`} />
-            <text x={x + d / 2} y={y - d / 2 + 3}>
+            <text textAnchor="middle" x={x + d / 2} y={y - d / 2 + 3}>
               {i + 4751}
             </text>
           </g>

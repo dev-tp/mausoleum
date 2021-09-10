@@ -152,7 +152,7 @@ export default function CorridorCSouth() {
         {paths.map(([x, y, label]) => (
           <g key={label} onClick={() => console.log(label)}>
             <path d={`m${x} ${y}v-50h75v50z`} />
-            <text x={x + 20} y={y - 10}>
+            <text textAnchor="middle" x={x + 20} y={y - 10}>
               {label}
             </text>
           </g>

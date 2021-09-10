@@ -456,7 +456,7 @@ export default function StCeciliaAlcove() {
         {paths.map(([x, y, d], i) => (
           <g key={i} onClick={() => console.log(i + 1)}>
             <path d={`m${x} ${y}h${d}v${d}h-${d}z`} />
-            <text x={x + d / 2} y={y + d / 2 + 3}>
+            <text textAnchor="middle" x={x + d / 2} y={y + d / 2 + 3}>
               {i + 1}
             </text>
           </g>
