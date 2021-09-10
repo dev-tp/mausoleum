@@ -352,17 +352,12 @@ const styles = makeStyles((theme) => ({
   searchBar: {
     display: 'flex',
     paddingLeft: theme.spacing(2),
+    position: 'absolute',
+    top: theme.spacing(2),
     width: '25%',
   },
   searchBarInput: {
     flexGrow: 1,
-  },
-  searchBarWrapper: {
-    display: 'flex',
-    justifyContent: 'center',
-    position: 'absolute',
-    top: theme.spacing(2),
-    width: '100%',
   },
   returnButtonWrapper: {
     left: theme.spacing(2),
@@ -373,6 +368,7 @@ const styles = makeStyles((theme) => ({
     alignItems: 'center',
     display: 'flex',
     height: '100%',
+    justifyContent: 'center',
   },
   titleWrapper: {
     bottom: theme.spacing(2),
@@ -388,22 +384,20 @@ export default function App() {
 
   return (
     <div className={classes.root}>
-      <div className={classes.searchBarWrapper}>
-        <Paper className={classes.searchBar} elevation={2}>
-          <InputBase
-            className={classes.searchBarInput}
-            margin="dense"
-            placeholder="Search"
-          />
-          <IconButton>
-            <Search />
-          </IconButton>
-        </Paper>
-      </div>
+      <Paper className={classes.searchBar} elevation={2}>
+        <InputBase
+          className={classes.searchBarInput}
+          margin="dense"
+          placeholder="Search"
+        />
+        <IconButton>
+          <Search />
+        </IconButton>
+      </Paper>
       <Switch>
-        {components.map((component, i) => (
-          <Route key={i} path={component.path}>
-            <div>
+        {components.map((component) => (
+          <Route key={component.path} path={component.path}>
+            <div style={{ width: '100%' }}>
               <Link className={classes.returnButtonWrapper} to="/">
                 <IconButton>
                   <ArrowBack />
