@@ -68,16 +68,16 @@ export default function Mausoleum() {
         <Link to="/">
           <path d="m1089 792.06v27l10 0.99999 23 57-25 8-11-29-17-2 0.9999-8-15-1 1-4-52-6-2 6-14-2-0.99998 7-8-1-0.99998 10-6-1 0.99999-7-77-7-6 58 77 7 0.99998-10h6l-0.99998 10h8l-1 8 15 1-0.99998 5h-6l-4 49 61 5 6-49h-5l1-5 14 0.99998 1.0001-6 47 4 26-9 1.9999 5 7-4 28 73h29v-50h-10l1.0001-106h-35v-4h-13v-31z" />
         </Link>
-        <Link to="/">
+        <Link to="/presentation-alcove/s-x">
           <path d="m1282 835.06h-48v28h27v18h-27v27h48z" />
         </Link>
-        <Link to="/">
+        <Link to="/presentation-alcove/m-r">
           <path d="m1282 926.06h-48v28l48 4e-5z" />
         </Link>
-        <Link to="/">
+        <Link to="/presentation-alcove/m-r">
           <path d="m1282 972.06h-48v28h48z" />
         </Link>
-        <Link to="/">
+        <Link to="/presentation-alcove/aa-hh">
           <path d="m1285 814.06h7v-14h56l-0.1236 14h7.1238v9h3v178h-13v6.0001h-51v-6.0001h-12v-179h3z" />
         </Link>
         <Link to="/corridor-e/north">
@@ -86,22 +86,22 @@ export default function Mausoleum() {
         <Link to="/corridor-e/south">
           <path d="m1300 530.06h38v14h16v12h6v186h-6v8h-8v14h-52v-12h-10v-16h-6v-180h6v-12h16z" />
         </Link>
-        <Link to="/">
+        <Link to="/presentation-alcove/a-f">
           <path d="m1358 834.06h48v28h-27v18h27v27h-48z" />
         </Link>
-        <Link to="/">
+        <Link to="/presentation-alcove/g-l">
           <path d="m1358 925.06h48v28l-48 3e-5z" />
         </Link>
-        <Link to="/">
+        <Link to="/presentation-alcove/g-l">
           <path d="m1358 971.06h48v28h-48z" />
         </Link>
-        <Link to="/">
+        <Link to="/temple-alcove/m-r">
           <path d="m1436 924.06h48v28h-48z" />
         </Link>
-        <Link to="/">
+        <Link to="/temple-alcove/m-r">
           <path d="m1436 971.06h48v44h-48z" />
         </Link>
-        <Link to="/">
+        <Link to="/temple-alcove/s-x">
           <path d="m1484 834.06h-48v28h26v18h-26v28l48 4e-5z" />
         </Link>
         <Link to="/corridor-f/north">
@@ -110,19 +110,19 @@ export default function Mausoleum() {
         <Link to="/corridor-f/south">
           <path d="m1496 492.06h44v14h8v10h7v242h-73v-242h6v-10h7.9999z" />
         </Link>
-        <Link to="/">
+        <Link to="/temple-alcove/aa-hh">
           <path d="m1498 811.06h42v13h12v196h-8v6h-52v-6h-8v-198h14z" />
         </Link>
         <Link to="/alcove-of-the-saints/abcd">
           <path d="m1532 304.06h18v-4h168l-1e-4 40h-19.946l-0.054 5h-49l-0.083-5h-82.917v-4h-16v-6h-18z" />
         </Link>
-        <Link to="/">
+        <Link to="/temple-alcove/a-f">
           <path d="m1552 834.06h48v28h-26v18h26v28l-48 4e-5z" />
         </Link>
-        <Link to="/">
+        <Link to="/temple-alcove/g-l">
           <path d="m1552 924.06h48v28h-48z" />
         </Link>
-        <Link to="/">
+        <Link to="/temple-alcove/g-l">
           <path d="m1552 971.06h48v44h-48z" />
         </Link>
         <Link to="/">
