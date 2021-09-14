@@ -67,277 +67,277 @@ import TempleAlcoveGL from './components/temple-alcove/g-l';
 import TempleAlcoveMR from './components/temple-alcove/m-r';
 import TempleAlcoveSX from './components/temple-alcove/s-x';
 
-const components = [
+const routes = [
   {
+    component: AlcoveOfTheSaintsABCD,
     label: 'Alcove of the Saints - ABCD',
     path: '/alcove-of-the-saints/abcd',
-    render: AlcoveOfTheSaintsABCD,
   },
   {
+    component: AlcoveOfTheSaintsEFG,
     label: 'Alcove of the Saints - EFG',
     path: '/alcove-of-the-saints/efg',
-    render: AlcoveOfTheSaintsEFG,
   },
   {
+    component: AlcoveOfTheSaintsHIJ,
     label: 'Alcove of the Saints - HIJ',
     path: '/alcove-of-the-saints/hij',
-    render: AlcoveOfTheSaintsHIJ,
   },
   {
+    component: AlcoveOfTheSaintsKLM,
     label: 'Alcove of the Saints - KLM',
     path: '/alcove-of-the-saints/klm',
-    render: AlcoveOfTheSaintsKLM,
   },
   {
+    component: AlcoveOfTheSaintsNOP,
     label: 'Alcove of the Saints - NOP',
     path: '/alcove-of-the-saints/nop',
-    render: AlcoveOfTheSaintsNOP,
   },
   {
+    component: AlcoveOfTheSaintsQRS,
     label: 'Alcove of the Saints - QRS',
     path: '/alcove-of-the-saints/qrs',
-    render: AlcoveOfTheSaintsQRS,
   },
   {
+    component: AlcoveOfTheSaintsTUV,
     label: 'Alcove of the Saints - TUV',
     path: '/alcove-of-the-saints/tuv',
-    render: AlcoveOfTheSaintsTUV,
   },
   {
+    component: AlcoveOfTheSaintsWX,
     label: 'Alcove of the Saints - WX',
     path: '/alcove-of-the-saints/wx',
-    render: AlcoveOfTheSaintsWX,
   },
   {
+    component: AlcoveOfTheSaintsYZAA,
     label: 'Alcove of the Saints - YZAA',
     path: '/alcove-of-the-saints/yzaa',
-    render: AlcoveOfTheSaintsYZAA,
   },
   {
+    component: AnnexAlcoveABCD,
     label: 'Annex Alcove - ABCD',
     path: '/annex-alcove/abcd',
-    render: AnnexAlcoveABCD,
   },
   {
+    component: AnnexAlcoveEFG,
     label: 'Annex Alcove - EFG',
     path: '/annex-alcove/efg',
-    render: AnnexAlcoveEFG,
   },
   {
+    component: CenterCorridor1,
     label: 'Center Corridor - 1',
     path: '/center-corridor/1',
-    render: CenterCorridor1,
   },
   {
+    component: CenterCorridor2,
     label: 'Center Corridor - 2',
     path: '/center-corridor/2',
-    render: CenterCorridor2,
   },
   {
+    component: CorridorANorth,
     label: 'Corridor A - North',
     path: '/corridor-a/north',
-    render: CorridorANorth,
   },
   {
+    component: CorridorASouth,
     label: 'Corridor A - South',
     path: '/corridor-a/south',
-    render: CorridorASouth,
   },
   {
+    component: CorridorBNorth,
     label: 'Corridor B - North',
     path: '/corridor-b/north',
-    render: CorridorBNorth,
   },
   {
+    component: CorridorBSouth,
     label: 'Corridor B - South',
     path: '/corridor-b/south',
-    render: CorridorBSouth,
   },
   {
+    component: CorridorCNorth,
     label: 'Corridor C - North',
     path: '/corridor-c/north',
-    render: CorridorCNorth,
   },
   {
+    component: CorridorCSouth,
     label: 'Corridor C - South',
     path: '/corridor-c/south',
-    render: CorridorCSouth,
   },
   {
+    component: CorridorDNorth,
     label: 'Corridor D - North',
     path: '/corridor-d/north',
-    render: CorridorDNorth,
   },
   {
+    component: CorridorDSouth,
     label: 'Corridor D - South',
     path: '/corridor-d/south',
-    render: CorridorDSouth,
   },
   {
+    component: CorridorENorth,
     label: 'Corridor E - North',
     path: '/corridor-e/north',
-    render: CorridorENorth,
   },
   {
+    component: CorridorESouth,
     label: 'Corridor E - South',
     path: '/corridor-e/south',
-    render: CorridorESouth,
   },
   {
+    component: CorridorFNorth,
     label: 'Corridor F - North',
     path: '/corridor-f/north',
-    render: CorridorFNorth,
   },
   {
+    component: CorridorFSouth,
     label: 'Corridor F - South',
     path: '/corridor-f/south',
-    render: CorridorFSouth,
   },
-  { label: 'Grand Foyer', path: '/grand-foyer', render: GrandFoyer },
+  { component: GrandFoyer, label: 'Grand Foyer', path: '/grand-foyer' },
   {
+    component: LambOfGodAlcove,
     label: 'Lamb of God Alcove',
     path: '/lamb-of-god-alcove',
-    render: LambOfGodAlcove,
   },
   {
+    component: NorthCorridor1,
     label: 'North Corridor - 1',
     path: '/north-corridor/1',
-    render: NorthCorridor1,
   },
   {
+    component: NorthCorridor2,
     label: 'North Corridor - 2',
     path: '/north-corridor/2',
-    render: NorthCorridor2,
   },
   {
+    component: NorthCorridor3,
     label: 'North Corridor - 3',
     path: '/north-corridor/3',
-    render: NorthCorridor3,
   },
   {
+    component: PresentationAlcoveAF,
     label: 'Presentation Alcove - A - F',
     path: '/presentation-alcove/a-f',
-    render: PresentationAlcoveAF,
   },
   {
+    component: PresentationAlcoveAAHH,
     label: 'Presentation Alcove - AA - HH',
     path: '/presentation-alcove/aa-hh',
-    render: PresentationAlcoveAAHH,
   },
   {
+    component: PresentationAlcoveGL,
     label: 'Presentation Alcove - G - L',
     path: '/presentation-alcove/g-l',
-    render: PresentationAlcoveGL,
   },
   {
+    component: PresentationAlcoveMR,
     label: 'Presentation Alcove - M - R',
     path: '/presentation-alcove/m-r',
-    render: PresentationAlcoveMR,
   },
   {
+    component: PresentationAlcoveSX,
     label: 'Presentation Alcove - S - X',
     path: '/presentation-alcove/s-x',
-    render: PresentationAlcoveSX,
   },
   {
+    component: PrivateChapelNorth,
     label: 'Private Chapel - North',
     path: '/private-chapel/north',
-    render: PrivateChapelNorth,
   },
   {
+    component: PrivateChapelSouth,
     label: 'Private Chapel - South',
     path: '/private-chapel/south',
-    render: PrivateChapelSouth,
   },
   {
+    component: PrivateRoomA,
     label: 'Private Room - A',
     path: '/private-room/a',
-    render: PrivateRoomA,
   },
   {
+    component: PrivateRoomB,
     label: 'Private Room - B',
     path: '/private-room/b',
-    render: PrivateRoomB,
   },
   {
+    component: PrivateRoomC,
     label: 'Private Room - C',
     path: '/private-room/c',
-    render: PrivateRoomC,
   },
   {
+    component: PrivateRoomD,
     label: 'Private Room - D',
     path: '/private-room/d',
-    render: PrivateRoomD,
   },
   {
+    component: PrivateRoomE,
     label: 'Private Room - E',
     path: '/private-room/e',
-    render: PrivateRoomE,
   },
   {
+    component: PrivateRoomF,
     label: 'Private Room - F',
     path: '/private-room/f',
-    render: PrivateRoomF,
   },
   {
+    component: PrivateRoomG,
     label: 'Private Room - G',
     path: '/private-room/g',
-    render: PrivateRoomG,
   },
   {
+    component: PrivateRoomH,
     label: 'Private Room - H',
     path: '/private-room/h',
-    render: PrivateRoomH,
   },
   {
+    component: SouthCorridor1,
     label: 'South Corridor - 1',
     path: '/south-corridor/1',
-    render: SouthCorridor1,
   },
   {
+    component: SouthCorridor2,
     label: 'South Corridor - 2',
     path: '/south-corridor/2',
-    render: SouthCorridor2,
   },
   {
+    component: SouthCorridor3,
     label: 'South Corridor - 3',
     path: '/south-corridor/3',
-    render: SouthCorridor3,
   },
   {
+    component: StCeciliaAlcove,
     label: 'St. Cecilia Alcove',
     path: '/st-cecilia-alcove',
-    render: StCeciliaAlcove,
   },
   {
+    component: StJohnAlcove,
     label: 'St. John Alcove',
     path: '/st-john-alcove',
-    render: StJohnAlcove,
   },
   {
+    component: TempleAlcoveAF,
     label: 'Temple Alcove - A - F',
     path: '/temple-alcove/a-f',
-    render: TempleAlcoveAF,
   },
   {
+    component: TempleAlcoveAAHH,
     label: 'Temple Alcove - AA - HH',
     path: '/temple-alcove/aa-hh',
-    render: TempleAlcoveAAHH,
   },
   {
+    component: TempleAlcoveGL,
     label: 'Temple Alcove - G - L',
     path: '/temple-alcove/g-l',
-    render: TempleAlcoveGL,
   },
   {
+    component: TempleAlcoveMR,
     label: 'Temple Alcove - M - R',
     path: '/temple-alcove/m-r',
-    render: TempleAlcoveMR,
   },
   {
+    component: TempleAlcoveSX,
     label: 'Temple Alcove - S - X',
     path: '/temple-alcove/s-x',
-    render: TempleAlcoveSX,
   },
 ];
 
@@ -395,18 +395,18 @@ export default function App() {
         </IconButton>
       </Paper>
       <Switch>
-        {components.map((component) => (
-          <Route key={component.path} path={component.path}>
+        {routes.map((route) => (
+          <Route key={route.path} path={route.path}>
             <div style={{ width: '100%' }}>
               <Link className={classes.returnButtonWrapper} to="/">
                 <IconButton>
                   <ArrowBack />
                 </IconButton>
               </Link>
-              {component.render()}
+              {route.component()}
               <div className={classes.titleWrapper}>
                 <Typography component="span" style={{ background: '#fff' }}>
-                  {component.label}
+                  {route.label}
                 </Typography>
               </div>
             </div>
