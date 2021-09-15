@@ -19,6 +19,19 @@ text {
   stroke-width: 0.1px;
 }
 
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.fade-exit {
+  opacity: 0;
+}
+
 #root {
   height: 100%;
 }

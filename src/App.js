@@ -1,4 +1,5 @@
-import { Link, Route, Switch } from 'react-router-dom';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import { Link, Route, Switch, useLocation } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core';
 import ArrowBack from '@material-ui/icons/ArrowBack';
 import IconButton from '@material-ui/core/IconButton';
@@ -337,29 +338,31 @@ const routes = [
     label: 'Temple Alcove - S - X',
     path: '/temple-alcove/s-x',
   },
+  {
+    component: Mausoleum,
+    label: '',
+    path: '/',
+  },
 ];
 
 const styles = makeStyles((theme) => ({
   searchBar: {
     display: 'flex',
+    left: 0,
+    margin: 'auto',
     paddingLeft: theme.spacing(2),
     position: 'absolute',
+    right: 0,
     top: theme.spacing(2),
     width: '25%',
   },
   searchBarInput: {
     flexGrow: 1,
   },
-  returnButtonWrapper: {
+  returnButton: {
     left: theme.spacing(2),
     position: 'absolute',
     top: theme.spacing(2),
-  },
-  root: {
-    alignItems: 'center',
-    display: 'flex',
-    height: '100%',
-    justifyContent: 'center',
   },
   titleWrapper: {
     bottom: theme.spacing(2),
@@ -372,10 +375,11 @@ const styles = makeStyles((theme) => ({
 
 export default function App() {
   const classes = styles();
+  const location = useLocation();
 
   return (
-    <div className={classes.root}>
-      <Paper className={classes.searchBar} elevation={2}>
+    <div>
+      <Paper className={classes.searchBar} elevation={1}>
         <InputBase
           className={classes.searchBarInput}
           margin="dense"
@@ -385,28 +389,38 @@ export default function App() {
           <Search />
         </IconButton>
       </Paper>
-      <Switch>
-        {routes.map((route) => (
-          <Route key={route.path} path={route.path}>
-            <div style={{ width: '100%' }}>
-              <Link className={classes.returnButtonWrapper} to="/">
-                <IconButton>
-                  <ArrowBack />
-                </IconButton>
-              </Link>
-              {route.component()}
-              <div className={classes.titleWrapper}>
-                <Typography component="span" style={{ background: '#fff' }}>
-                  {route.label}
-                </Typography>
-              </div>
-            </div>
-          </Route>
-        ))}
-        <Route path="/">
-          <Mausoleum />
-        </Route>
-      </Switch>
+      <TransitionGroup>
+        <CSSTransition classNames="fade" key={location.key} timeout={500}>
+          <Switch switch={location}>
+            {routes.map((route) => (
+              <Route exact key={route.path} path={route.path}>
+                <div>
+                  {route.path !== '/' && (
+                    <>
+                      <IconButton
+                        className={classes.returnButton}
+                        component={Link}
+                        to="/"
+                      >
+                        <ArrowBack />
+                      </IconButton>
+                      <div className={classes.titleWrapper}>
+                        <Typography
+                          component="span"
+                          style={{ background: '#fff' }}
+                        >
+                          {route.label}
+                        </Typography>
+                      </div>
+                    </>
+                  )}
+                  <route.component />
+                </div>
+              </Route>
+            ))}
+          </Switch>
+        </CSSTransition>
+      </TransitionGroup>
     </div>
   );
 }
