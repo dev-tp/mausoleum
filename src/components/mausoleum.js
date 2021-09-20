@@ -116,9 +116,10 @@ export default function Mausoleum() {
             d="m1089 792.06v27l10 0.99999 23 57-25 8-11-29-17-2 0.9999-8-15-1 1-4-52-6-2 6-14-2-0.99998 7-8-1-0.99998 10-6-1 0.99999-7-77-7-6 58 77 7 0.99998-10h6l-0.99998 10h8l-1 8 15 1-0.99998 5h-6l-4 49 61 5 6-49h-5l1-5 14 0.99998 1.0001-6 47 4 26-9 1.9999 5 7-4 28 73h29v-50h-10l1.0001-106h-35v-4h-13v-31z"
             onClick={() =>
               openMenuDialog([
+                { label: 'Lamb of God Alcove', path: '/lamb-of-god-alcove' },
                 { label: 'Private Room - G', path: '/private-room/g' },
                 { label: 'Private Room - H', path: '/private-room/h' },
-                { label: 'Lamb of God Alcove', path: '/lamb-of-god-alcove' },
+                { label: 'St. John Alcove', path: '/st-john-alcove' },
               ])
             }
           />
