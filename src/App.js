@@ -364,12 +364,12 @@ const styles = makeStyles((theme) => ({
     position: 'absolute',
     top: theme.spacing(2),
   },
-  titleWrapper: {
+  title: {
+    background: '#fff',
     bottom: theme.spacing(2),
-    display: 'flex',
-    justifyContent: 'center',
+    left: '50%',
     position: 'absolute',
-    width: '100%',
+    transform: 'translate(-50%)',
   },
 }));
 
@@ -404,14 +404,9 @@ export default function App() {
                       >
                         <ArrowBack />
                       </IconButton>
-                      <div className={classes.titleWrapper}>
-                        <Typography
-                          component="span"
-                          style={{ background: '#fff' }}
-                        >
-                          {route.label}
-                        </Typography>
-                      </div>
+                      <Typography className={classes.title}>
+                        {route.label}
+                      </Typography>
                     </>
                   )}
                   <route.component />
