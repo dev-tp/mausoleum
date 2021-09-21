@@ -70,6 +70,7 @@ export default function Mausoleum() {
             d="m464 309.06v-43l16-2v-4l50-5v4l17-0.99998v6l65-6-4-24 60-8 2 8 98-10v-6l76-8 2 24 26-2 4e-5 -7 14-1.1765v-5.8235l50-4 0.99999 5 15-1v6l122-10v-6.7647l14-1.2353v-8l50-4 1.0001 7.5 15-1.5001v6l122-9.8235v-6.7647l16-1.4118-5e-4 -8 50-4 1 7 15-0.82348v5.8235l120-14v12h18v-22l30-4v-10l54-5-5.0001 37h-9l-4 48h-20v-4h-64v10l-118 2-82 18-122 2-82 18h-120l-82 18h-124l-80 14-120 1z"
             onClick={() =>
               openMenuDialog([
+                { label: 'Crucifixion Alcove', path: '/crucifixion-alcove' },
                 { label: 'North Corridor - 1', path: '/north-corridor/1' },
                 { label: 'North Corridor - 2', path: '/north-corridor/2' },
                 { label: 'North Corridor - 3', path: '/north-corridor/3' },

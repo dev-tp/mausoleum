@@ -34,6 +34,7 @@ import CorridorENorth from './components/corridor-e/north';
 import CorridorESouth from './components/corridor-e/south';
 import CorridorFNorth from './components/corridor-f/north';
 import CorridorFSouth from './components/corridor-f/south';
+import CrucifixionAlcove from './components/crucifixion-alcove';
 import GrandFoyer from './components/grand-foyer';
 import LambOfGodAlcove from './components/lamb-of-god-alcove';
 import Mausoleum from './components/mausoleum';
@@ -191,6 +192,11 @@ const routes = [
     component: CorridorFSouth,
     label: 'Corridor F - South',
     path: '/corridor-f/south',
+  },
+  {
+    component: CrucifixionAlcove,
+    label: 'Crucifixion Alcove',
+    path: '/crucifixion-alcove',
   },
   { component: GrandFoyer, label: 'Grand Foyer', path: '/grand-foyer' },
   {
