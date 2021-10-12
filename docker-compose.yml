@@ -1,0 +1,31 @@
+version: '3.3'
+
+services:
+  database:
+    build: ./database
+    environment:
+      - MYSQL_ROOT_PASSWORD
+      - MYSQL_USER
+      - MYSQL_PASSWORD
+      - MYSQL_DATABASE
+    # ports:
+    #   - '3306:3306'
+    restart: always
+    volumes:
+      - ./database/backup:/backup/
+  web:
+    build: ./web
+    environment:
+      - MYSQL_HOST
+      - MYSQL_DATABASE
+      - MYSQL_USER
+      - MYSQL_PASSWORD
+      - NODE_ENV
+    links:
+      - database
+    ports:
+      - '3000:3000'
+      - '8080:8080'
+    restart: always
+    volumes:
+      - ./web:/app
