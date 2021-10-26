@@ -1,6 +1,6 @@
 FROM node
 
-WORKDIR /app/
+WORKDIR /root/
 
 EXPOSE 8080
 
