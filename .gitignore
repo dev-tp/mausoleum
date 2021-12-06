@@ -2,4 +2,5 @@ __MACOSX
 .DS_Store
 .vs
 .vscode
+crypts_and_niches.csv
 node_modules
