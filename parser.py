@@ -1,6 +1,52 @@
 import os
+import subprocess
 
+from string import Template
 from xml.etree import ElementTree
+
+namespace = 'http://www.w3.org/2000/svg'
+prefix = '{' + namespace + '}'
+
+
+def create_js_file(svg_file_name):
+    ElementTree.register_namespace('', namespace)
+    tree = ElementTree.parse(svg_file_name)
+
+    root = tree.getroot()
+    root.attrib.clear()
+    root.tag = 'SVG'
+
+    target = None
+
+    for child in root:
+        if child.tag == f"{prefix}g":
+            target = child
+        elif child.tag == f"{prefix}style":
+            root.remove(child)
+
+    target.clear()
+    target.text = "{console.log('Hello, World!')}"
+
+    with open('template.js') as template_file:
+        file_name = generate_js_file_path(svg_file_name)
+        function_name = file_name.replace('/', '').replace('-', '')
+
+        template = Template(template_file.read())
+
+        with open(f"{function_name}.js", 'w') as javascript_file:
+            result = template.substitute({
+                'functionName': function_name,
+                'body': ElementTree.tostring(root, 'unicode', 'xml'),
+            })
+
+            javascript_file.write(result)
+
+
+def generate_js_file_path(svg_file_name):
+    tokens = svg_file_name.replace('.svg', '').split(' - ', 1)
+    tokens[0] = tokens[0].title()
+
+    return '/'.join(token.replace(' ', '') for token in tokens)
 
 
 def generate_uri(svg_file_name):
@@ -13,10 +59,8 @@ def generate_uri(svg_file_name):
 
 
 def get_crypts_and_niches(svg_file_name):
-    prefix = '{http://www.w3.org/2000/svg}'
-    uri = generate_uri(svg_file_name)
-
     root = ElementTree.parse(svg_file_name).getroot()
+    uri = generate_uri(svg_file_name)
 
     # Crypts and niches are encapsuled in the last g-tag
     target = [child for child in root if child.tag == f"{prefix}g"][-1]
@@ -48,6 +92,10 @@ def main():
         for file_name in file_names:
             for line in get_crypts_and_niches(file_name):
                 csv_file.write(line + '\n')
+
+            create_js_file(file_name)
+
+    subprocess.call(['prettier', '--write', '.'])
 
 
 if __name__ == '__main__':
