@@ -64,7 +64,7 @@ def get_crypts_and_niches(svg_file_name):
     # Crypts and niches are encapsuled in the last g-tag
     target = [child for child in root if child.tag == f"{prefix}g"][-1]
 
-    d, x, y = None, None, None
+    d, x, y, text = None, None, None, None
     lines = []
 
     for child in target:
@@ -73,10 +73,11 @@ def get_crypts_and_niches(svg_file_name):
         elif child.tag == f"{prefix}text":
             x = child.attrib['x']
             y = child.attrib['y']
+            text = child.text
 
         if d != None and x != None and y != None:
-            lines.append(f"{uri},{d},{x},{y}")
-            d, x, y = None, None, None
+            lines.append(f"{uri},{d},{x},{y},{text}")
+            d, x, y, text = None, None, None, None
 
     return lines
 
@@ -86,7 +87,7 @@ def main():
                         if '.svg' in item and item != 'mausoleum.svg')
 
     with open('crypts_and_niches.csv', 'w') as csv_file:
-        csv_file.write('location,d,x,y\n')
+        csv_file.write('location,d,x,y,space_number\n')
 
         for file_name in file_names:
             for line in get_crypts_and_niches(file_name):
