@@ -25,7 +25,7 @@ def create_js_file(svg_file_name):
             root.remove(child)
 
     target.clear()
-    target.text = "{console.log('Hello, World!')}"
+    target.text = '{render()}'
 
     with open('template.js') as template_file:
         file_name = generate_js_file_path(svg_file_name)
@@ -34,12 +34,11 @@ def create_js_file(svg_file_name):
         template = Template(template_file.read())
 
         with open(f"{function_name}.js", 'w') as javascript_file:
-            result = template.substitute({
-                'functionName': function_name,
+            javascript_file.write(template.substitute({
+                'name': function_name,
                 'body': ElementTree.tostring(root, 'unicode', 'xml'),
-            })
-
-            javascript_file.write(result)
+                'url': generate_uri(svg_file_name),
+            }))
 
 
 def generate_js_file_path(svg_file_name):
