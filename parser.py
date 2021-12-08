@@ -28,24 +28,29 @@ def create_js_file(svg_file_name):
     target.text = '{render()}'
 
     with open('template.js') as template_file:
-        file_name = generate_js_file_path(svg_file_name)
-        function_name = file_name.replace('/', '').replace('-', '')
-
         template = Template(template_file.read())
 
-        with open(f"{function_name}.js", 'w') as javascript_file:
+        file_name = generate_js_file_name(svg_file_name)
+        path = f"components/{file_name}.js"
+
+        try:
+            os.makedirs(os.path.dirname(path))
+        except OSError:
+            pass
+
+        with open(path, 'w') as javascript_file:
             javascript_file.write(template.substitute({
-                'name': function_name,
+                'name': file_name,
                 'body': ElementTree.tostring(root, 'unicode', 'xml'),
                 'url': generate_uri(svg_file_name),
             }))
 
 
-def generate_js_file_path(svg_file_name):
+def generate_js_file_name(svg_file_name):
     tokens = svg_file_name.replace('.svg', '').split(' - ', 1)
     tokens[0] = tokens[0].title()
 
-    return '/'.join(token.replace(' ', '') for token in tokens)
+    return ''.join(token.replace(' ', '') for token in tokens).replace('-', '')
 
 
 def generate_uri(svg_file_name):
@@ -95,7 +100,7 @@ def main():
 
             create_js_file(file_name)
 
-    subprocess.call(['prettier', '--write', '.'])
+    subprocess.call(['prettier', '--write', './components'])
 
 
 if __name__ == '__main__':
