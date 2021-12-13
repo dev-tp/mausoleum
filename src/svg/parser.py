@@ -90,15 +90,40 @@ def get_crypts_and_niches(svg_file_name):
 def main():
     file_names = sorted(item for item in os.listdir()
                         if '.svg' in item and item != 'mausoleum.svg')
+    routes = []
 
-    with open('crypts_and_niches.csv', 'w') as csv_file:
-        csv_file.write('location,d,x,y,space_number\n')
+    with open('crypts_and_niches.csv', 'w') as out:
+        out.write('location,d,x,y,space_number\n')
 
         for file_name in file_names:
             for line in get_crypts_and_niches(file_name):
-                csv_file.write(line + '\n')
+                out.write(line + '\n')
 
             create_js_file(file_name)
+
+            routes.append({
+                'component': generate_js_file_name(file_name),
+                'label': file_name.replace('.svg', ''),
+                'route': generate_uri(file_name),
+            })
+
+    with open('../routes.js', 'w') as out:
+        for route in routes:
+            line = "import {0} from './components/generated/{0}';\n"
+            out.write(line.format(route['component']))
+
+        out.write('\nexport default routes = [\n')
+
+        for route in routes:
+            out.write(
+                '  {\n'
+                f"    component: {route['component']},\n"
+                f"    label: '{route['label']}',\n"
+                f"    route: '{route['route']}',\n"
+                '  },\n'
+            )
+
+        out.write('];\n')
 
     try:
         subprocess.call(['prettier', '--write', '../components/generated'])
