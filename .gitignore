@@ -26,4 +26,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Run parser.py to generate files
 crypts_and_niches.csv
+generated

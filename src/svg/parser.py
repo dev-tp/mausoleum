@@ -31,7 +31,7 @@ def create_js_file(svg_file_name):
         template = Template(template_file.read())
 
         file_name = generate_js_file_name(svg_file_name)
-        path = f"../components/{file_name}.js"
+        path = f"../components/generated/{file_name}.js"
 
         try:
             os.makedirs(os.path.dirname(path))
@@ -101,7 +101,7 @@ def main():
             create_js_file(file_name)
 
     try:
-        subprocess.call(['prettier', '--write', '../components'])
+        subprocess.call(['prettier', '--write', '../components/generated'])
     except FileNotFoundError:
         print(
             'Prettier is not installed. Run `npm i -g prettier` to format '
