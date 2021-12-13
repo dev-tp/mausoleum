@@ -100,7 +100,13 @@ def main():
 
             create_js_file(file_name)
 
-    subprocess.call(['prettier', '--write', '../components'])
+    try:
+        subprocess.call(['prettier', '--write', '../components'])
+    except FileNotFoundError:
+        print(
+            'Prettier is not installed. Run `npm i -g prettier` to format '
+            'generated JavaScript files.'
+        )
 
 
 if __name__ == '__main__':
