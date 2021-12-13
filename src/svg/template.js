@@ -1,5 +1,7 @@
 import React from 'react';
 
+import SVG from '../SVG';
+
 export default function $name() {
   const [props, setProps] = React.useState([]);
 
