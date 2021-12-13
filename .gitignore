@@ -1,7 +1,29 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+.pnp
+.pnp.js
+node_modules
+
+# testing
+coverage
+
+# production
+build
+
+# misc
 __MACOSX
 .~*
 .DS_Store
+.env.development.local
+.env.local
+.env.production.local
+.env.test.local
 .vs
 .vscode
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 crypts_and_niches.csv
-node_modules
