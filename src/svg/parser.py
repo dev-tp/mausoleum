@@ -104,7 +104,7 @@ def main():
             routes.append({
                 'component': generate_js_file_name(file_name),
                 'label': file_name.replace('.svg', ''),
-                'route': generate_uri(file_name),
+                'path': generate_uri(file_name),
             })
 
     with open('../routes.js', 'w') as out:
@@ -112,18 +112,19 @@ def main():
             line = "import {0} from './components/generated/{0}';\n"
             out.write(line.format(route['component']))
 
-        out.write('\nexport default routes = [\n')
+        out.write('\nconst routes = [\n')
 
         for route in routes:
             out.write(
                 '  {\n'
                 f"    component: {route['component']},\n"
                 f"    label: '{route['label']}',\n"
-                f"    route: '{route['route']}',\n"
+                f"    path: '{route['path']}',\n"
                 '  },\n'
             )
 
         out.write('];\n')
+        out.write('\nexport default routes;\n')
 
     try:
         subprocess.call(['prettier', '--write', '../components/generated'])

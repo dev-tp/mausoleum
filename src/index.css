@@ -8,6 +8,13 @@ html {
   height: 100%;
 }
 
+path {
+  pointer-events: fill;
+}
+
 #root {
+  align-items: center;
+  display: flex;
   height: 100%;
+  justify-content: center;
 }
