@@ -79,11 +79,8 @@ export default function SVG(props) {
 
   return (
     <svg
-      fill="none"
       height="1080"
       ref={ref}
-      stroke="#000"
-      strokeWidth="1px"
       version="1.1"
       viewBox="0 0 1920 1080"
       width="1920"
