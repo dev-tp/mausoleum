@@ -10,43 +10,45 @@ const colors = [
 ];
 
 export default function $name() {
-  const [props, setProps] = React.useState([]);
+  const [spaces, setSpaces] = React.useState([]);
 
   React.useEffect(() => {
     fetch('/api/$url')
       .then((response) => response.json())
-      .then((json) => setProps(json));
-  }, [setProps]);
-
-  function push(prop) {
-    console.log(prop);
-  }
+      .then((json) => setSpaces(json));
+  }, [setSpaces]);
 
   function render() {
-    return props.map((prop, i) => (
-      <g key={i} onClick={() => update(prop.space_number)}>
-        <path d={prop.d} style={{ fill: colors[prop.status].fill }} />
-        <text style={{ fill: colors[prop.status].color }} x={prop.x} y={prop.y}>
-          {prop.space_number}
+    return spaces.map((space, i) => (
+      <g key={i}>
+        <path d={space.d} style={{ fill: colors[space.status].fill }} />
+        <text
+          style={{ fill: colors[space.status].color }}
+          x={space.x}
+          y={space.y}
+        >
+          {space.space_number}
         </text>
       </g>
     ));
   }
 
-  function update(spaceNumber) {
-    let modifiedProp = null;
-
-    setProps(
-      props.map((prop) => {
-        if (prop.space_number === spaceNumber) {
-          return (modifiedProp = { ...prop, status: (prop.status + 1) % 4 });
+  function update(modified) {
+    fetch('/api/' + modified.id, {
+      body: JSON.stringify(modified),
+      headers: { 'Content-Type': 'application/json' },
+      method: 'POST',
+      mode: 'cors',
+    })
+      .then((response) => response.json())
+      .then((json) => {
+        if (!json.error) {
+          setSpaces(
+            spaces.map((space) => (space.id === modified.id ? modified : space))
+          );
         }
-
-        return prop;
       })
-    );
-
-    push(modifiedProp);
+      .catch((error) => console.error(error));
   }
 
   return $body;
