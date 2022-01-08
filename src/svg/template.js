@@ -20,7 +20,7 @@ export default function $name() {
 
   function render() {
     return spaces.map((space, i) => (
-      <g key={i}>
+      <g key={i} onClick={() => update(space)}>
         <path d={space.d} style={{ fill: colors[space.status].fill }} />
         <text
           style={{ fill: colors[space.status].color }}
@@ -34,6 +34,8 @@ export default function $name() {
   }
 
   function update(modified) {
+    modified.status = (modified.status + 1) % 4;
+
     fetch('/api/' + modified.id, {
       body: JSON.stringify(modified),
       headers: { 'Content-Type': 'application/json' },
