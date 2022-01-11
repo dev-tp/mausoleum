@@ -3,6 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import thunk from 'redux-thunk';
 
 import App from './App';
 import reducers from './reducers';
@@ -11,7 +12,7 @@ import reportWebVitals from './reportWebVitals';
 import './index.css';
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-const middleware = [() => () => {}];
+const middleware = [thunk];
 
 const store = createStore(
   reducers,
