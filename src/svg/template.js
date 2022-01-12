@@ -1,5 +1,8 @@
+import { connect } from 'react-redux';
 import React from 'react';
 
+import { openForm, setSpaces } from '../../actions';
+import Form from '../Form';
 import SVG from '../SVG';
 
 const colors = [
@@ -9,49 +12,43 @@ const colors = [
   { fill: '#8bc34a', color: '#000' },
 ];
 
-export default function $name() {
-  const [spaces, setSpaces] = React.useState([]);
+function $name({ dispatch, mausoleum }) {
+  const url = '$url';
 
   React.useEffect(() => {
-    fetch('/api/$url')
-      .then((response) => response.json())
-      .then((json) => setSpaces(json));
-  }, [setSpaces]);
+    if (!(url in mausoleum.spaces)) {
+      fetch('/api/' + url)
+        .then((response) => response.json())
+        .then((json) => dispatch(setSpaces(url, json)))
+        .catch((error) => console.error(error));
+    }
+  }, [dispatch, mausoleum]);
 
   function render() {
-    return spaces.map((space, i) => (
-      <g key={i} onClick={() => update(space)}>
-        <path d={space.d} style={{ fill: colors[space.status].fill }} />
-        <text
-          style={{ fill: colors[space.status].color }}
-          x={space.x}
-          y={space.y}
-        >
-          {space.space_number}
-        </text>
-      </g>
-    ));
+    if (url in mausoleum.spaces) {
+      return mausoleum.spaces[url].map((space, i) => (
+        <g key={i} onClick={() => dispatch(openForm(space))}>
+          <path d={space.d} style={{ fill: colors[space.status].fill }} />
+          <text
+            style={{ fill: colors[space.status].color }}
+            x={space.x}
+            y={space.y}
+          >
+            {space.space_number}
+          </text>
+        </g>
+      ));
+    }
+
+    return [];
   }
 
-  function update(modified) {
-    modified.status = (modified.status + 1) % 4;
-
-    fetch('/api/' + modified.id, {
-      body: JSON.stringify(modified),
-      headers: { 'Content-Type': 'application/json' },
-      method: 'POST',
-      mode: 'cors',
-    })
-      .then((response) => response.json())
-      .then((json) => {
-        if (!json.error) {
-          setSpaces(
-            spaces.map((space) => (space.id === modified.id ? modified : space))
-          );
-        }
-      })
-      .catch((error) => console.error(error));
-  }
-
-  return $body;
+  return (
+    <>
+      $body
+      <Form />
+    </>
+  );
 }
+
+export default connect((state) => state)($name);

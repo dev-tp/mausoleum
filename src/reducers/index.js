@@ -1,3 +1,6 @@
 import { combineReducers } from 'redux';
 
-export default combineReducers({});
+import form from './form';
+import mausoleum from './mausoleum';
+
+export default combineReducers({ form, mausoleum });
