@@ -9,9 +9,7 @@ html {
 }
 
 path {
-  fill: #fff0;
   pointer-events: fill;
-  stroke: #000;
 }
 
 text {

@@ -5,6 +5,8 @@ import { openForm, setSpaces } from '../../actions';
 import Form from '../Form';
 import SVG from '../SVG';
 
+import './$name.css';
+
 const colors = [
   { fill: '#fff0', color: '#000' },
   { fill: '#673ab7', color: '#000' },

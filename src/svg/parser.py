@@ -16,12 +16,18 @@ def create_js_file(svg_file_name):
     root.attrib.clear()
     root.tag = "SVG"
 
+    file_name = generate_js_file_name(svg_file_name)
+    path = f"../components/generated/{file_name}"
+
     target = None
 
     for child in root:
         if child.tag == f"{prefix}g":
             target = child
         elif child.tag == f"{prefix}style":
+            with open(f"{path}.css", "w") as css_file:
+                css_file.write(child.text)
+
             root.remove(child)
 
     target.clear()
@@ -30,15 +36,12 @@ def create_js_file(svg_file_name):
     with open("template.js") as template_file:
         template = Template(template_file.read())
 
-        file_name = generate_js_file_name(svg_file_name)
-        path = f"../components/generated/{file_name}.js"
-
         try:
             os.makedirs(os.path.dirname(path))
         except OSError:
             pass
 
-        with open(path, "w") as javascript_file:
+        with open(f"{path}.js", "w") as javascript_file:
             javascript_file.write(
                 template.substitute({
                     "name":

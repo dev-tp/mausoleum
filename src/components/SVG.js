@@ -79,6 +79,7 @@ export default function SVG(props) {
 
   return (
     <svg
+      className="map"
       height="1080"
       ref={ref}
       version="1.1"

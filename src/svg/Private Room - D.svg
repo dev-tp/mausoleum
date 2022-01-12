@@ -6,12 +6,12 @@
   xmlns="http://www.w3.org/2000/svg"
 >
   <style>
-    path {
+    .map path {
       fill: none;
       stroke-width: 1px;
       stroke: #000;
     }
-    text {
+    .map text {
       font-family: Monaco;
       font-size: 10px;
     }
