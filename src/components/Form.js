@@ -3,7 +3,12 @@ import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
+import FormControl from '@material-ui/core/FormControl';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import FormLabel from '@material-ui/core/FormLabel';
 import MenuItem from '@material-ui/core/MenuItem';
+import Radio from '@material-ui/core/Radio';
+import RadioGroup from '@material-ui/core/RadioGroup';
 import React from 'react';
 import TextField from '@material-ui/core/TextField';
 
@@ -19,12 +24,16 @@ function Form({ dispatch, form }) {
     }
   }, [form.data]);
 
-  function change(event, parameter) {
-    const { type, value } = event.target;
+  function change(event, field) {
+    let { type, value } = event.target;
+
+    if (field === 'has_engraving') {
+      value = parseInt(value);
+    }
 
     setState({
       ...state,
-      [parameter]: type === 'date' && value === '' ? null : value,
+      [field]: type === 'date' && value === '' ? null : value,
     });
   }
 
@@ -92,15 +101,30 @@ function Form({ dispatch, form }) {
           value={state.date_of_death}
         />
         {state.status === OCCUPIED && (
-          <TextField
-            fullWidth
-            InputLabelProps={{ shrink: true }}
-            label="Date of Internment"
-            margin="dense"
-            onChange={(event) => change(event, 'date_of_internment')}
-            type="date"
-            value={state.date_of_internment}
-          />
+          <>
+            <TextField
+              fullWidth
+              InputLabelProps={{ shrink: true }}
+              label="Date of Internment"
+              margin="dense"
+              onChange={(event) => change(event, 'date_of_internment')}
+              type="date"
+              value={state.date_of_internment}
+            />
+            <FormControl margin="dense">
+              <FormLabel style={{ fontSize: '0.75rem' }}>
+                Has Engraving
+              </FormLabel>
+              <RadioGroup
+                onChange={(event) => change(event, 'has_engraving')}
+                row
+                value={state.has_engraving}
+              >
+                <FormControlLabel control={<Radio />} label="Yes" value={1} />
+                <FormControlLabel control={<Radio />} label="No" value={0} />
+              </RadioGroup>
+            </FormControl>
+          </>
         )}
       </DialogContent>
       <DialogActions>
