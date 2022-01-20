@@ -19,27 +19,31 @@ def create_js_file(svg_file_name):
     file_name = generate_js_file_name(svg_file_name)
     path = f"../components/generated/{file_name}"
 
-    target = None
+    try:
+        os.makedirs(os.path.dirname(path))
+    except OSError:
+        pass
 
-    for child in root:
-        if child.tag == f"{prefix}g":
-            target = child
-        elif child.tag == f"{prefix}style":
-            with open(f"{path}.css", "w") as css_file:
-                css_file.write(child.text)
+    style = None
 
-            root.remove(child)
+    for i, element in enumerate(root):
+        if i == 0:
+            # with open(f"{path}.css", "w") as file:
+            #     file.write(element.text)
+            style = element
+        elif i == 1:
+            for child in element:
+                if "class" in child.attrib:
+                    child.attrib["className"] = child.attrib["class"]
+                    del child.attrib["class"]
+        else:
+            element.clear()
+            element.text = "{render()}"
 
-    target.clear()
-    target.text = "{render()}"
+    root.remove(style)
 
     with open("template.js") as template_file:
         template = Template(template_file.read())
-
-        try:
-            os.makedirs(os.path.dirname(path))
-        except OSError:
-            pass
 
         with open(f"{path}.js", "w") as javascript_file:
             javascript_file.write(
@@ -64,9 +68,9 @@ def generate_uri(svg_file_name):
     tokens = svg_file_name.replace(".svg", "").split(" - ", 1)
 
     for i in range(len(tokens)):
-        tokens[i] = tokens[i].strip().replace(" ", "_").lower()
+        tokens[i] = tokens[i].strip().replace(" ", "-").lower()
 
-    return "/".join(tokens)
+    return "_".join(tokens)
 
 
 def get_crypts_and_niches(svg_file_name):
@@ -114,21 +118,20 @@ def main():
                 "path": generate_uri(file_name),
             })
 
-    with open("../routes.js", "w") as out:
+    with open("../pages/_routes.js", "w") as out:
         for route in routes:
-            line = "import {0} from './components/generated/{0}';\n"
+            line = "import {0} from '../components/generated/{0}';\n"
             out.write(line.format(route["component"]))
 
-        out.write("\nconst routes = [\n")
+        out.write("\nconst routes = {\n")
 
         for route in routes:
-            out.write("  {\n"
+            out.write(f"  '{route['path']}': {{\n"
                       f"    component: {route['component']},\n"
                       f"    label: '{route['label']}',\n"
-                      f"    path: '{route['path']}',\n"
                       "  },\n")
 
-        out.write("];\n")
+        out.write("};\n")
         out.write("\nexport default routes;\n")
 
     try:
