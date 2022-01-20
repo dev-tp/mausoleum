@@ -68,6 +68,7 @@ export default function SVG(props) {
       const viewport = svgPanZoom(ref.current, {
         controlIconsEnabled: false,
         customEventsHandler,
+        dblClickZoomEnabled: false,
       });
 
       viewport.pan({ x: -40, y: -80 });
