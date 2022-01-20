@@ -9,12 +9,12 @@
     circle {
       fill: none;
     }
-    .map path {
+    path {
       fill: none;
       stroke-width: 1px;
       stroke: #000;
     }
-    .map text {
+    text {
       font-family: Monaco;
       font-size: 10px;
       text-align: center;

@@ -24,23 +24,13 @@ def create_js_file(svg_file_name):
     except OSError:
         pass
 
-    style = None
-
     for i, element in enumerate(root):
         if i == 0:
-            # with open(f"{path}.css", "w") as file:
-            #     file.write(element.text)
-            style = element
-        elif i == 1:
-            for child in element:
-                if "class" in child.attrib:
-                    child.attrib["className"] = child.attrib["class"]
-                    del child.attrib["class"]
-        else:
+            element.attrib["jsx"] = ""
+            element.text = "{`" + element.text + "`}"
+        elif i == 2:
             element.clear()
             element.text = "{render()}"
-
-    root.remove(style)
 
     with open("template.js") as template_file:
         template = Template(template_file.read())
