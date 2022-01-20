@@ -2,3 +2,12 @@ body {
   margin: 0;
   overflow: hidden;
 }
+
+.content {
+  opacity: 0;
+  transition: 0.25s;
+}
+
+.fade-in {
+  opacity: 1;
+}
