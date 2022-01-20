@@ -103,7 +103,7 @@ def main():
                         if ".svg" in item and item != "mausoleum.svg")
     routes = []
 
-    with open("crypts_and_niches.csv", "w") as out:
+    with open("mausoleum.csv", "w") as out:
         out.write("location,d,x,y,space_number\n")
 
         for file_name in file_names:

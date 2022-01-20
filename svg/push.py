@@ -3,7 +3,7 @@ import mysql.connector
 
 
 def main():
-    with open("crypts_and_niches.csv") as csv_file:
+    with open("mausoleum.csv") as csv_file:
         reader = csv.reader(csv_file)
 
         connection = mysql.connector.connect(user="admin",
