@@ -65,10 +65,12 @@ export default function SVG(props) {
 
   React.useEffect(() => {
     if (ref.current) {
-      svgPanZoom(ref.current, {
+      const viewport = svgPanZoom(ref.current, {
         controlIconsEnabled: false,
         customEventsHandler,
       });
+
+      viewport.pan({ x: -40, y: -80 });
     }
   }, []);
 
