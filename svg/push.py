@@ -3,19 +3,19 @@ import mysql.connector
 
 
 def main():
-    with open("mausoleum.csv") as csv_file:
+    with open('mausoleum.csv') as csv_file:
         reader = csv.reader(csv_file)
 
-        connection = mysql.connector.connect(user="admin",
-                                             password="password",
-                                             host="127.0.0.1",
-                                             database="mausoleum")
+        connection = mysql.connector.connect(user='admin',
+                                             password='password',
+                                             host='127.0.0.1',
+                                             database='mausoleum')
 
         cursor = connection.cursor()
 
-        insert_statement = ("INSERT INTO ossuary "
-                            "(uri, d, x, y, space_number) "
-                            "VALUES (%s, %s, %s, %s, %s)")
+        insert_statement = ('INSERT INTO ossuary '
+                            '(uri, d, x, y, space_number) '
+                            'VALUES (%s, %s, %s, %s, %s)')
 
         next(reader)
 
@@ -29,5 +29,5 @@ def main():
         connection.close()
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
