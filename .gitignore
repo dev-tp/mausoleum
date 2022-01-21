@@ -33,6 +33,6 @@ yarn-error.log*
 # vercel
 .vercel
 
-_routes.js
 /components/generated/
 mausoleum.csv
+routes.js

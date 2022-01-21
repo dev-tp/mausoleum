@@ -112,9 +112,9 @@ def main():
                 'path': generate_uri(file_name),
             })
 
-    with open('../pages/_routes.js', 'w') as out:
+    with open('../routes.js', 'w') as out:
         for route in routes:
-            line = "import {0} from '../components/generated/{0}';\n"
+            line = "import {0} from './components/generated/{0}';\n"
             out.write(line.format(route['component']))
 
         out.write('\nconst routes = {\n')

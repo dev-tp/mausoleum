@@ -5,7 +5,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Link from 'next/link';
 import Typography from '@material-ui/core/Typography';
 
-import routes from './_routes';
+import routes from '../routes';
 
 export default function Location() {
   const router = useRouter();
