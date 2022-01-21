@@ -9,19 +9,25 @@ import routes from '../routes';
 
 export default function Location() {
   const router = useRouter();
+
+  if (!router.query.location) {
+    return <div />;
+  }
+
   const route = routes[router.query.location];
+  const Component = route.component;
 
   return (
     <div>
       <Head>
-        <title>{route?.label}</title>
+        <title>{route.label}</title>
       </Head>
       <IconButton style={{ left: '1rem', position: 'absolute', top: '1rem' }}>
         <Link href="/" passHref>
           <ArrowBack />
         </Link>
       </IconButton>
-      {route?.component()}
+      <Component />
       <Typography
         style={{
           bottom: '1rem',
@@ -30,7 +36,7 @@ export default function Location() {
           transform: 'translate(-50%)',
         }}
       >
-        {route?.label}
+        {route.label}
       </Typography>
     </div>
   );
