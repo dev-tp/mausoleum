@@ -17,7 +17,7 @@ export default function Location() {
         <title>{route?.label}</title>
       </Head>
       <IconButton style={{ left: '1rem', position: 'absolute', top: '1rem' }}>
-        <Link href="/">
+        <Link href="/" passHref>
           <ArrowBack />
         </Link>
       </IconButton>
