@@ -1,9 +1,9 @@
 import { connection } from '../../lib/mongodb';
 
-export default function handler(_, response) {
-  connection()
-    .then((connection) =>
-      response.status(200).json({ ok: !!connection.database })
-    )
-    .catch((error) => response.status(500).json(error));
+export default async function handler(_, response) {
+  try {
+    response.status(200).json({ ok: !!(await connection()).database });
+  } catch (error) {
+    response.status(500).json(error);
+  }
 }
