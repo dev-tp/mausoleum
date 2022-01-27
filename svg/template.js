@@ -16,8 +16,8 @@ export default function $name() {
   );
 
   function render() {
-    return spaces.map((space) => (
-      <g key={space.id} onClick={() => {}}>
+    return spaces.map((space, i) => (
+      <g key={i} onClick={() => {}}>
         <path d={space.d} />
         <text
           className={space.class_name ? space.class_name : ''}
