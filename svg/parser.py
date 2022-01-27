@@ -24,13 +24,16 @@ def create_js_file(svg_file_name):
     except OSError:
         pass
 
+    style = None
+
     for i, element in enumerate(root):
         if i == 0:
             element.attrib['jsx'] = ''
             element.text = '{`' + element.text + '`}'
+            style = element.text
         elif i == 2:
             element.clear()
-            element.text = '{props.children}'
+            element.text = '{render()}'
 
     with open('template.js') as template_file:
         template = Template(template_file.read())
@@ -42,6 +45,8 @@ def create_js_file(svg_file_name):
                     file_name,
                     'body':
                     ElementTree.tostring(root, 'unicode', 'xml'),
+                    'style':
+                    style,
                     'url':
                     generate_uri(svg_file_name),
                 }))

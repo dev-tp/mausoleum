@@ -35,16 +35,7 @@ export default function Location({ spaces }) {
           <ArrowBack />
         </Link>
       </IconButton>
-      <Component>
-        {JSON.parse(spaces).map((space) => (
-          <g key={space._id}>
-            <path d={space.d} />
-            <text x={space.x} y={space.y}>
-              {space.space_number}
-            </text>
-          </g>
-        ))}
-      </Component>
+      <Component spaces={JSON.parse(spaces)} />
       <Typography
         style={{
           bottom: '1rem',
