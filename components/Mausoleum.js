@@ -1,9 +1,7 @@
-import dynamic from 'next/dynamic';
 import Link from 'next/link';
+import SVG from './SVG';
 
 export default function Mausoleum() {
-  const SVG = dynamic(() => import('./SVG'));
-
   return (
     <SVG>
       <g style={{ display: 'none' }}>

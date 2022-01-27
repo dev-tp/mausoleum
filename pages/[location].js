@@ -1,13 +1,21 @@
 import { useRouter } from 'next/router';
 import ArrowBack from '@material-ui/icons/ArrowBack';
+import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import IconButton from '@material-ui/core/IconButton';
 import Link from 'next/link';
 import Typography from '@material-ui/core/Typography';
 
+import { connection } from '../lib/mongodb';
 import routes from '../routes';
 
-export default function Location() {
+function getComponent(component) {
+  return dynamic(() => import(`../components/generated/${component}`), {
+    ssr: false,
+  });
+}
+
+export default function Location({ spaces }) {
   const router = useRouter();
 
   if (!router.query.location) {
@@ -15,7 +23,7 @@ export default function Location() {
   }
 
   const route = routes[router.query.location];
-  const Component = route.component;
+  const Component = getComponent(route.component);
 
   return (
     <div>
@@ -27,7 +35,16 @@ export default function Location() {
           <ArrowBack />
         </Link>
       </IconButton>
-      <Component />
+      <Component>
+        {JSON.parse(spaces).map((space) => (
+          <g key={space._id}>
+            <path d={space.d} />
+            <text x={space.x} y={space.y}>
+              {space.space_number}
+            </text>
+          </g>
+        ))}
+      </Component>
       <Typography
         style={{
           bottom: '1rem',
@@ -40,4 +57,22 @@ export default function Location() {
       </Typography>
     </div>
   );
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: Object.keys(routes).map((route) => '/' + route),
+    fallback: false,
+  };
+}
+
+export async function getStaticProps({ params }) {
+  const { database } = await connection();
+
+  const spaces = await database
+    .collection('mausoleum')
+    .find({ location: params.location })
+    .toArray();
+
+  return { props: { spaces: JSON.stringify(spaces) } };
 }

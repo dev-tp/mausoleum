@@ -30,7 +30,7 @@ def create_js_file(svg_file_name):
             element.text = '{`' + element.text + '`}'
         elif i == 2:
             element.clear()
-            element.text = '{render()}'
+            element.text = '{props.children}'
 
     with open('template.js') as template_file:
         template = Template(template_file.read())
@@ -113,15 +113,11 @@ def main():
             })
 
     with open('../routes.js', 'w') as out:
-        for route in routes:
-            line = "import {0} from './components/generated/{0}';\n"
-            out.write(line.format(route['component']))
-
-        out.write('\nconst routes = {\n')
+        out.write('const routes = {\n')
 
         for route in routes:
             out.write(f"  '{route['path']}': {{\n"
-                      f"    component: {route['component']},\n"
+                      f"    component: '{route['component']}',\n"
                       f"    label: '{route['label']}',\n"
                       '  },\n')
 

@@ -1,34 +1,5 @@
-import dynamic from 'next/dynamic';
-import React from 'react';
+import SVG from '../SVG';
 
-export default function $name() {
-  const SVG = dynamic(() => import('../SVG'));
-
-  const [spaces, setSpaces] = React.useState([]);
-  const location = '$url';
-
-  React.useEffect(
-    () =>
-      fetch('/api/' + location)
-        .then((response) => response.json())
-        .then((json) => setSpaces(json)),
-    []
-  );
-
-  function render() {
-    return spaces.map((space, i) => (
-      <g key={i} onClick={() => {}}>
-        <path d={space.d} />
-        <text
-          className={space.class_name ? space.class_name : ''}
-          x={space.x}
-          y={space.y}
-        >
-          {space.space_number}
-        </text>
-      </g>
-    ));
-  }
-
+export default function $name(props) {
   return $body;
 }
