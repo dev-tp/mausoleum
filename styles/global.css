@@ -3,6 +3,10 @@ body {
   overflow: hidden;
 }
 
+path {
+  pointer-events: fill;
+}
+
 .content {
   opacity: 0;
   transition: 0.25s;
