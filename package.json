@@ -21,6 +21,7 @@
     "svg-pan-zoom": "^3.6.1"
   },
   "devDependencies": {
+    "@svgr/webpack": "^7.0.0",
     "eslint": "8.7.0",
     "eslint-config-next": "12.0.8"
   }
