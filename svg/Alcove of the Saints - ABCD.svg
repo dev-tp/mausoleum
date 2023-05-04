@@ -36,7 +36,7 @@
     <path d="m1340 300h-10v480h10z" />
     <path d="m1590 300h-10v480h10z" />
   </g>
-  <g>
+  <g id="selectable">
     <path d="m340 780v-40h40v40z" />
     <text x="359" y="763">2951</text>
     <path d="m380 780v-40h40v40z" />
